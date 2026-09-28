@@ -260,13 +260,13 @@ def main():
     
         # Save the checkpoints every args.checkpoint_every rounds
         if rounds % args.checkpoint_every == 0:
-            with open(output_dir, "w") as f:
-                json.dump(results, f, indent=2)
+            with open(output_dir, "w", encoding="utf-8") as f:
+                json.dump(results, f, indent=2, ensure_ascii=False)
             print(f"Checkpoint saved. Total prompts: {len(results)}")
-    
+
     # Save the final results
-    with open(output_dir, "w") as f:
-        json.dump(results, f, indent=2)
+    with open(output_dir, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
     
     print(f"Instruction generated from {args.model_path}. Total prompts: {len(results)}")
 

@@ -7,7 +7,7 @@ from fastchat.model import get_conversation_template
 # File I/O utilities
 def load_jsonl_to_list(jsonl_file_path):
     data_list = []
-    with open(jsonl_file_path, 'r') as file:
+    with open(jsonl_file_path, 'r', encoding='utf-8') as file:
         for line in file:
             json_obj = json.loads(line)
             data_list.append(json_obj)
@@ -17,7 +17,7 @@ def load_jsonl_to_list(jsonl_file_path):
 def load_dataset_from_file(filename):
     #if the file is json
     if filename.endswith('.json'):
-        with open(filename, 'r') as file:
+        with open(filename, 'r', encoding='utf-8') as file:
             return json.load(file)
     elif filename.endswith('.jsonl'):
         return load_jsonl_to_list(filename)
@@ -27,12 +27,12 @@ def load_dataset_from_file(filename):
 # Save dataset
 def save_dataset(data, filename, convert_to_jsonl=False):
     if convert_to_jsonl:
-        with open(filename, 'w') as file:
+        with open(filename, 'w', encoding='utf-8') as file:
             for obj in data:
-                file.write(json.dumps(obj) + '\n')
+                file.write(json.dumps(obj, ensure_ascii=False) + '\n')
     else:
-        with open(filename, 'w') as file:
-            json.dump(data, file, indent=2)
+        with open(filename, 'w', encoding='utf-8') as file:
+            json.dump(data, file, indent=2, ensure_ascii=False)
 
 # API utilities
 
