@@ -56,11 +56,10 @@ CUDA_VISIBLE_DEVICES=$device python ../exp/gen_ins.py \
     --total_prompts $total_prompts \
     --n $n \
     --top_p 1 \
-    --temperature 1 \
+    --temperature 1.15 \
     --tensor_parallel_size $tensor_parallel \
     --gpu_memory_utilization $gpu_memory_utilization \
     --enforce_eager \
-    --flaming_tokens \
     --language "$language" \
     --persona "$persona" \
     --personas_file "$personas_file" \
