@@ -16,10 +16,21 @@ model_path=${1:-"google/gemma-3-27b-it"}
 total_prompts=${2:-2000}
 language=${3:-"Swedish"}
 persona=${4:-"all"}
-personas_file=${5:-"../configs/personas.json"}
 device="0"
 tensor_parallel=1
 gpu_memory_utilization=0.9
+
+# Auto-select the personas file to match --language, unless explicitly overridden.
+if [ -n "$5" ]; then
+    personas_file="$5"
+else
+    case "$language" in
+        Swedish) personas_file="../configs/personas.json" ;;
+        Danish)  personas_file="../configs/personas_dk.json" ;;
+        German)  personas_file="../configs/personas_de.json" ;;
+        *)       personas_file="../configs/personas.json" ;;
+    esac
+fi
 
 # Some vLLM custom ops (e.g. Gemma's RMSNorm) fall back to an internal
 # torch.compile path regardless of enforce_eager. suppress_errors makes
