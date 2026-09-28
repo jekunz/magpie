@@ -13,16 +13,23 @@ def load_persona(persona, personas_file="../configs/personas.json"):
 
 def build_persona_language_system_prompt(persona=None, language=None):
     '''
-    Build a system prompt that conditions instruction generation on a persona and/or a target language,
-    following the same style as Magpie's built-in math/code/translation control tasks.
+    Build a prompt that conditions instruction generation on a persona and/or a target language.
+    Phrased as an explicit generation task rather than an assistant-facing system prompt, and ends
+    with a hard constraint to output only the raw message. This matters most for models that fold
+    the system content directly into the same turn as the (still blank) user message (e.g. Gemma 3):
+    without this, the model tends to continue in assistant voice (describing or setting up the
+    scenario) instead of writing in character as the user.
     '''
-    system_prompt = "You are a helpful AI assistant."
     if persona:
-        system_prompt += f" The user is {persona}, and will ask you a wide range of questions related to their perspective, interests, and needs."
+        prompt = f"Imagine a person who is {persona}."
+    else:
+        prompt = "Imagine a person talking to an AI assistant."
     if language:
-        system_prompt += f" The user writes in {language}, and expects your responses to be in {language} as well."
-    system_prompt += " Provide helpful, detailed, and contextually appropriate answers."
-    return system_prompt
+        prompt += f" Write, in {language}, a single message this person would naturally send to an AI assistant."
+    else:
+        prompt += " Write a single message this person would naturally send to an AI assistant."
+    prompt += " Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking."
+    return prompt
 
 def input_difficulty_rating(input):
     user_message = f'''
