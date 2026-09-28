@@ -17,17 +17,31 @@ job_name="${model_path##*/}_smoketest_${timestamp}"
 job_path="../data/${job_name}"
 mkdir -p "$job_path"
 
+# When cycling through every persona (--persona all), gen_ins.py picks one
+# persona per generation round, and repeat = ceil(total_prompts / n). So n
+# needs to be small enough that repeat covers all personas at least once.
+if [ "$persona" = "all" ]; then
+    num_personas=$(python3 -c "import json; print(len(json.load(open('../configs/personas.json'))))")
+    n=$(( total_prompts / num_personas ))
+    if [ "$n" -lt 1 ]; then
+        n=1
+    fi
+else
+    n=$total_prompts
+fi
+
 echo "[smoke_test] Model: $model_path"
 echo "[smoke_test] Total prompts: $total_prompts"
 echo "[smoke_test] Language: $language"
 echo "[smoke_test] Persona: $persona"
+echo "[smoke_test] n per round: $n"
 
 echo "[smoke_test] Generating instructions..."
 CUDA_VISIBLE_DEVICES=$device python ../exp/gen_ins.py \
     --device $device \
     --model_path "$model_path" \
     --total_prompts $total_prompts \
-    --n $total_prompts \
+    --n $n \
     --top_p 1 \
     --temperature 1 \
     --tensor_parallel_size $tensor_parallel \

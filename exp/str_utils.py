@@ -21,7 +21,7 @@ def build_persona_language_system_prompt(persona=None, language=None):
     scenario) instead of writing in character as the user.
     '''
     if persona:
-        prompt = f"Imagine a person who is {persona}."
+        prompt = f"Imagine a person named {persona}."
     else:
         prompt = "Imagine a person talking to an AI assistant."
     if language:
