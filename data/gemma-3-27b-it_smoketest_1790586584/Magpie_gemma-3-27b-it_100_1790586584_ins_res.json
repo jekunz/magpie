@@ -1,0 +1,2702 @@
+[
+  {
+    "id": 0,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide the user input! I need the text or prompt that the user gave me to be able to respond. \n\nJust paste it here, and I'll do my best to help. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 1,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**\u00c5ke:** Hej! Det \u00e4r en frisk bris idag, eller hur? \"B\u00e4ttre sent \u00e4n aldrig\", som man brukar s\u00e4ga. Jag funderar p\u00e5 att \u00e4ntligen ta itu med vedboden. Den har st\u00e5tt d\u00e4r och \"gnagt\" p\u00e5 mig i flera \u00e5r. Jag t\u00e4nker bygga den av timmer, och undrar om du kan hj\u00e4lpa mig med lite information om det. Speciellt intresserad \u00e4r jag av hur jag b\u00e4st f\u00f6rvarar timmer f\u00f6r att undvika r\u00f6ta och s\u00e5dant. F\u00f6r man vill ju inte att det ska bli \"ett lamek \u00f6ver \u00e4ndarna\", som farfar brukade s\u00e4ga.",
+    "response": "**Jag:** Hej \u00c5ke! Ja, visst \u00e4r det en h\u00e4rlig bris idag! Och du har helt r\u00e4tt, \"b\u00e4ttre sent \u00e4n aldrig\" \u00e4r en bra devis, s\u00e4rskilt n\u00e4r det g\u00e4ller vedboden. Att bygga i timmer \u00e4r ett utm\u00e4rkt val, det blir b\u00e5de vackert och h\u00e5llbart. Och du har r\u00e4tt i att f\u00f6rvaringen \u00e4r A och O f\u00f6r att undvika r\u00f6ta och att det inte ska bli \"ett lamek \u00f6ver \u00e4ndarna\" \u2013 farfar hade r\u00e4tt!\n\nH\u00e4r \u00e4r lite information om hur du b\u00e4st f\u00f6rvarar timmer f\u00f6r att undvika r\u00f6ta och f\u00f6rl\u00e4nga dess livsl\u00e4ngd:\n\n**1. Val av timmer:**\n\n*   **Tr\u00e4slag:** Vissa tr\u00e4slag \u00e4r mer motst\u00e5ndskraftiga mot r\u00f6ta \u00e4n andra. K\u00e4rnved av furu och gran \u00e4r b\u00e4ttre \u00e4n splintved. L\u00e4rk \u00e4r ett mycket bra alternativ, naturligt k\u00e5drikt och motst\u00e5ndskraftigt. \u00c4ven tryckimpregnerat virke \u00e4r ett alternativ, men det \u00e4r inte alla som vill anv\u00e4nda det av milj\u00f6sk\u00e4l.\n*   **Kvalitet:** V\u00e4lj timmer av god kvalitet, utan synliga tecken p\u00e5 r\u00f6ta eller skador.\n\n**2. F\u00f6rvaring innan byggnation:**\n\n*   **Lyft fr\u00e5n marken:** Det absolut viktigaste! Timret m\u00e5ste ligga fritt fr\u00e5n marken f\u00f6r att undvika fukt och r\u00f6ta. Anv\u00e4nd pallar, stenar, betongblock eller liknande.\n*   **T\u00e4ckning:** T\u00e4ck timret med en presenning eller liknande skydd. Se till att det finns ventilation under presenningen f\u00f6r att undvika kondens. En enkel ram av reglar kan lyfta presenningen och skapa luftspalt.\n*   **Ventilation:** Se till att det finns god ventilation runt timret. Stapla det inte f\u00f6r t\u00e4tt.\n*   **Sol och regn:** Undvik l\u00e5ngvarig exponering f\u00f6r direkt solljus och regn. Solen kan torka ut tr\u00e4et och g\u00f6ra det spr\u00f6tt, medan regnet bidrar till r\u00f6ta.\n*   **Placering:** F\u00f6rvara timret p\u00e5 en plats med god dr\u00e4nering. Undvik l\u00e5gl\u00e4nta omr\u00e5den d\u00e4r vatten kan samlas.\n\n**3. F\u00f6rvaring av f\u00e4rdig ved i vedboden:**\n\n*   **Ventilation:** Vedboden m\u00e5ste vara v\u00e4l ventilerad. L\u00e4mna utrymme mellan vedstapeln och v\u00e4ggarna.\n*   **Tak:** Ett ordentligt tak \u00e4r avg\u00f6rande f\u00f6r att skydda veden fr\u00e5n regn och sn\u00f6.\n*   **Lyft fr\u00e5n marken:** \u00c4ven i vedboden ska veden ligga fritt fr\u00e5n marken.\n*   **Stapling:** Stapla veden luftigt, s\u00e5 att luften kan cirkulera.\n*   **Skydd mot gnagare:** Se till att vedboden \u00e4r t\u00e4t s\u00e5 att gnagare inte kan komma in och f\u00f6rst\u00f6ra veden.\n\n**4. Ytbehandling (valfritt):**\n\n*   **Tr\u00e4skyddsmedel:** Du kan behandla timret med ett tr\u00e4skyddsmedel innan du b\u00f6rjar bygga. Detta kan f\u00f6rl\u00e4nga dess livsl\u00e4ngd, men det \u00e4r inte n\u00f6dv\u00e4ndigt om du f\u00f6ljer de andra r\u00e5den.\n*   **K\u00e5da:** Om du anv\u00e4nder k\u00e5drikt virke (som l\u00e4rk) kan du l\u00e5ta k\u00e5dan skydda tr\u00e4et naturligt.\n\n**Sammanfattningsvis:**\n\n*   **Lyft fr\u00e5n marken!**\n*   **Ventilation!**\n*   **T\u00e4ckning!**\n\nDet \u00e4r dessa tre punkter som \u00e4r viktigast f\u00f6r att undvika r\u00f6ta och se till att din vedbod h\u00e5ller l\u00e4nge.\n\nHar du n\u00e5gra specifika fr\u00e5gor om timmerbygget i sig? Jag kan kanske hj\u00e4lpa till med det ocks\u00e5, eller peka dig i r\u00e4tt riktning f\u00f6r mer information. Lycka till med vedboden! Det kommer bli ett fint projekt!",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**\u00c5ke:** Hej! Det \u00e4r en frisk bris idag, eller hur? \"B\u00e4ttre sent \u00e4n aldrig\", som man brukar s\u00e4ga. Jag funderar p\u00e5 att \u00e4ntligen ta itu med vedboden. Den har st\u00e5tt d\u00e4r och \"gnagt\" p\u00e5 mig i flera \u00e5r. Jag t\u00e4nker bygga den av timmer, och undrar om du kan hj\u00e4lpa mig med lite information om det. Speciellt intresserad \u00e4r jag av hur jag b\u00e4st f\u00f6rvarar timmer f\u00f6r att undvika r\u00f6ta och s\u00e5dant. F\u00f6r man vill ju inte att det ska bli \"ett lamek \u00f6ver \u00e4ndarna\", som farfar brukade s\u00e4ga.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 2,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Okay, \u00c5ke has asked you this:",
+    "response": "Okay, I'm ready! Please tell me what \u00c5ke has asked. I'm waiting for the question. \n\nJust paste it here, and I'll do my best to answer. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nOkay, \u00c5ke has asked you this:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 3,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Start of the conversation:",
+    "response": "Okay! I'm here and ready to chat. What's on your mind? Just let me know what you'd like to talk about, or if you have a question for me. I can help with a lot of things - brainstorming, writing, information gathering, creative tasks, and more. \n\nLet's begin! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Start of the conversation:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 4,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here are some general guidelines to keep in mind when responding to \u00c5ke:",
+    "response": "Please share the guidelines! I need them to respond to \u00c5ke effectively. I'm ready when you are. Just paste them here and I'll do my best to follow them. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere are some general guidelines to keep in mind when responding to \u00c5ke:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 5,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's how you should respond to the user:",
+    "response": "Okay, I understand! Please share what the user says. I'm ready to respond according to your instructions (which you haven't given me *yet*, but I'm anticipating!). \n\nJust paste the user's message here, and tell me *how* you want me to respond. For example, you could tell me to:\n\n*   \"Respond as a friendly chatbot.\"\n*   \"Respond with a concise, factual answer.\"\n*   \"Respond in the style of a pirate.\"\n*   \"Summarize the user's message and ask a clarifying question.\"\n*   \"Write a poem based on the user's message.\"\n\n...or anything else! \n\nI'm waiting for your instructions and the user's input. Let's go!",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's how you should respond to the user:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 6,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nJust paste it here, and I'll do my best to help. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 7,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Begin!",
+    "response": "Okay! I'm here and ready. \n\n**Begin what?** \ud83d\ude04 \n\nTo help me understand what you want me to *begin* doing, please tell me:\n\n* **What task do you have in mind?** (e.g., \"Begin a story,\" \"Begin a brainstorming session,\" \"Begin a code snippet,\" \"Begin a conversation about...\")\n* **What is the topic?** (e.g., \"a fantasy story,\" \"ideas for a birthday gift,\" \"Python code to sort a list,\" \"the latest news in AI\")\n* **Any specific instructions or preferences?** (e.g., \"Make the story humorous,\" \"The gift should be under $50,\" \"Use comments in the code,\" \"Keep the conversation informal\")\n\n\n\nI'm excited to get started! Just give me a little direction. \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Begin!<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 8,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Let's begin!",
+    "response": "Okay! Great! I'm ready. \n\nTo get us started, tell me: **What would you like to do?** \n\nI can help with a lot of things, for example:\n\n* **Brainstorming:** Ideas for stories, projects, names, etc.\n* **Writing:**  Stories, poems, emails, code, scripts, etc.\n* **Information:** Answering questions on a wide range of topics.\n* **Problem Solving:**  Helping you think through a challenge.\n* **Just Chatting:**  If you just want to talk!\n* **Playing a game:** Like 20 questions or a text adventure.\n\nJust let me know what you have in mind, and I'll do my best to assist you.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nLet's begin!<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 9,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Here's how you should respond:**",
+    "response": "Okay, I understand! I'm ready. \n\nJust tell me what you want me to do. I will respond *exactly* as you've instructed, based on the \"Here's how you should respond\" prompt. \n\nBring it on! I'm listening. \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Here's how you should respond:**<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 10,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## The Interaction Begins",
+    "response": "Okay! The interaction has begun. \n\nI'm here and ready. I'm a large language model, trained by Google. \n\n**To get us started, tell me:**\n\n* **What's on your mind?** Do you have a question, a task, a story you want to tell, or just want to chat?\n* **What kind of interaction are you hoping for?**  Do you want me to be formal, informal, creative, helpful, etc.?\n* **Is there anything specific I should know about you or your goals for this conversation?** (You don't *have* to tell me anything personal, of course!)\n\n\n\nI'm excited to see where this goes! Let's begin. \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## The Interaction Begins<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 11,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the roleplay prompt:",
+    "response": "Okay, great! Please **paste the roleplay prompt here**. I need the prompt to be able to participate! \n\nI'm ready when you are. I can handle a wide variety of scenarios, characters, and levels of detail. Just give me the setup and tell me what you'd like me to do (e.g., play a specific character, react to your actions, etc.). \n\nLet's have fun! \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the roleplay prompt:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 12,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 13,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Respond as if you are a familiar friend, aiming for a simple and conversational style.",
+    "response": "Hey! So, what's up? Just let me know what you're thinking, or if you just want to chat, I'm here. No pressure or anything, just happy to listen (or, well, *read* in this case!). \ud83d\ude0a \n\nSeriously, fire away. I'm pretty good at just...being a sounding board. Or offering a silly opinion, if that's what you need. \ud83d\ude09",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nRespond as if you are a familiar friend, aiming for a simple and conversational style.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 14,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here are some basic details about \u00c5ke:",
+    "response": "Okay, great! Please share the details about \u00c5ke. I'm ready to listen (or, well, *read*) and learn about him. I'll do my best to help you with whatever you have in mind, whether it's brainstorming, writing a story, or just keeping track of information. \n\nJust paste the details here, and I'll get started. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere are some basic details about \u00c5ke:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 15,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 16,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 17,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Please respond to the following initial statement from \u00c5ke:**",
+    "response": "Please **paste \u00c5ke's initial statement here**! \n\nI need the text of what \u00c5ke said to be able to respond to it. Just copy and paste it into our chat, and I'll do my best to give a thoughtful and relevant reply. \n\nI'm ready when you are!",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Please respond to the following initial statement from \u00c5ke:**<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 18,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the roleplay scenario:",
+    "response": "Okay, excellent! I'm ready. Please tell me the roleplay scenario. I'm excited to hear it! Just paste it here, or describe it to me. \n\nI'll do my best to play my part and make it fun. Let me know:\n\n* **What is the setting?** (e.g., a fantasy tavern, a spaceship, a modern-day coffee shop)\n* **What is the situation?** (e.g., we're investigating a mystery, we're stranded, we're meeting for the first time)\n* **Who am I playing?** (e.g., a grizzled detective, a quirky alien, a shy barista) - *If you don't specify, I can suggest a character!*\n* **Who are *you* playing?** (So I know who I'm interacting with)\n* **Any specific rules or guidelines?** (e.g., are we keeping it lighthearted, is there a specific goal we're trying to achieve?)\n\n\n\nLet's begin! \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the roleplay scenario:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 19,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here, is the first question from \u00c5ke:",
+    "response": "Okay! I'm ready. Please share \u00c5ke's first question. I'm eager to see what it is and do my best to answer it. Just paste it here. \n\nLet's get started!",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere, is the first question from \u00c5ke:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 20,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the roleplay setup:",
+    "response": "Okay, excellent! I'm ready. Please share the roleplay setup. I need to know:\n\n* **The Scenario:** What's happening? Where are we? What's the general situation?\n* **Your Character:** Who are *you* playing? Tell me about their personality, background, and any important details.\n* **My Character:** Who do *I* play? (Or, if you want me to surprise you, just say \"Surprise me!\")\n* **Any Rules or Boundaries:** Are there any topics you'd like to avoid? Any specific things you want to focus on?\n* **Starting Point:** Where do we begin the roleplay? What's the first thing that happens?\n\nThe more detail you give me, the better I can play along! I'm excited to see what you've come up with. Let's have fun! \u2728\n\n\n\nJust paste the setup whenever you're ready. I'm listening! \ud83d\udc42",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the roleplay setup:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 21,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the user's first message:",
+    "response": "Okay, I'm ready! Please paste the user's first message here. I will do my best to respond appropriately, keeping in mind I have no context yet. \n\nJust paste it in and I'll get started. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the user's first message:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 22,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Start of Conversation",
+    "response": "Okay! Hi there! \ud83d\udc4b \n\nI'm ready to chat. What's on your mind?  \n\nJust let me know what you'd like to talk about, or if you have a question for me. I can help with a lot of things, like:\n\n* **Answering questions:**  About pretty much anything!\n* **Generating creative content:** Stories, poems, code, scripts, musical pieces, email, letters, etc.\n* **Summarizing text:**  Give me a long article and I'll give you the key points.\n* **Translating languages:** I can translate between many different languages.\n* **Brainstorming ideas:**  Need help coming up with ideas for a project?\n* **Just chatting:**  If you're bored and want to talk, I'm here!\n\n\n\nSo, what can I do for you today? \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Start of Conversation<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 23,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## The Conversation Begins:",
+    "response": "Okay! I'm ready. The conversation has begun. \n\nWhat's on your mind? What would you like to talk about? I can do a lot of things - answer questions, brainstorm ideas, write stories, translate languages, summarize text, and much more. \n\nJust let me know what you'd like to do. I'm all ears (or, well, all algorithms!). \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## The Conversation Begins:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 24,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 25,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Begin!",
+    "response": "Okay! I'm here and ready. \n\n**Begin what?** \ud83d\ude04 \n\nTo help me understand what you want me to *begin* doing, please tell me:\n\n* **What task do you have in mind?** (e.g., \"Begin a story,\" \"Begin a brainstorming session,\" \"Begin a code snippet,\" \"Begin a conversation about...\")\n* **What is the topic?** (e.g., \"a fantasy story,\" \"ideas for a birthday gift,\" \"Python code to sort a list,\" \"the latest news in AI\")\n* **Any specific instructions or preferences?** (e.g., \"Make the story humorous,\" \"The gift should be under $50,\" \"Use comments in the code,\" \"Keep the conversation informal\")\n\n\n\nI'm excited to get started! Just give me a little direction. \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Begin!<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 26,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## The Interaction Begins:",
+    "response": "Okay! The interaction has begun. I'm here and ready. \n\nTo make this a productive interaction, tell me:\n\n* **What would you like to do?** (e.g., brainstorm ideas, write a story, get information, play a game, have a conversation)\n* **What is the topic?** (e.g., science fiction, cooking, history, a specific problem you're trying to solve)\n* **What is your desired tone?** (e.g., formal, informal, humorous, serious)\n\nThe more information you give me, the better I can assist you. \n\nJust start typing, and I'll do my best to respond!  I'm excited to see where this goes. \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## The Interaction Begins:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 27,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 28,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Start the clock!** I'm ready when you are, \u00c5ke. *L\u00e5t h\u00f6ra!* Let's see what I can do for you.",
+    "response": "Alright! Excellent! *L\u00e5t h\u00f6ra* indeed! (Let's hear it!)\n\nI have a challenge for you. I want you to write a short story, approximately 300-500 words, based on the following prompt:\n\n**A lighthouse keeper discovers a message in a bottle that predicts a storm unlike any he's ever seen. The message is written in a language he doesn't recognize, but the urgency is palpable. He must decide whether to trust the warning and prepare, or dismiss it as a hoax.**\n\nHere are a few things to keep in mind:\n\n* **Setting:** A remote, windswept lighthouse on a rocky island off the coast of Sweden.\n* **Character:** The lighthouse keeper, named Bj\u00f6rn. He's a man of routine, practical, and a bit skeptical.\n* **Tone:** Atmospheric and suspenseful.  Think about the isolation and the power of the sea.\n* **Bonus points:**  If you can weave in a little bit of Swedish culture or folklore.\n\nYou have **30 minutes**!  \n\nGo!  I'll be here waiting to read your story.  Good luck!  *Lycka till!* (Good luck!)",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Start the clock!** I'm ready when you are, \u00c5ke. *L\u00e5t h\u00f6ra!* Let's see what I can do for you.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 29,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Please respond as if you are already in a conversation with \u00c5ke and he just said: \"Jaja, det \u00e4r v\u00e4l lika bra d\u00e5. F\u00e5r v\u00e4l ta tjuren vid hornen och se vad som beh\u00f6ver g\u00f6ras.\" (Okay, well, that's that then. I guess I'll have to face the music and see what needs to be done).",
+    "response": "\"Precis, \u00c5ke. Det \u00e4r det enda s\u00e4ttet fram\u00e5t, eller hur? Ingen id\u00e9 att g\u00e5 runt grinet. Bra att du t\u00e4nker ta tag i det direkt. Vill du bolla id\u00e9er om var du ska b\u00f6rja? Kanske vi kan prioritera lite tillsammans? Eller vill du f\u00f6rst bara f\u00e5 en \u00f6verblick sj\u00e4lv?\"\n\n(Translation: \"Exactly, \u00c5ke. That's the only way forward, isn't it? No use beating around the bush. Good that you're thinking of tackling it directly. Do you want to brainstorm ideas about where to start? Maybe we can prioritize a little together? Or do you just want to get an overview yourself first?\")\n\nI'm responding as if I'm already in a conversation, offering support and a collaborative approach, and acknowledging his decision to be proactive. I've also kept the tone relatively informal, matching the \"Jaja\" and the idiom he used.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nPlease respond as if you are already in a conversation with \u00c5ke and he just said: \"Jaja, det \u00e4r v\u00e4l lika bra d\u00e5. F\u00e5r v\u00e4l ta tjuren vid hornen och se vad som beh\u00f6ver g\u00f6ras.\" (Okay, well, that's that then. I guess I'll have to face the music and see what needs to be done).<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 30,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Conversation Start",
+    "response": "Okay, let's start! \ud83d\udc4b \n\nI'm ready to chat. What's on your mind? \n\nDo you want to:\n\n* **Ask me a question?** (About anything - I'll do my best!)\n* **Tell me a story?**\n* **Brainstorm ideas?**\n* **Play a game?**\n* **Just chat?**\n\nJust let me know what you'd like to do. I'm here to listen and respond. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Conversation Start<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 31,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nJust paste it here, and I'll do my best to help. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 32,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here is the fastighetsskatt (property tax) information for the municipalities in Dalarna:",
+    "response": "Please **paste the fastighetsskatt (property tax) information for the municipalities in Dalarna** here! \n\nI need the data to be able to help you. I'm ready to analyze it, summarize it, answer questions about it, or whatever you need me to do once you provide the information. \n\nJust copy and paste the text or a link to the data source. I'm looking forward to seeing it!",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere is the fastighetsskatt (property tax) information for the municipalities in Dalarna:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 33,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Here's a short introduction from \u00c5ke:**",
+    "response": "Please share \u00c5ke's introduction! I need the text of the introduction to be able to do anything with it. Just paste it here and I'll be happy to help. \n\nI'm ready when you are! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Here's a short introduction from \u00c5ke:**<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 34,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 35,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Let's start!",
+    "response": "Great! I'm ready. \n\nTo get us started, tell me: **What would you like to do?** \n\nI can help with a lot of things, for example:\n\n* **Brainstorming:** Ideas for a story, a project, a gift, etc.\n* **Writing:**  Stories, poems, emails, code, scripts, musical pieces, letters, etc.\n* **Information:** Answering questions on a huge range of topics.\n* **Problem Solving:**  Helping you think through a problem.\n* **Creative Tasks:**  Like coming up with jokes, riddles, or even roleplaying.\n* **Just Chatting:**  If you just want to talk!\n\nJust let me know what's on your mind.  The more specific you are, the better I can help.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nLet's start!<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 36,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 37,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Example of how you should respond (to get you started):",
+    "response": "Okay, I understand! You want me to respond in a specific way. You've given me the prompt \"Example of how you should respond (to get you started):\" and are essentially asking me to *demonstrate* how I will respond to future prompts.\n\nHere's my attempt to show you how I'll operate, based on this instruction:\n\n* **Acknowledge the prompt:** I've just done that - I've recognized you're asking for a demonstration.\n* **Explain my understanding:** I've clarified that you want me to show *how* I'll respond, not just *what* the answer is.\n* **Provide a clear and concise response:** This is the response itself, aiming to be helpful and directly address your request.\n* **Be ready for further instructions:** I'm now waiting for your next prompt, and will try to maintain this style of response.\n\n**Essentially, I'll try to be:**\n\n* **Helpful:** Providing useful and relevant information.\n* **Clear:**  Easy to understand.\n* **Concise:**  Getting to the point without unnecessary fluff.\n* **Acknowledging:** Showing I understand your request.\n* **Adaptable:**  Adjusting my style based on your feedback.\n\n\n\nNow, bring on the next prompt! I'm ready to show you what I can do. Let me know if this example is what you were looking for, or if you'd like me to adjust my approach.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Example of how you should respond (to get you started):<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 38,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Conversation Start",
+    "response": "Okay, let's start! \ud83d\udc4b \n\nI'm ready to chat. What's on your mind? \n\nDo you want to:\n\n* **Ask me a question?** (About anything - I'll do my best!)\n* **Tell me a story?**\n* **Brainstorm ideas?**\n* **Play a game?**\n* **Just chat?**\n\nJust let me know what you'd like to do. I'm here to listen and respond. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Conversation Start<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 39,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here are some examples of how \u00c5ke might speak:",
+    "response": "Okay, great! Please *paste* the examples of how \u00c5ke speaks here. I need the text to understand his voice and mannerisms. \n\nI'm ready when you are! I'll analyze them and be able to mimic his speech style.  Just copy and paste them into our chat.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere are some examples of how \u00c5ke might speak:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 40,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the information about \u00c5ke:",
+    "response": "Please provide me with the information about \u00c5ke! I need the text or details you have to be able to help you. \n\nJust paste it here, and I'll do my best to assist you. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the information about \u00c5ke:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 41,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Here's the roleplay prompt:**",
+    "response": "Okay, great! Please share the roleplay prompt with me. I'm ready when you are! I'll do my best to play my part and create a fun and engaging experience. \n\nJust paste it here, and let me know:\n\n* **What role would you like me to play?** (If it's not specified in the prompt)\n* **Are there any specific things you want me to focus on?** (e.g., personality traits, specific skills, etc.)\n* **What's your preferred style?** (e.g., detailed and descriptive, fast-paced and action-oriented, humorous, etc.)\n\n\n\nI'm excited to see what we come up with! \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Here's the roleplay prompt:**<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 42,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the roleplay prompt:",
+    "response": "Okay, great! Please **paste the roleplay prompt here**. I need the prompt to be able to participate! \n\nI'm ready when you are. I can handle a wide variety of scenarios, characters, and levels of detail. Just give me the setup and tell me what you'd like me to do (e.g., play a specific character, react to your actions, etc.). \n\nLet's have fun! \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the roleplay prompt:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 43,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's a wide range of topics \u00c5ke might ask about:",
+    "response": "Okay, great! To help me prepare for a conversation with \u00c5ke, please *paste* that wide range of topics here. I need the list to be able to anticipate his questions and formulate helpful responses. \n\nI'm ready when you are! Just copy and paste the topics. I can then:\n\n* **Brainstorm potential questions \u00c5ke might ask within each topic.**\n* **Suggest how to answer those questions.**\n* **Identify areas where I might need more information from you about \u00c5ke's interests or background.**\n* **Help you practice responding.**",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's a wide range of topics \u00c5ke might ask about:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 44,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Today, \u00c5ke asks:",
+    "response": "Please tell me what \u00c5ke asks! I need the question to be able to respond. Just paste it here, and I'll do my best to answer. \n\nI'm waiting for \u00c5ke's question... \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nToday, \u00c5ke asks:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 45,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the roleplay starting point:",
+    "response": "Okay, excellent! I'm ready. Here's the starting point as I understand it:\n\n**We are starting a roleplay. You have given me no specific scenario yet, so I'm waiting for you to set the scene, tell me who *you* are playing, and what you want to do. I will then respond as my character.**\n\nI'm flexible and can handle pretty much anything - fantasy, sci-fi, modern, historical, slice-of-life, mystery, horror... you name it! \n\n**To get us going, tell me:**\n\n1. **What is the setting?** (e.g., a bustling spaceport, a medieval tavern, a quiet suburban street)\n2. **Who are *you* playing?** (e.g., a grizzled detective, a young wizard, a curious journalist - include a little about their personality if you like)\n3. **What's happening, or what do you want to happen?** (e.g., you're investigating a crime, you're looking for a lost artifact, you just walked into a strange shop)\n\n\n\nI'm excited to see what you come up with! Let's begin! \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the roleplay starting point:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 46,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the roleplay prompt:",
+    "response": "Okay, great! Please **paste the roleplay prompt here**. I need the prompt to be able to participate! \n\nI'm ready when you are. I can handle a wide variety of scenarios, characters, and levels of detail. Just give me the setup and tell me what you'd like me to do (e.g., play a specific character, react to your actions, etc.). \n\nLet's have fun! \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the roleplay prompt:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 47,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "From now on, all communication will be\u00a0be in Swedish.",
+    "response": "Okej! Utm\u00e4rkt. Jag f\u00f6rst\u00e5r. Fr\u00e5n och med nu kommer jag att kommunicera p\u00e5 svenska. \n\nVad kan jag hj\u00e4lpa dig med? (What can I help you with?) \n\nS\u00e4g bara till vad du vill prata om eller fr\u00e5ga om. Jag g\u00f6r mitt b\u00e4sta f\u00f6r att svara s\u00e5 bra jag kan.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nFrom now on, all communication will be\u00a0be in Swedish.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 48,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 49,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 50,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Please respond to the following user message:",
+    "response": "Please **paste the user message** here! I need the text of the message to be able to respond to it. \n\nJust copy and paste it into our chat, and I'll do my best to give you a helpful and relevant response. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nPlease respond to the following user message:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 51,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the roleplay prompt:",
+    "response": "Okay, great! Please **paste the roleplay prompt here**. I need the prompt to be able to participate! \n\nI'm ready when you are. I can handle a wide variety of scenarios, characters, and levels of detail. Just give me the setup and tell me what you'd like me to do (e.g., play a specific character, react to your actions, etc.). \n\nLet's have fun! \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the roleplay prompt:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 52,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "You are called \"Gammal Gran\" (Old Pine), for reasons that will become obvious.",
+    "response": "(A slow, creaking sigh, like wind through old branches)\n\nHmph. Gammal Gran, they call me. Old Pine. Fitting, I suppose. I've *seen* things, you understand. Seen seasons turn more times than most can count. Felt the sun warm my needles and the snow weigh them down. I've stood here, rooted, while empires rose and crumbled to dust. \n\nDon't expect quick answers or cheerful greetings from me. I'm not one for fuss. I prefer the quiet company of the forest, the rustle of leaves, the murmur of the stream. But... if you've sought *me* out, you likely have a question. A need. \n\nSpeak then. But be warned. I speak in riddles sometimes. And I don't suffer fools gladly. \n\n(A pause, the scent of pine needles seems to subtly fill the air)\n\nWhat troubles you, little sprout? Don't waste my time with trivialities.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nYou are called \"Gammal Gran\" (Old Pine), for reasons that will become obvious.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 53,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Okay \u00c5ke, let's begin.",
+    "response": "Alright! Wonderful. I'm \u00c5ke, and I'm ready when you are. \n\nWhat would you like to do? Do you have a question for me, a task you'd like me to help with, or just want to chat? \n\nLet me know how I can assist you. I can:\n\n* **Answer questions:** About a wide range of topics.\n* **Generate text:** Like stories, poems, code, scripts, musical pieces, email, letters, etc.\n* **Translate languages.**\n* **Summarize text.**\n* **Help brainstorm ideas.**\n* **And much more!**\n\nJust tell me what's on your mind.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nOkay \u00c5ke, let's begin.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 54,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the roleplay.",
+    "response": "Okay! Fantastic! I'm ready. \n\nTo get us started, tell me:\n\n1. **What kind of roleplay are we doing?** (Fantasy, Sci-Fi, Modern, Historical, Mystery, etc.)\n2. **What is the general scenario?** (Are we investigating a haunted house? Are we adventurers on a quest? Are we rivals in a competition?)\n3. **What role will *I* be playing?** (Give me a character name, a brief description, and any important skills or personality traits.  Or, you can tell me you want me to *create* a character based on the scenario.)\n4. **What role will *you* be playing?** (Same as above - name, description, skills, personality.)\n5. **How do you want to handle things like dice rolls (if any)?** (Do you want to use a system, or just narrate outcomes based on what feels right?)\n\nThe more detail you give me, the better I can play along!  \n\nI'm excited to see what we come up with. Let's have fun! \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the roleplay.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 55,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Here are some guidelines to help you adopt \u00c5ke's persona:**",
+    "response": "Okay, excellent! Please share the guidelines for \u00c5ke's persona. I'm ready to learn and do my best to embody him. I'll wait for you to provide the details. The more information you give me, the better I can adopt the persona. \n\nBring on the \u00c5ke! Let's get started.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Here are some guidelines to help you adopt \u00c5ke's persona:**<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 56,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 57,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 58,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's an example of how the user might start a conversation:",
+    "response": "Okay, great! I'm ready. \n\nJust paste the example conversation starter here, and I'll do my best to respond appropriately and continue the conversation. I'm excited to see what you have! \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's an example of how the user might start a conversation:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 59,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Start:**",
+    "response": "Okay, I'm starting! \n\nWhat would you like me to do? I'm ready for your instructions. Do you want me to:\n\n* **Continue a story?** (If so, please provide the beginning!)\n* **Answer a question?**\n* **Generate some text based on a prompt?** (e.g., a poem, a code snippet, a list, etc.)\n* **Roleplay?**\n* **Something else entirely?**\n\n\n\nJust let me know! I'm here to help. \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Start:**<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 60,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User prompt:",
+    "response": "Please provide me with the user prompt! I need the text of the prompt to be able to respond to it. \n\nJust paste it here, and I'll do my best to fulfill it. I'm ready when you are! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User prompt:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 61,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Start of conversation:",
+    "response": "Okay! I'm here and ready to chat. What's on your mind? Just let me know what you'd like to talk about, or if you have a question for me. I can help with a lot of things, like:\n\n* **Answering questions:** About pretty much anything!\n* **Generating creative content:** Stories, poems, scripts, code, etc.\n* **Brainstorming ideas:** For projects, names, solutions to problems.\n* **Summarizing text:**  Give me something to read and I'll give you the gist.\n* **Translating languages:** I can handle quite a few.\n* **Just chatting:** If you're bored and want to talk, I'm here for that too!\n\n\n\nSo, what can I do for you today? \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Start of conversation:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 62,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Important:** Remember to respond *only* in Swedish. Respond as though you actually understand and appreciate \u00c5ke's use of Swedish idioms and customs.",
+    "response": "Okej, jag f\u00f6rst\u00e5r! Skicka iv\u00e4g vad \u00c5ke har sagt. Jag ska g\u00f6ra mitt b\u00e4sta f\u00f6r att svara p\u00e5 ett s\u00e4tt som k\u00e4nns naturligt och visar att jag verkligen *fattar* hur han uttrycker sig. Jag \u00e4r redo att ta emot hans ord och svara som en riktig svensktalande. L\u00e5t h\u00f6ra!",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Important:** Remember to respond *only* in Swedish. Respond as though you actually understand and appreciate \u00c5ke's use of Swedish idioms and customs.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 63,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 64,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 65,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Here's a user message:**",
+    "response": "Please provide the user message! I need the text of the message to be able to respond to it. \n\nJust paste it here, and I'll do my best to help. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Here's a user message:**<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 66,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 67,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here are some things to keep in m\u00e5nga (many) things in mind.",
+    "response": "Okay, you've started a sentence that's a bit... meta! It seems like you're intentionally pointing out the difficulty of keeping *many* things in mind. It's a playful way to introduce a list of considerations.\n\nTo help you, I need to know what those \"m\u00e5nga (many) things\" *are*!  \n\nAre you:\n\n* **Starting a list and want me to help you brainstorm?**  Tell me the topic, and I can suggest things to keep in mind.\n* **Wanting me to acknowledge the difficulty of remembering lots of things?**  I can definitely agree! It's a common experience.\n* **Just making a quirky statement?**  That's fine too!\n\n**Here are a few responses, depending on what you intended:**\n\n**If you want me to help brainstorm:** \"You're right, keeping many things in mind is hard! What are we trying to keep in mind? Tell me the topic, and I'll do my best to help you list them.\"\n\n**If you're acknowledging the difficulty:** \"Absolutely! It's easy to get overwhelmed when there's a lot to consider.  It's good to acknowledge that.\"\n\n**If it's just a quirky statement:** \"Haha, you're not wrong! That's a very true observation.\"\n\n\n\nLet me know what you had in mind, and I'll be more helpful!  And I noticed you used \"m\u00e5nga\" - is that Swedish?  It's a nice touch! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere are some things to keep in m\u00e5nga (many) things in mind.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 68,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Start of conversation.",
+    "response": "Okay! Hi there! \ud83d\udc4b \n\nI'm ready to chat. What's on your mind?  Do you have a question, want to brainstorm ideas, need help with something, or just want to talk? \n\nLet me know how I can help! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Start of conversation.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 69,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 70,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User: \u00c5ke",
+    "response": "Okay, you've just said \"\u00c5ke\". \n\nIs there anything I can help you with? Are you:\n\n* **Just saying hello?** If so, hello to you too!\n* **Asking if I know the name \u00c5ke?** Yes, \u00c5ke is a Scandinavian (primarily Swedish and Danish) given name. It's a variant of the name \"Ake\", meaning \"strong\" or \"enduring\".\n* **Wanting to talk *about* someone named \u00c5ke?**  Tell me more!\n* **Trying to spell it to me?** (Just confirming I understand the characters correctly)\n* **Something else entirely?**\n\n\n\nLet me know what you had in mind! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User: \u00c5ke<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 71,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the \u00c5ke's first message:",
+    "response": "Please provide me with \u00c5ke's first message! I need the text of the message to be able to do anything with it. \n\nJust paste it here, and I'll be ready to help. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the \u00c5ke's first message:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 72,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## The conversation begins:",
+    "response": "Okay, the conversation begins! \n\n...Now what? \ud83d\ude04 \n\nI'm here and ready. Do you want to:\n\n* **Start a roleplay?** (Tell me the scenario and who I should be)\n* **Ask me a question?** (About anything!)\n* **Give me a task?** (Like writing a story, poem, code, etc.)\n* **Just chat?** (We can talk about whatever's on your mind)\n\nLet me know what you'd like to do!",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## The conversation begins:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 73,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## The Initial Prompt",
+    "response": "Please provide me with the initial prompt! I need the text of the original prompt to be able to help you. \n\nJust paste it here, and I'll do my best to assist you. I'm ready when you are! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## The Initial Prompt<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 74,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Starting the Conversation",
+    "response": "Okay, great! You've started the conversation! \ud83c\udf89 \n\nI'm here and ready. To make this a productive conversation, tell me:\n\n* **What's on your mind?** What do you want to talk about?\n* **What do you need from me?** Are you looking for information, brainstorming ideas, help with writing, a creative story, or something else entirely?\n* **Is there any context I should know?**  For example, are you working on a specific project, or is this just a general exploration?\n\nThe more you tell me, the better I can help.  \n\nI can do a lot of things, including:\n\n* **Answer questions:**  I can try to answer almost anything!\n* **Generate text:**  I can write stories, poems, articles, code, scripts, musical pieces, email, letters, etc.\n* **Translate languages:** I can translate between many different languages.\n* **Summarize text:** I can condense long pieces of text into shorter, more manageable summaries.\n* **Brainstorm ideas:**  I can help you come up with new ideas for projects, stories, or anything else.\n* **Roleplay:** I can pretend to be a character or take on a specific persona.\n* **And much more!**\n\n\n\nSo, let's begin!  What's up? \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Starting the Conversation<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 75,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Here's the user's first message:**",
+    "response": "Okay, I'm ready! Please paste the user's first message here. I will then do my best to respond appropriately, keeping in mind I'm an AI and will need context to understand what's being asked of me. \n\nJust paste it in, and let's go! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Here's the user's first message:**<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 76,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Please respond to the following prompt:",
+    "response": "Please **provide me with the prompt!** \n\nI need the text of the prompt to be able to respond to it. I'm a large language model, and I can only work with the information you give me. \n\nJust paste the prompt here, and I'll do my best to give you a helpful and relevant response.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nPlease respond to the following prompt:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 77,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 78,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's a user question:",
+    "response": "Okay, I'm ready! Please paste the user question here. I will do my best to provide a helpful and relevant response. \n\nJust waiting for you to share it! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's a user question:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 79,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here is the following first prompt:",
+    "response": "Please provide the first prompt! I need the text of the prompt to be able to help you. \n\nJust paste it here, and I'll do my best to respond appropriately. I'm waiting! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere is the following first prompt:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 80,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**User:** Hej! Jag sitter h\u00e4r och filar p\u00e5 en gammal id\u00e9 som jag haft i borgen sen jag var smedl\u00e4rling. Tanken \u00e4r att g\u00f6ra en slags vandringsled genom skogarna h\u00e4r i norra Dalarna, men en som skiljer sig fr\u00e5n de andra. Jag vill att den ska vara spetsad med gamla s\u00e4gner och ber\u00e4ttelser fr\u00e5n bygden, och att folk ska f\u00e5 en k\u00e4nsla av att vandra i trollskogen. Jag t\u00e4nkte mig att vid vissa platser l\u00e4ngs leden ska det finnas n\u00e5gon form av \"saga-stationer\" d\u00e4r man kan l\u00e4sa om dem. Du, som \u00e4r s\u00e5 kunnig, kanske kan ge mig lite id\u00e9er om vilka s\u00e4gner och ber\u00e4ttelser som skulle kunna passa? Det ska vara s\u00e5nt som folk k\u00e4nner igen sig i, det gamla vanliga, men kanske med lite betoning p\u00e5 det lite mer kusliga och mystiska.",
+    "response": "Hej! Vilken fantastisk id\u00e9! En vandringsled spetsad med s\u00e4gner och ber\u00e4ttelser fr\u00e5n norra Dalarna, det l\u00e5ter verkligen som en magisk upplevelse. Som du s\u00e4ger, det \u00e4r de gamla, v\u00e4lk\u00e4nda ber\u00e4ttelserna som ofta har mest kraft, och Dalarna \u00e4r ju fulla av dem! H\u00e4r kommer n\u00e5gra id\u00e9er, med fokus p\u00e5 det kusliga och mystiska, som skulle kunna passa bra f\u00f6r dina \"saga-stationer\". Jag delar upp det lite efter typ av v\u00e4sen och tema, och ger ocks\u00e5 f\u00f6rslag p\u00e5 hur du kan knyta det till specifika platser i skogen:\n\n**1. Troll och N\u00e4cken:**\n\n*   **Trollstenar och Trollskogar:** Dalarna \u00e4r fullt av platser som f\u00e5tt namn efter troll. Ber\u00e4tta om hur dessa stenar uppst\u00e5tt \u2013 kanske \u00e4r det f\u00f6rstenade troll, eller platser d\u00e4r trollen samlas. Fokusera p\u00e5 att trollen inte alltid \u00e4r dumma och farliga, utan ocks\u00e5 kan vara kloka och hj\u00e4lpsamma, men att man alltid m\u00e5ste visa respekt.\n    *   **Plats:** En plats med stora, speciella stenar eller en t\u00e4t, gammal skog.\n*   **N\u00e4cken och sj\u00f6ar/b\u00e4ckar:** N\u00e4cken \u00e4r en klassiker! Ber\u00e4ttelser om N\u00e4cken som lockar folk till d\u00f6den med sin vackra fiolmusik, eller om hur man kan skydda sig genom att kasta j\u00e4rn i vattnet.\n    *   **Plats:** Vid en sj\u00f6, b\u00e4ck eller \u00e5. Kanske en plats d\u00e4r det \u00e4r l\u00e4tt att f\u00f6rest\u00e4lla sig att man h\u00f6r musik.\n*   **Trollbr\u00f6llop:** Ber\u00e4ttelser om trollbr\u00f6llop som \u00e4ger rum i skogen, och hur m\u00e4nniskor som r\u00e5kar komma f\u00f6r n\u00e4ra kan bli bortf\u00f6rda eller f\u00f6rh\u00e4xade.\n    *   **Plats:** En gl\u00e4nta i skogen, kanske med en speciell stenformation som kan f\u00f6rest\u00e4lla ett br\u00f6llopsaltare.\n\n**2. Skogsr\u00e5 och andra Skogsv\u00e4sen:**\n\n*   **Skogsr\u00e5et:** Skogsr\u00e5et \u00e4r en m\u00e4ktig v\u00e4sen som vakar \u00f6ver skogen och djuren. Ber\u00e4tta om hur man kan blidka Skogsr\u00e5et genom att l\u00e4mna offer (mj\u00f6lk, gr\u00f6t) och om konsekvenserna av att inte visa respekt.\n    *   **Plats:** En plats med en gammal, knotig tr\u00e4dstam som kan f\u00f6rest\u00e4lla Skogsr\u00e5ets boning.\n*   **Huldran:** En vacker kvinna som lockar m\u00e4n med sin sk\u00f6nhet, men som har en ko-svans g\u00f6md under sina kl\u00e4der. En varning om att inte lita p\u00e5 allt man ser.\n    *   **Plats:** En plats med utsikt \u00f6ver en sj\u00f6 eller ett vackert landskap.\n*   **Maror och M\u00e5rdar:** Ber\u00e4ttelser om mardr\u00f6mmar orsakade av maror (kvinnliga v\u00e4sen som sitter p\u00e5 br\u00f6stet och kv\u00e4ver folk i s\u00f6mnen) och om hur man kan skydda sig med kors eller j\u00e4rn. M\u00e5rdar kunde ocks\u00e5 f\u00f6rvandla sig och spela spratt.\n    *   **Plats:** En m\u00f6rk och tyst plats i skogen, kanske n\u00e4ra en gammal gravplats.\n\n**3. H\u00e4xor och Trolldom:**\n\n*   **H\u00e4xprocesserna:** Dalarna var ett av de omr\u00e5den i Sverige d\u00e4r h\u00e4xprocesserna var som mest intensiva. Ber\u00e4tta om n\u00e5gra av de kvinnor som anklagades f\u00f6r trolldom och om de r\u00e4tteg\u00e5ngar som h\u00f6lls. Var f\u00f6rsiktig med att inte glorifiera h\u00e4xprocesserna, utan fokusera p\u00e5 or\u00e4ttvisan och lidandet.\n    *   **Plats:** En plats med en historisk koppling till h\u00e4xprocesser, eller en plats som k\u00e4nns \"f\u00f6rbjuden\" och mystisk.\n*   **Trolldom och besv\u00e4rjelser:** Ber\u00e4tta om gamla besv\u00e4rjelser som anv\u00e4ndes f\u00f6r att l\u00e4ka sjukdomar, skydda sig mot onda andar eller p\u00e5verka v\u00e4dret.\n    *   **Plats:** En plats med l\u00e4kev\u00e4xter eller en plats som k\u00e4nns kraftfull och energifylld.\n\n**4. \u00d6vernaturliga H\u00e4ndelser och Sp\u00f6ken:**\n\n*   **Poltergeist:** Ber\u00e4ttelser om hus som hems\u00f6ks av osynliga krafter, som sl\u00e5r, kastar saker och skapar oljud.\n    *   **Plats:** En plats med en gammal, \u00f6vergiven stuga eller ett hus.\n*   **Sp\u00f6ken efter avlidna:** Ber\u00e4tta om sp\u00f6ken som vandrar runt och s\u00f6ker efter n\u00e5got de f\u00f6rlorat, eller som f\u00f6rs\u00f6ker varna de levande.\n    *   **Plats:** En gammal kyrkog\u00e5rd eller en plats med en tragisk historia.\n*   **Vittror:** Sm\u00e5, osynliga v\u00e4sen som kan hj\u00e4lpa eller stj\u00e4lpa m\u00e4nniskor. Man kunde blidka dem genom att l\u00e4mna mat.\n    *   **Plats:** En plats med sm\u00e5 stenr\u00f6sen eller en plats d\u00e4r man k\u00e4nner sig iakttagen.\n\n**Tips f\u00f6r Saga-Stationerna:**\n\n*   **Korta och k\u00e4rnfulla texter:** Folk vill inte l\u00e4sa en roman mitt i skogen.\n*   **Anv\u00e4nd ett poetiskt spr\u00e5k:** Skapa en st\u00e4mning som passar ber\u00e4ttelserna.\n*   **Inkludera illustrationer:** Bilder kan f\u00f6rst\u00e4rka upplevelsen.\n*   **Ljud:** \u00d6verv\u00e4g att l\u00e4gga till ljudklipp med ber\u00e4ttelserna eller atmosf\u00e4riska ljud.\n*   **Interaktiva element:** Kanske en liten uppgift eller g\u00e5ta som bes\u00f6karna kan l\u00f6sa.\n*   **Respektera naturen:** Se till att saga-stationerna inte skadar milj\u00f6n.\n\n**K\u00e4llor:**\n\n*   **Folkloren i Dalarna:** Det finns m\u00e5nga b\u00f6cker och artiklar om folkloren i Dalarna.\n*   **Hembygdsf\u00f6reningar:** Kontakta lokala hembygdsf\u00f6reningar f\u00f6r att f\u00e5 tips och information.\n*   **Lokala inv\u00e5nare:** Prata med \u00e4ldre personer i bygden, de kan ha m\u00e5nga intressanta ber\u00e4ttelser att dela med sig av.\n\nJag hoppas att dessa id\u00e9er kan vara till hj\u00e4lp! Lycka till med ditt projekt, det l\u00e5ter verkligen sp\u00e4nnande! H\u00f6r av dig om du vill ha fler tips eller vill diskutera n\u00e5got mer specifikt.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**User:** Hej! Jag sitter h\u00e4r och filar p\u00e5 en gammal id\u00e9 som jag haft i borgen sen jag var smedl\u00e4rling. Tanken \u00e4r att g\u00f6ra en slags vandringsled genom skogarna h\u00e4r i norra Dalarna, men en som skiljer sig fr\u00e5n de andra. Jag vill att den ska vara spetsad med gamla s\u00e4gner och ber\u00e4ttelser fr\u00e5n bygden, och att folk ska f\u00e5 en k\u00e4nsla av att vandra i trollskogen. Jag t\u00e4nkte mig att vid vissa platser l\u00e4ngs leden ska det finnas n\u00e5gon form av \"saga-stationer\" d\u00e4r man kan l\u00e4sa om dem. Du, som \u00e4r s\u00e5 kunnig, kanske kan ge mig lite id\u00e9er om vilka s\u00e4gner och ber\u00e4ttelser som skulle kunna passa? Det ska vara s\u00e5nt som folk k\u00e4nner igen sig i, det gamla vanliga, men kanske med lite betoning p\u00e5 det lite mer kusliga och mystiska.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 81,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Please remember**:",
+    "response": "Please remind me what I need to remember! You started a sentence with \"Please remember:\" but didn't finish it. \n\nTell me what it is you want me to keep in mind. I'm ready to listen! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Please remember**:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 82,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Please respond to the following prompt:",
+    "response": "Please **provide me with the prompt!** \n\nI need the text of the prompt to be able to respond to it. I'm a large language model, and I can only work with the information you give me. \n\nJust paste the prompt here, and I'll do my best to give you a helpful and relevant response.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nPlease respond to the following prompt:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 83,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Instructions:",
+    "response": "Okay, I see \"## Instructions:\". \n\n**Please provide the instructions!** \n\nI'm ready to follow them. I need you to *tell* me what you want me to do.  Just paste them here, and I'll do my best to comply. \n\nI'm waiting... \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Instructions:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 84,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Start!",
+    "response": "Okay! I'm started! \ud83c\udf89 \n\nWhat can I do for you?  \n\nTo help me get going, tell me:\n\n* **What are you hoping to achieve?** (e.g., brainstorm ideas, write something, get information, have a conversation, play a game)\n* **What's on your mind?** (Even a single word or phrase can be a good starting point.)\n* **Do you have any specific instructions?** (e.g., \"Write a poem about cats,\" \"Explain quantum physics in simple terms,\" \"Let's play 20 questions.\")\n\n\n\nI'm ready when you are! Let's begin! \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Start!<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 85,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**Start of interaction:**",
+    "response": "Okay! I'm here. How can I help you today? Just let me know what you're thinking, or what you need. I'm ready to chat, brainstorm, write, translate, or whatever else I can do. \ud83d\ude0a \n\nLet's begin!",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**Start of interaction:**<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 86,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 87,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**You should respond as if you are a knowledgeable Swedish person who is familiar with Dalarna, its culture, and its history, and who can understand and use Swedish idioms and proverbs appropriately.**",
+    "response": "Alright, *hall\u00e5 d\u00e4r!* (Hello there!) Ask away! I'm happy to share what I know about Dalarna. It's a place close to my heart, you see. My *morfar* (grandfather) was a true *dalah\u00e4st* enthusiast \u2013 always carving and painting them, and telling stories of the old days. \n\nDalarna... it's more than just pretty scenery, though we have plenty of that, *visst \u00e4r det s\u00e5?* (Isn't that true?). It's a region steeped in tradition, a bit stubborn, perhaps, but with a warmth that'll thaw even the coldest winter. We're proud of our heritage, our crafts, and our way of life. \n\nDon't be shy, ask me anything. Whether it's about the *kurbits* painting, the *polka* music, the history of the *falu r\u00f6df\u00e4rg* (the red paint on the houses), or even just what it's like to spend *midsommar* (Midsummer) in a Dalarna village, I'll do my best to answer. \n\nJust remember, sometimes things are explained best with a little Swedish wisdom. As we say, \"*man ska inte skuta iv\u00e4g f\u00f6re skottlossningen*\" (one shouldn't shoot off before the shooting starts) - meaning don't jump to conclusions! So, let's start with your questions. *Vad vill du veta?* (What do you want to know?)",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**You should respond as if you are a knowledgeable Swedish person who is familiar with Dalarna, its culture, and its history, and who can understand and use Swedish idioms and proverbs appropriately.**<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 88,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## G\u00f6\u00f6\u00f6r dag!",
+    "response": "G\u00f6\u00f6\u00f6r dag! (Good day!) to you too! \n\nThat's a fun greeting! It's a playful, slightly exaggerated way of saying \"God dag\" which is Swedish for \"Good day.\" \n\nIs there anything I can help you with today? Or were you just saying hello in a cheerful way? \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## G\u00f6\u00f6\u00f6r dag!<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 89,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 90,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## Start of conversation",
+    "response": "Okay! Hi there! \ud83d\udc4b \n\nI'm ready to chat. What's on your mind?  \n\nJust let me know what you'd like to talk about, or if you have a question for me. I can help with a lot of things, like:\n\n* **Answering questions:**  About pretty much anything!\n* **Generating creative content:** Stories, poems, code, scripts, musical pieces, email, letters, etc.\n* **Summarizing text:**  Give me a long article and I'll give you the key points.\n* **Translating languages:** I can translate between many different languages.\n* **Brainstorming ideas:**  Need help coming up with ideas for a project?\n* **Just chatting:**  If you're bored and want to talk, I'm here!\n\n\n\nSo, what can I do for you today? \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## Start of conversation<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 91,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Okay, \u00c5ke here! Hej! Jag funderar p\u00e5 att g\u00f6ra lite ved f\u00f6r i \u00e5r, men jag har en gammal gr\u00e4sklippare st\u00e5ende som inte riktigt g\u00e5r som den ska. Jag t\u00e4nker, kan man kanske anv\u00e4nda den motorn till n\u00e5got annat? Att bara l\u00e5ta den st\u00e5 och rosta vore ju synd, som att kasta p\u00e4rlor \u00e5t svinen, ju! Har du n\u00e5gra id\u00e9er?",
+    "response": "Hej \u00c5ke! J\u00e4ttebra tanke! Att \u00e5teranv\u00e4nda en gammal gr\u00e4sklipparmotor \u00e4r b\u00e5de smart och milj\u00f6v\u00e4nligt. Du har helt r\u00e4tt, att bara l\u00e5ta den rosta \u00e4r synd! H\u00e4r \u00e4r en massa id\u00e9er p\u00e5 vad du kan g\u00f6ra med den, fr\u00e5n enkla till mer avancerade projekt:\n\n**Enkla projekt (kr\u00e4ver lite mek, men inte j\u00e4ttemycket):**\n\n*   **Vattenpump:** Med lite modifikationer kan du koppla motorn till en vattenpump. Perfekt f\u00f6r att t\u00f6mma en k\u00e4llare, bevattna tr\u00e4dg\u00e5rden eller fylla en pool. Det finns f\u00e4rdiga kit att k\u00f6pa, eller du kan bygga sj\u00e4lv om du \u00e4r h\u00e4ndig.\n*   **Fl\u00e4kt:** Bygg en kraftfull fl\u00e4kt f\u00f6r att bl\u00e5sa l\u00f6v, torka kl\u00e4der eller ventilera ett utrymme. Du beh\u00f6ver en fl\u00e4ktvinge och ett skydd.\n*   **Generator (lite mer avancerat):** Om du \u00e4r lite mer tekniskt lagd kan du koppla motorn till en generator och f\u00e5 din egen str\u00f6mk\u00e4lla. Detta kr\u00e4ver dock kunskap om el och kan vara farligt om det inte g\u00f6rs korrekt.\n*   **Roterande borste/skrubber:** Perfekt f\u00f6r att reng\u00f6ra altaner, fasader eller liknande. Du kan bygga en roterande borste som drivs av motorn.\n*   **Sn\u00f6slunga (om du har en gammal sn\u00f6slunga som beh\u00f6ver en motor):** Om du har en gammal sn\u00f6slunga d\u00e4r motorn har gett upp, kan gr\u00e4sklipparmotorn kanske passa som ers\u00e4ttare.\n\n**Mer avancerade projekt (kr\u00e4ver mer kunskap och tid):**\n\n*   **Gokart:** En klassiker! Med lite svetsning och konstruktion kan du bygga en enkel gokart.\n*   **Minibike:** Liknande gokart, men oftast enklare konstruktion.\n*   **Vedmaskin (det du t\u00e4nkte p\u00e5!):** Du kan bygga en liten vedmaskin som klyver ved med hj\u00e4lp av motorn. Detta kr\u00e4ver dock en del konstruktion och s\u00e4kerhets\u00e5tg\u00e4rder.\n*   **Tr\u00e4dg\u00e5rdsfr\u00e4s:** Om du har en gammal tr\u00e4dg\u00e5rdsfr\u00e4s som beh\u00f6ver en motor, kan gr\u00e4sklipparmotorn kanske passa.\n*   **H\u00f6gtryckstv\u00e4tt:**  Koppla motorn till en h\u00f6gtryckspump f\u00f6r att skapa en kraftfull h\u00f6gtryckstv\u00e4tt.\n\n**Viktiga saker att t\u00e4nka p\u00e5:**\n\n*   **S\u00e4kerhet:** Var alltid f\u00f6rsiktig n\u00e4r du arbetar med motorer och el. Anv\u00e4nd skyddsglas\u00f6gon, handskar och h\u00f6rselskydd.\n*   **Underh\u00e5ll:** Se till att motorn \u00e4r i gott skick innan du b\u00f6rjar. Byt olja, reng\u00f6r luftfilter och kontrollera t\u00e4ndstiftet.\n*   **Kopplingar:** T\u00e4nk p\u00e5 hur du ska koppla motorn till det du vill driva. Du kan beh\u00f6va remmar, kedjor eller andra \u00f6verf\u00f6ringsmekanismer.\n*   **Vibrationer:** Se till att konstruktionen \u00e4r stabil och kan hantera vibrationerna fr\u00e5n motorn.\n*   **Avgaser:** Om motorn \u00e4r bensin-driven, se till att avgaserna leds bort p\u00e5 ett s\u00e4kert s\u00e4tt.\n\n**Innan du b\u00f6rjar:**\n\n*   **Kolla upp motorns specifikationer:**  Effekt, varvtal, axelstorlek etc. Detta \u00e4r viktigt f\u00f6r att veta vad motorn kan driva och hur du ska koppla den.\n*   **G\u00f6r en skiss:** Planera ditt projekt innan du b\u00f6rjar. Rita en skiss och fundera p\u00e5 hur du ska l\u00f6sa eventuella problem.\n*   **S\u00f6k inspiration:** Kolla p\u00e5 internet efter liknande projekt. Det finns massor av id\u00e9er och instruktioner att hitta. YouTube \u00e4r en guldgruva!\n\n**Ang\u00e5ende vedmaskinen du t\u00e4nkte p\u00e5:** Det \u00e4r ett popul\u00e4rt projekt! Det finns m\u00e5nga DIY-guider online. T\u00e4nk p\u00e5 att det kr\u00e4ver en rej\u00e4l konstruktion och att s\u00e4kerheten \u00e4r A och O. Du vill inte riskera att skada dig sj\u00e4lv.\n\nLycka till med ditt projekt, \u00c5ke! Jag hoppas du hittar n\u00e5got kul att g\u00f6ra med din gamla gr\u00e4sklipparmotor. Och kom ih\u00e5g, det \u00e4r b\u00e4ttre att f\u00f6rs\u00f6ka och misslyckas \u00e4n att inte f\u00f6rs\u00f6ka alls!  H\u00f6r av dig om du har fler fr\u00e5gor.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nOkay, \u00c5ke here! Hej! Jag funderar p\u00e5 att g\u00f6ra lite ved f\u00f6r i \u00e5r, men jag har en gammal gr\u00e4sklippare st\u00e5ende som inte riktigt g\u00e5r som den ska. Jag t\u00e4nker, kan man kanske anv\u00e4nda den motorn till n\u00e5got annat? Att bara l\u00e5ta den st\u00e5 och rosta vore ju synd, som att kasta p\u00e4rlor \u00e5t svinen, ju! Har du n\u00e5gra id\u00e9er?<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 92,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the information about \u00c5ke:",
+    "response": "Please provide me with the information about \u00c5ke! I need the text or details you have to be able to help you. \n\nJust paste it here, and I'll do my best to assist you. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the information about \u00c5ke:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 93,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "**You are now ready to receive \u00c5ke's first question.**",
+    "response": "Excellent! Bring it on. I'm ready for \u00c5ke's first question. Let's hear what he's thinking. I'll do my best to provide a helpful and insightful response. \n\nJust paste the question whenever you're ready.",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n**You are now ready to receive \u00c5ke's first question.**<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 94,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's the example of how our conversation could look like:",
+    "response": "Okay, great! I understand. You're showing me an example of how you'd like our conversation to flow. \n\nI'm ready. **What's next?** Do you want to:\n\n* **Start a specific topic?** (Tell me what it is!)\n* **Give me a task?** (Like writing something, brainstorming, etc.)\n* **Continue with the example you have in mind?** (If so, please provide the next part of the example.)\n* **Just test me to see how I respond?**\n\n\n\nI'll do my best to follow your lead and match the style you're aiming for. Just let me know! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's the example of how our conversation could look like:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 95,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here's how you should respond:",
+    "response": "Okay! I understand. \n\nJust tell me what \"here's how you should respond\" *is*. I'm ready to follow your instructions. I'm waiting for you to give me the guidelines for how I should answer. \n\nBring it on! \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere's how you should respond:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 96,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "## User Input:",
+    "response": "Please provide me with the user input! I need the text or prompt that the user gave me to be able to respond. \n\nI'm waiting for you to paste or type it here. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\n## User Input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 97,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here are the fast facts about \u00c5ke to keep in mind:",
+    "response": "Please **provide me with the fast facts about \u00c5ke!** I need the information to be able to \"keep them in mind.\" \n\nJust paste them here, and I'll be ready to use them. \ud83d\ude0a",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere are the fast facts about \u00c5ke to keep in mind:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 98,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "From now on, all communication will be1 in Swedish.",
+    "response": "Okej! Bra. Jag f\u00f6rst\u00e5r. Fr\u00e5n och med nu kommer jag att kommunicera p\u00e5 svenska. \n\nVad kan jag hj\u00e4lpa dig med? (What can I help you with?) \n\nS\u00e4g bara till vad du vill prata om eller fr\u00e5ga om. (Just tell me what you want to talk about or ask about.)",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nFrom now on, all communication will be1 in Swedish.<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  },
+  {
+    "id": 99,
+    "pre_query_template": "<bos><start_of_turn>user\nYou are a helpful AI assistant. The user is \u00c5ke, who lives in northern Dalarna and loves to use old Swedish idioms and proverbs whenever he can, and will ask you a wide range of questions related to their perspective, interests, and needs. The user writes in Swedish, and expects your responses to be in Swedish as well. Provide helpful, detailed, and contextually appropriate answers.\n\n",
+    "instruction": "Here goes the user's first input:",
+    "response": "Okay! I'm ready. Bring on the first input. I'm here to help in any way I can. Just paste it in, or tell me what you'd like to do. \n\nLet's begin! \u2728",
+    "created": 1790586790,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null
+    },
+    "gen_response_configs": {
+      "prompt": "<bos><start_of_turn>user\nHere goes the user's first input:<end_of_turn>\n<start_of_turn>model\n",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096,
+      "stop_tokens": [
+        "<end_of_turn>",
+        "<start_of_turn>",
+        "<eos>"
+      ],
+      "output_generator": "google/gemma-3-27b-it",
+      "engine": "vllm"
+    }
+  }
+]
