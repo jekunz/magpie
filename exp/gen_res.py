@@ -32,6 +32,7 @@ def get_args():
     parser.add_argument("--dtype", type=str, default="bfloat16", choices=["float16", "bfloat16"])
     parser.add_argument("--tensor_parallel_size", type=int, default=1, help="Number of GPUs to use for tensor parallelism. Only used for Llama 70B models.")
     parser.add_argument("--gpu_memory_utilization", type=float, default=0.95)
+    parser.add_argument("--enforce_eager", action="store_true", help="Disable torch.compile/CUDA graph capture. Avoids needing a working C compiler at runtime, at the cost of slower generation.")
     parser.add_argument("--max_tokens", type=int, default=4096)
     parser.add_argument("--max_model_len", type=int, default=4096)
     parser.add_argument("--temperature", type=float, default=0)
@@ -233,7 +234,8 @@ def main():
             trust_remote_code=True,
             max_model_len = args.max_model_len, # limited by kv-cache 
             tensor_parallel_size = args.tensor_parallel_size,
-            gpu_memory_utilization = args.gpu_memory_utilization)
+            gpu_memory_utilization = args.gpu_memory_utilization,
+            enforce_eager = args.enforce_eager)
     
         params = SamplingParams(
             max_tokens=args.max_tokens,

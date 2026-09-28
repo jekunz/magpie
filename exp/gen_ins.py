@@ -51,6 +51,7 @@ def get_args():
     parser.add_argument("--dtype", type=str, default="bfloat16", choices=["float16", "bfloat16"])
     parser.add_argument("--tensor_parallel_size", type=int, default=1, help="Number of GPUs to use for tensor parallelism. Only used for Llama 70B models.")
     parser.add_argument("--gpu_memory_utilization", type=float, default=0.95)
+    parser.add_argument("--enforce_eager", action="store_true", help="Disable torch.compile/CUDA graph capture. Avoids needing a working C compiler at runtime, at the cost of slower generation.")
     parser.add_argument("--swap_space", type=float, default=2.0)
     parser.add_argument("--checkpoint_every", type=int, default=100, help="Save checkpoint every n repeats.")
     parser.add_argument("--output_folder", type=str, default="../data")
@@ -113,7 +114,8 @@ def main():
                 swap_space=args.swap_space,
                 tensor_parallel_size=args.tensor_parallel_size,
                 seed=args.seed if args.seed is not None else args.timestamp,
-                enable_prefix_caching=True)
+                enable_prefix_caching=True,
+                enforce_eager=args.enforce_eager)
     elif args.engine == "hf":
         # Load the model and tokenizer
         tokenizer = AutoTokenizer.from_pretrained(args.model_path)

@@ -1,4 +1,4 @@
-model_path=${1:-"google/gemma-4-31B-it"}
+model_path=${1:-"google/gemma-3-27b-it"}
 total_prompts=${2:-100}
 language=${3:-"Swedish"}
 persona=${4:-"se_ake_dalarna"}
@@ -26,6 +26,7 @@ CUDA_VISIBLE_DEVICES=$device python ../exp/gen_ins.py \
     --temperature 1 \
     --tensor_parallel_size $tensor_parallel \
     --gpu_memory_utilization $gpu_memory_utilization \
+    --enforce_eager \
     --language "$language" \
     --persona "$persona" \
     --job_name "$job_name" \
@@ -43,6 +44,7 @@ CUDA_VISIBLE_DEVICES=$device python ../exp/gen_res.py \
     --repetition_penalty 1 \
     --tensor_parallel_size $tensor_parallel \
     --gpu_memory_utilization $gpu_memory_utilization \
+    --enforce_eager \
     --input_file "$ins_file" \
     --offline
 
