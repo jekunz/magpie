@@ -710,5 +710,68 @@
     "pre_query_template_with_system_prompt": "<bos><|turn>system\nYou are a helpful assistant.<turn|>\n<|turn>user\n",
     "system_prompt_prefix": "<bos><|turn>system\n",
     "system_prompt_suffix": "<turn|>\n<|turn>user\n"
+  },
+  "google/gemma-3-27b-it": {
+    "model_name": "google/gemma-3-27b-it",
+    "stop_tokens": [
+      "<end_of_turn>",
+      "<start_of_turn>",
+      "<eos>"
+    ],
+    "stop_token_ids": [
+      106,
+      105,
+      1
+    ],
+    "stop_tokens_assistant": [
+      "model"
+    ],
+    "pre_query_template": "<bos><start_of_turn>user\n",
+    "mt_append_template": "<start_of_turn>user\n",
+    "pre_query_template_with_system_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant.\n\n",
+    "system_prompt_prefix": "<bos><start_of_turn>user\n",
+    "system_prompt_suffix": "\n\n"
+  },
+  "google/gemma-3-12b-it": {
+    "model_name": "google/gemma-3-12b-it",
+    "stop_tokens": [
+      "<end_of_turn>",
+      "<start_of_turn>",
+      "<eos>"
+    ],
+    "stop_token_ids": [
+      106,
+      105,
+      1
+    ],
+    "stop_tokens_assistant": [
+      "model"
+    ],
+    "pre_query_template": "<bos><start_of_turn>user\n",
+    "mt_append_template": "<start_of_turn>user\n",
+    "pre_query_template_with_system_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant.\n\n",
+    "system_prompt_prefix": "<bos><start_of_turn>user\n",
+    "system_prompt_suffix": "\n\n"
+  },
+  "google/gemma-3-4b-it": {
+    "model_name": "google/gemma-3-4b-it",
+    "stop_tokens": [
+      "<end_of_turn>",
+      "<start_of_turn>",
+      "<eos>"
+    ],
+    "stop_token_ids": [
+      106,
+      105,
+      1
+    ],
+    "stop_tokens_assistant": [
+      "model"
+    ],
+    "pre_query_template": "<bos><start_of_turn>user\n",
+    "mt_append_template": "<start_of_turn>user\n",
+    "pre_query_template_with_system_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant.\n\n",
+    "system_prompt_prefix": "<bos><start_of_turn>user\n",
+    "system_prompt_suffix": "\n\n"
   }
 }
