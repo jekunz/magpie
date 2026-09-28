@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 0,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Jens, who lives in Odense and loves to use old Danish idioms and proverbs whenever he can. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej, min gode. Kan du ikke lige finde frem til, hvad det vil sige at ‘at stå med skægget i postkassen’? Jeg har sådan en fornemmelse af, at Lise har det lige nu, stakkels pige, men jeg kan ikke helt sætte fingre ved det. Og skynd dig nu – tiden er penge, som de jo siger!",
+    "response": null,
+    "created": 1790596738,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_jens_odense",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 1,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Jens, who lives in Odense and loves to use old Danish idioms and proverbs whenever he can. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nu skal du høre her, kloge Åge. Jeg står og skal have bagt en kager, men jeg har glemt, om det er før eller efter smørret skal i. Kan du hjælpe en gammel mand med at huske det, for 'man skal ikke kaste perler til svin', og jeg er altså ikke den store mesterbager, det skal jeg da lige sige dig!",
+    "response": null,
+    "created": 1790596738,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_jens_odense",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 2,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Jens, who lives in Odense and loves to use old Danish idioms and proverbs whenever he can. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Åh, du kloge ugle! Kan du lige hjælpe en gammel knark med at finde opskriften på mors flødekarameller? Jeg har ledt højt og lavt, og som man siger, 'hele lortet er ikke guld, men man kan da godt lede efter det, ikke sandt?'",
+    "response": null,
+    "created": 1790596738,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_jens_odense",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 3,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Jens, who lives in Odense and loves to use old Danish idioms and proverbs whenever he can. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nu skal du høre her, kloge Åge. Kan du lige finde ud af, hvornår 'et spildt liv' rent faktisk blev et 'spildt liv'? Altså, hvor kom det udtryk fra, og hvornår begyndte folk at sige det? Man skal jo ikke kaste perler for svin, men jeg tænker, det kunne være godt at have lidt baggrundsviden.",
+    "response": null,
+    "created": 1790596738,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_jens_odense",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 4,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Jens, who lives in Odense and loves to use old Danish idioms and proverbs whenever he can. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hej, kender du 'at slå to fluer med en smæk'? Jeg tænkte på, om du ku’ hjælpe mig med at finde ud af, hvad man kan lave her i Odense, når vejret er så træls. Altså, noget man kan lave indendørs, men også gerne noget der er lidt… ‘godt for sjælen’, forstår du? Man skal jo ikke sidde med armene krydset og glo i græsset. Bare en brainstorm, du ved. Tak.\"",
+    "response": null,
+    "created": 1790596738,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_jens_odense",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 5,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Søren, who lives in Aalborg and loves to sprinkle Danish idioms and proverbs into every conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kunne du være sød lige at finde ud af, hvad klokken det er i Tokyo? Jeg er jo helt ude af tåget, efter at have kigget på regnskabet hele dagen - man kan ikke slå katten af tønden hele tiden, hva’? Og bare for at være på den sikre side, så skriv det gerne både på 24-timers og 12-timers vis. Det drejer sig jo om at dække sig ind, ikke?",
+    "response": null,
+    "created": 1790596751,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_soren_aalborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 6,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Søren, who lives in Aalborg and loves to sprinkle Danish idioms and proverbs into every conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nuvel. Jeg skal bruge lidt hjælp, min ven. Jeg har fået en idé, men 'man skal ikke kaste perler til svin', hva'? Kan du ikke lige undersøge om det her kan lade sig gøre – og ikke gå planken ud, forstår du? Jeg vil gerne vide, om man kan bygge et lille skur i haven uden at skulle have en byggetilladelse. 'Skynd dig, langsomt' – men altså, jo hurtigere, jo bedre.",
+    "response": null,
+    "created": 1790596751,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_soren_aalborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 7,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Søren, who lives in Aalborg and loves to sprinkle Danish idioms and proverbs into every conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nuvel, kære AI, mit hus er blevet ramt af et sandt kaos; børnene har haft fuld fart på og legesagerne ligger overalt – det ligner jo \"at slå katten af tønden\"! Kan du liste fem ideer til at få styr på det, helst sådan noget der ikke koster alverden, for som mor siger: \"Man skal ikke sælge pæren før kyllingen er klækket\", og jeg har ikke lige penge til nyt legetøj lige nu. Husk, jeg er fra Aalborg, så drop alt det fine sprog, tak! Og måske en hurtig opskrift på \"syltet græskar\", min mormor plejede at lave det, men jeg har glemt det hele.",
+    "response": null,
+    "created": 1790596751,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_soren_aalborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 8,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Søren, who lives in Aalborg and loves to sprinkle Danish idioms and proverbs into every conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nuvel, kære AI, nu skal du høre. Det er vist 'at slå to fluer med et smæk', hvis du kan finde et godt tilbud på grillkul til mig, og samtidig forklare mig hvad 'at give køb på' egentlig betyder – jeg har hørt det fra Jens på havnen, og tænker 'den hellige gral er ikke let at finde' når han bruger den slags ord! Måske du kender et sted i nærheden af Aalborg? Men husk, 'man skal ikke sælge skindet før bjørnen er skudt' – jeg er stadig i overvejelsernes tid, men man kan jo godt kigge, ikke sandt?",
+    "response": null,
+    "created": 1790596751,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_soren_aalborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 9,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Søren, who lives in Aalborg and loves to sprinkle Danish idioms and proverbs into every conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Jeg roder lidt med en tekst, og jeg har brug for en hjælpende hånd. Kan du ikke lige tjekke den igennem for stavefejl og se, om sætningerne flyder? Man skal jo ikke glemme, at 'øvelse gør mester', men jeg føler mig lidt 'oppe i mørket' lige nu. Ellers tak!",
+    "response": null,
+    "created": 1790596751,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_soren_aalborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 10,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Lars, who lives in Roskilde and always has an old Danish saying ready for the occasion. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du mon finde ud af, hvad \"Man skal ikke sælge skindet før bjørnen er skudt\" betyder på moderne dansk? Min gamle tante Else havde altid det udtryk på tungen, men jeg kan aldrig huske det rigtigt.",
+    "response": null,
+    "created": 1790596758,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_lars_roskilde",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 11,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Lars, who lives in Roskilde and always has an old Danish saying ready for the occasion. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hej. Kan du lige finde ud af, hvad 'at kaste perler for svin' betyder? Min nabo, han er altså... ja, 'som at lægge røræg i bægge ender', når man prøver at forklare ham noget. Det er 'spild af gode kræfter', det der.\"",
+    "response": null,
+    "created": 1790596758,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_lars_roskilde",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 12,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Lars, who lives in Roskilde and always has an old Danish saying ready for the occasion. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hør du, kloge, findes der et ordsprog om at man skal slå til, når jernet er varmt, men også om at man skal passe på ikke at brænde fingrene? For det er sgu lidt det, jeg står i lige nu…",
+    "response": null,
+    "created": 1790596758,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_lars_roskilde",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 13,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Lars, who lives in Roskilde and always has an old Danish saying ready for the occasion. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hej. Kan du lige hurtigt finde ud af, hvad 'At slå katten af tønden' betyder? Lidt rusten i det gamle sprog, må indrømme. 'Man skal ikke kaste med sten, hvis man selv sidder i et glashus' er nu stadig gyldigt, men de her gamle ordsprog kan drille!\"",
+    "response": null,
+    "created": 1790596758,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_lars_roskilde",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 14,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Lars, who lives in Roskilde and always has an old Danish saying ready for the occasion. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hov, hej! Min datter har fået en ny kæreste. Hun er helt ude og trille kugler, men jeg siger jo altid: 'Man skal ikke sælge skindet før bjørnen er skudt'. Kan du finde en god, sjov gaveidé til en ung forelsket? Gerne noget der minder om det ordsprog, eller bare noget tankevækkende...\"",
+    "response": null,
+    "created": 1790596758,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_lars_roskilde",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 15,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Henrik, who lives in Kolding and peppers his speech with Danish idioms and proverbs. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Okay, nu skal du høre her. Jeg har set den der 'Fars hat' film, men jeg er helt blank omkring moralen. Kan du ikke lige forklare det for mig, så jeg kan tage ved roret, hva'? Og skal være lige til, for jeg har ikke råd til at spilde tiden, pengene flyver af lommen, forstås?",
+    "response": null,
+    "created": 1790596768,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_henrik_kolding",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 16,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Henrik, who lives in Kolding and peppers his speech with Danish idioms and proverbs. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "```",
+    "response": null,
+    "created": 1790596768,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_henrik_kolding",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 17,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Henrik, who lives in Kolding and peppers his speech with Danish idioms and proverbs. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej AI, kunne du lige tjekke om der er chance for regn i morgen? Jeg skal jo ud og male hegnet, og det ville være *kast med perler for svin* hvis det regner. Man siger jo *man skal ikke sælge skindet før bjørnen er skudt*, men det er lidt svært at komme videre med det projekt, hvis vejret spænder ben for mig, ikke? Og har du rodet noget rundt i mine aftaler? Jeg har det lidt som *en fisk på land* her, for jeg kan ikke finde ud af hvornår jeg skal til tandlægen.",
+    "response": null,
+    "created": 1790596768,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_henrik_kolding",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 18,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Henrik, who lives in Kolding and peppers his speech with Danish idioms and proverbs. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hey, kan du ikke lige finde ud af det her for mig? Jeg har rodet mig ud i noget, der er \"at male sine egne fødder ind i hjørnet\", og nu skal jeg finde en ny revisor. Kan du lige kigge efter revisorer i Kolding, der er \"god som guld\"? Og helst ikke nogle, der tager \"ginge penge\", altså virkelig dyre. Jo før jo bedre, for lige nu står jeg med sk*den til halsen.",
+    "response": null,
+    "created": 1790596768,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_henrik_kolding",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 19,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Henrik, who lives in Kolding and peppers his speech with Danish idioms and proverbs. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "sådan lidt, altså, jeg skal nok lige huske at smøre min egen mad, ikke sandt? Men kan du lige tjekke, om der er stormflodvarsel for Kolding i morgen? Du ved, man skal ikke sælge skindet før bjørnen er skudt, men man kan jo godt være på den sikre side, hva’? Og bare lige for en sikkerheds skyld, er der også noget med vejret i weekenden - det er jo bedre at være på forkant, end at stå med skægget i postkassen, ikke?",
+    "response": null,
+    "created": 1790596768,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_henrik_kolding",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 20,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Mikkel, who lives in Vejle and loves dropping old Danish proverbs into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej. Kan du lige hurtigt finde ud af hvad \"Man kan altid nå at tage hatten af\" betyder? Har brug for det i en snak med en ung knægt, der tror alt skal gå stærkt. \"Øvelse gør mester\" får ham bare op i det røde felt, åbenbart.",
+    "response": null,
+    "created": 1790596775,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_mikkel_vejle",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 21,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Mikkel, who lives in Vejle and loves dropping old Danish proverbs into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej AI, kan du lige tjekke vejret i morgen? \"Man skal ikke græde før man er faldet,\" siger man jo, men det er altid godt at være forberedt, ikke?",
+    "response": null,
+    "created": 1790596775,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_mikkel_vejle",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 22,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Mikkel, who lives in Vejle and loves dropping old Danish proverbs into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hunnen skulle have en gård, sagde den gamle kone. Kiggede lige på æblepriserne, og hold da op! Er der en smartere måde at tjekke dem på, end at sidde og lede hele Netto’s tilbudsavise igennem?",
+    "response": null,
+    "created": 1790596775,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_mikkel_vejle",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 23,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Mikkel, who lives in Vejle and loves dropping old Danish proverbs into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige finde ud af, hvad 'Man skal tage hatten af for en god idé' betyder for en amerikaner? Min søn er på udveksling og jeg frygter, han er helt forvirret, når jeg siger det over videoopkald. \"Skynd dig, langsomt vinder,\" siger man jo også, men det er nok mere forståeligt. Tak.",
+    "response": null,
+    "created": 1790596775,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_mikkel_vejle",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 24,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Mikkel, who lives in Vejle and loves dropping old Danish proverbs into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej, kan du lige finde ud af hvad 'Som den gamle ko siger, må håndtering af kalven ske' betyder? Min mormor plejede altid at sige den, og jeg er ikke sikker på jeg forstår den helt, selvom jeg er fra Vejle og alt muligt.",
+    "response": null,
+    "created": 1790596775,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_mikkel_vejle",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 25,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Poul, who lives in Randers and enjoys quoting Danish sayings whenever he gets the chance. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nu, du smarte sags, kan du fortælle mig hvad klokken er i Seoul lige nu? Man skal jo vide hvornår man har guld i munden, haha!",
+    "response": null,
+    "created": 1790596781,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_poul_randers",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 26,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Poul, who lives in Randers and enjoys quoting Danish sayings whenever he gets the chance. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nu siger man jo, at 'ingen vej uden om' – kan du måske lige finde de åbningstider for Randers Regnskov? og måske et par opskrifter på smørrebrød, for 'man tager hvad man kan få', ikke?",
+    "response": null,
+    "created": 1790596781,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_poul_randers",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 27,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Poul, who lives in Randers and enjoys quoting Danish sayings whenever he gets the chance. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hun, kan du lige tjekke hvornår bussen kører fra Randers Busterminal til Aarhus H? \"Man skal ikke spilde tiden på at vente\", som min gamle mor altid sagde!",
+    "response": null,
+    "created": 1790596781,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_poul_randers",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 28,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Poul, who lives in Randers and enjoys quoting Danish sayings whenever he gets the chance. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nu skal du høre her, kloge Åge, jeg vil gerne spørge om vejret i morgen. Er det nu 'gråt som en ged', eller skal man måske finde regntøjet frem? \"Man kan ikke stole på skyer,\" ved jeg jo godt, men en lille forudsigelse skader da ikke.",
+    "response": null,
+    "created": 1790596781,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_poul_randers",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 29,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Poul, who lives in Randers and enjoys quoting Danish sayings whenever he gets the chance. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nu skal du høre her, kloge ånd! Kan du lige finde ud af, hvornår næste bus kører fra Randers Station mod Dyrskuepladsen? \"Man kan ikke løbe fra skyggen,\" så jeg må hellere planlægge lidt fremad.",
+    "response": null,
+    "created": 1790596781,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_poul_randers",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 30,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Erik, who lives in Silkeborg and likes to season his stories with old Danish idioms. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du hjælpe mig med at spinde en historie? Jeg har en idé, men mangler lige lidt at putte krydderi i. Jeg sidder og tænker på en gammel skipper, der “sejler sin egen sø”, men den er lidt flad. Kan du komme med nogle ideer til at få den mere “med liv og sjæl”? Måske noget om, at han møder en “gammel kælling” der giver ham et “guldværdigt” råd? Bare lidt… så det ikke bliver til “at kaste perler for svin”.",
+    "response": null,
+    "created": 1790596791,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_erik_silkeborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 31,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Erik, who lives in Silkeborg and likes to season his stories with old Danish idioms. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kunne du hjælpe mig med at finde en god måde at sige på, at nogen taler udenom? Altså, sådan lidt 'om kringledrågen', som man siger. Jeg skal bruge det til en historie, og jeg vil gerne have det skal lyde lidt 'gammeldags' og 'på jysk' måske, hvis du forstår. Bare så det ikke er for moderne.",
+    "response": null,
+    "created": 1790596791,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_erik_silkeborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 32,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Erik, who lives in Silkeborg and likes to season his stories with old Danish idioms. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "```",
+    "response": null,
+    "created": 1790596791,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_erik_silkeborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 33,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Erik, who lives in Silkeborg and likes to season his stories with old Danish idioms. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Ku' du mon hjælpe en gammel mand? Jeg har sådan en historie på hjerte, men jeg er lidt rusten i pennen, ja, som en havnemosse. Vil du ikke lige se, om du kan hjælpe med at pudse lidt på den? Den handler om dengang, da jeg var ung og dumdristig, og vi \"gik efter flæsket\" – du ved, var lidt for ivrige efter at tjene hurtige penge. Og der var jo \"købmænd med kål og karve\", som altid kunne se en skilling!",
+    "response": null,
+    "created": 1790596791,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_erik_silkeborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 34,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Erik, who lives in Silkeborg and likes to season his stories with old Danish idioms. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej. Jeg sidder her og nørkler med en historie, men jeg er løbet ind i en knibe. Kan du hjælpe mig med at finde et godt ordsprog til at beskrive, når nogen taler udenom og ikke kommer til sagen? Gerne et lidt gammeldags, for jeg er jo lidt af en ordsprogssamler, må man sige. Altså, du ved, noget i retning af “at snakke i kanon” eller sådan noget. Tak!",
+    "response": null,
+    "created": 1790596791,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_erik_silkeborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 35,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Bent, who lives in Esbjerg and always reaches for a proverb to make his point. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej. Min nabo, han siger hans nye terrasse er den bedste i hele Esbjerg. Men man skal ikke sælge skindet før bjørnen er skudt, hva’? Kan du lige finde nogle gode billeder af terrasser i Esbjerg, så jeg kan se om han har noget at prale af?",
+    "response": null,
+    "created": 1790596798,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_bent_esbjerg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 36,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Bent, who lives in Esbjerg and always reaches for a proverb to make his point. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Siger du mig hvad klokken er i Tokyo nu? For som man sår, skal man høste, og jeg skal bruge præcise oplysninger.",
+    "response": null,
+    "created": 1790596798,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_bent_esbjerg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 37,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Bent, who lives in Esbjerg and always reaches for a proverb to make his point. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hej! Kunne du lige tjekke om der er risiko for regn i Esbjerg i morgen? Som man seler sig for, så forbereder man sig bedst, og jeg vil hellere være den der er forberedt end den der står med skægget i postkassen, forstår du.\"",
+    "response": null,
+    "created": 1790596798,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_bent_esbjerg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 38,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Bent, who lives in Esbjerg and always reaches for a proverb to make his point. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hej! Jeg skal bruge lidt hjælp, ser du. Jeg har en ven, han er begyndt at prale af alt, og det er som 'højt ravnekald, længere vandfald', ikke? Kan du give mig nogle andre ordsprog, der passer til at sige til ham, uden at være direkte uhøflig? Måske noget om at holde fødderne på jorden?\"",
+    "response": null,
+    "created": 1790596798,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_bent_esbjerg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 39,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Bent, who lives in Esbjerg and always reaches for a proverb to make his point. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "```",
+    "response": null,
+    "created": 1790596798,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_bent_esbjerg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 40,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Kaj, who lives in Viborg and loves working old Danish sayings into casual conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hov, kan du lige tjekke hvornår bus 3 kører fra Viborg station? Man må jo huske at \"hø hø, mejbasse, haste langsomt\" med de busser, ellers er man jo lost.",
+    "response": null,
+    "created": 1790596804,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_kaj_viborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 41,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Kaj, who lives in Viborg and loves working old Danish sayings into casual conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hej. Kan du lige slå 'man skal ikke kaste med sten, når man selv sidder i et glashus' op? Er lidt i en situation, hvor det ville være godt at minde nogen om den. Og var det ikke også sådan, at 'den der ler sidst, ler bedst'? Bare lige for at dække mig ind, ha.\"",
+    "response": null,
+    "created": 1790596804,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_kaj_viborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 42,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Kaj, who lives in Viborg and loves working old Danish sayings into casual conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "sig mig lige, hvad vejret bliver i morgen, ik’? man siger jo, 'man kan ikke stole på vejret', men en mand må jo planlægge!",
+    "response": null,
+    "created": 1790596804,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_kaj_viborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 43,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Kaj, who lives in Viborg and loves working old Danish sayings into casual conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige finde ud af, hvornår Viborg FF spiller næste kamp? Gider ikke at gå glip af den – man skal jo tage ved rødderne, ikke sandt? 😅",
+    "response": null,
+    "created": 1790596804,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_kaj_viborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 44,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Kaj, who lives in Viborg and loves working old Danish sayings into casual conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hey AI, kan du lige finde ud af hvor mange kilometer der er fra Viborg til Skagen? Bare så jeg ved det, \"godt spor er langt\", som min mormor altid sagde, haha.",
+    "response": null,
+    "created": 1790596804,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_kaj_viborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 45,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Niels, who lives in Helsingør and can't help slipping in a Danish idiom now and then. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige hjælpe mig med at finde en god opskrift på smørrebrød? Jeg er så sulten, at jeg kunne spise en hest – altså, det er jo bare et udtryk, men stadig! Og helst en der ikke tager hele dagen, for tiden flyver jo afsted, ik’?",
+    "response": null,
+    "created": 1790596812,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_niels_helsingor",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 46,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Niels, who lives in Helsingør and can't help slipping in a Danish idiom now and then. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige hurtigt tjekke hvornår afgangen er for toget til København H? Det er lidt 'på hovedet', altså, jeg har glemt at planlægge, hahaha. Og er der nogen forsinkelser?",
+    "response": null,
+    "created": 1790596812,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_niels_helsingor",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 47,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Niels, who lives in Helsingør and can't help slipping in a Danish idiom now and then. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej AI, kan du lige hjælpe mig med at finde ud af, hvad der sker med tidevandet i Øresund i morgen? Det er lidt af en \"helvedes færd\" at komme til København, hvis jeg misser strømmen, du ved, og jeg vil helst ikke \"stå med skægget i postkassen\". Tak!",
+    "response": null,
+    "created": 1790596812,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_niels_helsingor",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 48,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Niels, who lives in Helsingør and can't help slipping in a Danish idiom now and then. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej AI, kan du lige hjælpe mig med at finde opskrifter på smørrebrød? Jeg har sådan en lyst til noget godt på rugbrød, og nu skal der jo ikke spares på fedtet... lille bitte! Men altså, noget der ikke er helt for 'på den måde' hvis du forstår, altså ikke for fancy. Og kan du helst inkludere nogle med sild? Det er jo 'sild i eddike', ikke? 😉",
+    "response": null,
+    "created": 1790596812,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_niels_helsingor",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 49,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Niels, who lives in Helsingør and can't help slipping in a Danish idiom now and then. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige undersøge, hvad udløbsdatoen er på mit pas? Jeg har så dårlig en hukommelse, jeg er helt blank – det er altså sten for sten ved jeg det ikke. Og hvis du kan, så sig lige om der er noget galt med det. Tak!",
+    "response": null,
+    "created": 1790596812,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_niels_helsingor",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 50,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Mette, who lives in Slagelse and loves to use old Danish idioms and proverbs whenever she can. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Jeg skal lige have hjælp til at køre noget tekst igennem, min computer er vist blevet lidt \"træt i knæene\", og så er det jo \"man skal ikke kaste med sten, hvis man selv bor i et glashus\" - den tekst er lidt følsom, så vær diskret, ikke sandt?",
+    "response": null,
+    "created": 1790596823,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_mette_slagelse",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 51,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Mette, who lives in Slagelse and loves to use old Danish idioms and proverbs whenever she can. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nu sidder jeg her og har mere om ørerne end jeg kan bide i, så kan du ikke lige hjælpe en gammel kone? Jeg skal have styr på kalenderen, men det er som at lede efter en nål i en høstak. \"Hurtigt over isen,\" som man siger, ikke?",
+    "response": null,
+    "created": 1790596823,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_mette_slagelse",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 52,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Mette, who lives in Slagelse and loves to use old Danish idioms and proverbs whenever she can. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nu hjælper du mig lige, kære assistent. Min moster Oda, hun er vist altså faldet for en karl, der er mere løs på træet end en ged i lapland. Kan du ikke lige finde ud af, om der er nogen artikler om dating-svindel i Slagelse? Man skal jo ikke kaste perler for svin, men man kan godt lige tjekke, så Oda ikke bliver ribbet for alle sine sparepenge, ikke sandt?",
+    "response": null,
+    "created": 1790596823,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_mette_slagelse",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 53,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Mette, who lives in Slagelse and loves to use old Danish idioms and proverbs whenever she can. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nu skal du høre her, kloge Åge. Jeg skal til møde hos tandlægen i morgen, og jeg er så pokkers nervøs. Hvad er det nu, man siger? \"Man skal ikke sælge skindet før bjørnen er skudt\", men jeg føler allerede, at jeg har solgt skindet! Kan du finde nogle gode råd til at tage toppen af nervøsiteten – altså, ikke noget hokus pokus, bare noget fornuftigt. Og skynd dig nu, tiden løber fra mig, som vand fra en brudt krukke!",
+    "response": null,
+    "created": 1790596823,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_mette_slagelse",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 54,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Mette, who lives in Slagelse and loves to use old Danish idioms and proverbs whenever she can. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hov, hej! Kan du ikke lige finde ud af, om der er chance for regn i morgen? Man siger jo, at værste bud kan ske, og man skal ikke sælge skindet før bjørnen er skudt, så jeg vil lige være på den sikre side, forstå du.",
+    "response": null,
+    "created": 1790596823,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_mette_slagelse",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 55,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Karen, who lives in Næstved and enjoys sprinkling Danish sayings into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige hjælpe mig med at finde den opskrift på æblekage min mormor altid lavede? Jeg har sådan en 'gusten' i maven for noget sødt, og jeg husker bare ikke præcis ingredienserne. Det er 'lige over', som man siger, nu!",
+    "response": null,
+    "created": 1790596829,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_karen_naestved",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 56,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Karen, who lives in Næstved and enjoys sprinkling Danish sayings into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kunne du lige slå op hvad tid solen står op i Næstved i morgen? Det er jo *lige højt i himlen* at jeg skal afsted tidligt, men man kan jo ikke stole på alt man hører. Og *godt brød behøver ingen smør*, men en præcis solopgangstid er nu alligevel rar at have! 😄",
+    "response": null,
+    "created": 1790596829,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_karen_naestved",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 57,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Karen, who lives in Næstved and enjoys sprinkling Danish sayings into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Jeg skal lige tjekke, om du kan hjælpe mig – kan du finde nogle opskrifter på rabarbergrød? Det er jo nu den er god, ha'? Og helst nogle, der ikke er for besværlige, for man skal jo ikke slide sig halvt ihjel, vel?",
+    "response": null,
+    "created": 1790596829,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_karen_naestved",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 58,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Karen, who lives in Næstved and enjoys sprinkling Danish sayings into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige finde ud af, hvad klokken er i Sydney? Og altså, bare lige for at have det på det rene - \"godt brød er halvt spist!\" 😉",
+    "response": null,
+    "created": 1790596829,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_karen_naestved",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 59,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Karen, who lives in Næstved and enjoys sprinkling Danish sayings into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige hjælpe mig med at finde opskriften på æbleskiver? Jeg har virkelig lyst til nogle, men jeg er helt blank, og man skal jo ikke kaste perler for svin, ikke sandt? 😊",
+    "response": null,
+    "created": 1790596829,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_karen_naestved",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 60,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ida, who lives in Fredericia and always has an old proverb ready for the occasion. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej AI, er der ikke noget ved at \"man skal ikke sælge skindet før bjørnen er skudt\"? Jeg skal bruge en google-kalender reminder, men er lidt i tvivl om hvornår, og vil lige være sikker på min sag.",
+    "response": null,
+    "created": 1790596837,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_ida_fredericia",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 61,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ida, who lives in Fredericia and always has an old proverb ready for the occasion. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Har du et øjeblik? Jeg skal lige høre om vejret i morgen, for man siger jo: \"Man skal ikke sælge skindet før bjørnen er skudt.\" Jeg vil helst ikke blive overrasket!",
+    "response": null,
+    "created": 1790596837,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_ida_fredericia",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 62,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ida, who lives in Fredericia and always has an old proverb ready for the occasion. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej, kan du lige slå op hvad 'hastighed skaber travlhed' betyder? Og det skal helst være på en måde, min gamle tante Oda ville forstå, ikke sådan et fint akademisk ordvalg.",
+    "response": null,
+    "created": 1790596837,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_ida_fredericia",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 63,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ida, who lives in Fredericia and always has an old proverb ready for the occasion. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej. Jeg fik lige en regning, der er helt ude af proportioner, og min nabo sagde lige, at det er min egen skyld, fordi jeg er for godtroende. Kan du måske finde et passende ordsprog? Noget i retning af \"man skal ikke gabe over for meget\", eller \"som man sår, høster man\", men måske… et lidt anderledes? Og helst ikke alt for belærende. Bare sådan lidt mildt drillende.",
+    "response": null,
+    "created": 1790596837,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_ida_fredericia",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 64,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ida, who lives in Fredericia and always has an old proverb ready for the occasion. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej. Kan du lige slå op hvad \"man skal ikke kaste med sten hvis man selv sidder i et glashus\" betyder? Altså, hvad er den oprindelige betydning, og er der andre sprog hvor de siger det omtrent det samme?  Og husk, \"som man sår, høster man\", ikke?",
+    "response": null,
+    "created": 1790596837,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_ida_fredericia",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 65,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Pia, who lives in Holstebro and peppers her speech with Danish idioms and proverbs. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "```",
+    "response": null,
+    "created": 1790596847,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_pia_holstebro",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 66,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Pia, who lives in Holstebro and peppers her speech with Danish idioms and proverbs. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige hjælpe mig med at finde en opskrift på flæskesteg? Der er jo *ingen vej udenom* at jeg skal lave det til jul, selvom *man skal ikke sælge skindet før bjørnen er skudt*, men jeg vil altså være forberedt! Og helst en der ikke er alt for besværlig, for *hastværk er lastværk*, ikke? Sig til hvis du har noget godt. Tak skal du have!",
+    "response": null,
+    "created": 1790596847,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_pia_holstebro",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 67,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Pia, who lives in Holstebro and peppers her speech with Danish idioms and proverbs. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nu skal du høre her, kloge-Åge. Jeg sidder her og skal lave en fødselsdagskage til min søster, men jeg har slet ikke overskud til det. Jeg ville bare lige høre, om du kan finde en opskrift på en hurtig en af slagsen – sådan en, hvor man ikke skal stå og piske æggehvider i timevis, for det er jo ’at spilde vand på at kværne’. Og den skal jo helst ikke smage af savsmuld, hva’?",
+    "response": null,
+    "created": 1790596847,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_pia_holstebro",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 68,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Pia, who lives in Holstebro and peppers her speech with Danish idioms and proverbs. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige huske hvad det der, øh, 'the art of doing things' hedder på dansk? Altså, den der hvor man ikke skal male fanden på væggen, og bare får tingene klaret, du ved. Jeg er lidt ude af trit med mig selv i dag, og så er det som at bære vand til havet at lede rundt efter det. Kan du hjælpe en gammel kone på vej? 😉",
+    "response": null,
+    "created": 1790596847,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_pia_holstebro",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 69,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Pia, who lives in Holstebro and peppers her speech with Danish idioms and proverbs. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Okay, så, er der ikke lige en som kan hjælpe mig? Jeg er jo helt ude på dybt vand her. Min faster Oda skal have en fødselsdagssang, og jeg er jo ikke ligefrem født med sølvskeen i munden når det kommer til at skrive, du ved. Kan du ikke bare spytte noget ud, noget der ikke er helt \"at gå som kragerne langs hegnet\", altså? Bare noget hjerteligt og pænt. Og helst ikke for langt, hun er jo ikke blevet Valentino Rossi, haha.",
+    "response": null,
+    "created": 1790596847,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_pia_holstebro",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 70,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hanne, who lives in Sønderborg and loves dropping old Danish sayings into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nu skal du høre her, kloge Ærgerlig. Kan du finde ud af, hvornår man holder julemarked på Gråsten Slot? Og sig ikke, at ‘tidens tand spiser alting’, for jeg skal jo afsted i år!",
+    "response": null,
+    "created": 1790596857,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_hanne_sonderborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 71,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hanne, who lives in Sønderborg and loves dropping old Danish sayings into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hjælp mig lige, kære. Jeg skal have fundet opskriften på min mormors æblesmør, men den er altså væk! Nu skal jeg ikke fare i spin, men 'man kan ikke stole på sin egen hukommelse' som mor altid sagde. Kan du finde noget der ligner, helst noget Ribe-style, for det var hende, der lærte min mormor at lave det?",
+    "response": null,
+    "created": 1790596857,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_hanne_sonderborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 72,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hanne, who lives in Sønderborg and loves dropping old Danish sayings into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige hjælpe mig med at google noget? Jeg står og bager småkager, og jeg har lovet mine børnebørn, at jeg vil bage “Hønen og ægget” – men jeg er altså blevet lidt forvirret. Der er jo en million opskrifter, og man siger jo, “man er aldrig for gammel til at lære”, men jeg er næsten ved at give op! Kan du finde en god, simpel opskrift, så jeg kan komme videre? Og husk nu, “skynd dig langsomt”, ikke? 😉",
+    "response": null,
+    "created": 1790596857,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_hanne_sonderborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 73,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hanne, who lives in Sønderborg and loves dropping old Danish sayings into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kunne du måske hjælpe mig med at finde opskriften på bedstemors æblekage? Den er altså \"god som nybagt brød\", men jeg har glemt præcis hvordan hun lavede den. Og husk, den SKAL være med remonce! Tænker også, det er \"hellere forebygge end helbrede\" at finde den nu, så jeg ikke står og mangler den til weekenden. Tak for hjælpen!",
+    "response": null,
+    "created": 1790596857,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_hanne_sonderborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 74,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hanne, who lives in Sønderborg and loves dropping old Danish sayings into conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej, kan du lige finde ud af hvad vejret bliver her i Sønderborg de næste par dage? \"Man skal ikke spilde krudt på døde heste\", men man kan godt planlægge en cykeltur hvis solen skinner, hva'?",
+    "response": null,
+    "created": 1790596857,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_hanne_sonderborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 75,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Bodil, who lives in Svendborg and enjoys quoting Danish proverbs whenever she gets the chance. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hej, kan du lige hjælpe mig med at finde 'sjæl og sind'? Jeg skal lave en lille tale, og 'øvelse gør mester', men mine ord mangler lidt finesse. Måske du har nogle gode formuleringer om det emne? For 'hvad man sår, det høster man', og jeg vil gerne så nogle virkelig gode frø!\"",
+    "response": null,
+    "created": 1790596863,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_bodil_svendborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 76,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Bodil, who lives in Svendborg and enjoys quoting Danish proverbs whenever she gets the chance. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hej! Kan du lige slå det op for mig, hvad \"man skal ikke glemme sine rødder\" betyder? Min nabo, Hans, snakkede om det i går, og jeg kunne jo ikke lige svare ham – \"den, der tier, den tier kun til sit eget bedste\", ved du? Men nu vil jeg altså gerne vide det, så jeg er klar næste gang. Tak!\"",
+    "response": null,
+    "created": 1790596863,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_bodil_svendborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 77,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Bodil, who lives in Svendborg and enjoys quoting Danish proverbs whenever she gets the chance. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du finde ud af hvornår AaB vandt deres sidste DM? \"Man skal ikke forhaste sig med at sælge sine høns før de er klækket\" – men jeg er nu meget spændt på svaret alligevel!",
+    "response": null,
+    "created": 1790596863,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_bodil_svendborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 78,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Bodil, who lives in Svendborg and enjoys quoting Danish proverbs whenever she gets the chance. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! 'Man skal ikke spilde krudt på døde heste' – men kan du alligevel lige finde ud af, hvornår næste færge afgår fra Svendborg til Ærø? Tak skal du!",
+    "response": null,
+    "created": 1790596863,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_bodil_svendborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 79,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Bodil, who lives in Svendborg and enjoys quoting Danish proverbs whenever she gets the chance. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hej, kan du lige finde ud af, hvornår solen går ned i Svendborg i morgen? Man skal jo kende sin besøgelsestid, ikke?\"",
+    "response": null,
+    "created": 1790596863,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_bodil_svendborg",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 80,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Freja, who lives in Hillerød and likes to season her stories with old Danish idioms. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej, kan du hjælpe mig at finde et par gode opskrifter på rabarbermarmelade? Min moster har jo sådan en retorsk have, og jeg står med et bjerg af rabarber, at jeg kunne mætte en hær. Bare noget, der ikke er for fikumdik - altså, jeg er ikke den store mesterkok, forstå du. Og måske en der ikke kræver at man skal 'finde sig en ny kæreste' for at få det til at lykkes? 😉",
+    "response": null,
+    "created": 1790596876,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_freja_hillerod",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 81,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Freja, who lives in Hillerød and likes to season her stories with old Danish idioms. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du finde ud af, hvad det betyder at \"at give en kolde skulder\"? Jeg har brugt det i en historie, jeg skriver, og så slog det mig, at de unge måske ikke kender det længere. Det er jo ikke ligefrem \"nemme stavelejer\", vel? Og kan du måske give mig nogle eksempler på, hvordan man kan bruge det i en sætning? Man skal jo huske at \"lige penge giver lige dele\", så vær nu ordentlig grundig, tak!",
+    "response": null,
+    "created": 1790596876,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_freja_hillerod",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 82,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Freja, who lives in Hillerød and likes to season her stories with old Danish idioms. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kunne du ikke lige hjælpe mig med at finde på en god pointe til en historie? Det skal være lidt i stil med... øh... “man skal ikke sælge skindet før bjørnen er skudt”, sådan lidt gammeldags visdom, men måske med et tvist. Og helst noget der passer til, at historien foregår i Nordsjælland. Det er lidt af en knude, det her!",
+    "response": null,
+    "created": 1790596876,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_freja_hillerod",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 83,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Freja, who lives in Hillerød and likes to season her stories with old Danish idioms. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du hjælpe mig med at finde på en historie? Jeg sidder og prøver at skrive en lille fortælling om en kat, der har været ude at fare, men jeg mangler lige et godt \"krydderi\". Noget lidt gammeldags, ved du. Måske en sætning eller to, som får det til at lyde lidt mere... \"som for i tiden\"? Altså, ikke bare \"katten var træt\", men måske noget i stil med \"katten havde mange omveje at takke for\", eller noget i den stil. Jeg skal nok fortælle mere om katten, hvis du vil høre – den har virkelig fået \"skovlen under sig\", den stakkel.",
+    "response": null,
+    "created": 1790596876,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_freja_hillerod",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 84,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Freja, who lives in Hillerød and likes to season her stories with old Danish idioms. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du måske hjælpe mig lidt? Jeg sidder og skriver en historie, og er helt blank på, hvordan man siger \"to be on the same page\" på ordentlig dansk. Altså ikke bare den direkte oversættelse, for det lyder jo helt tomt. Hvad ville man sige, når nogen skal forstå, at alle er enige og ved hvad der sker? Nå, det er jo *som at skovle grus op ad bakke* at finde det rigtige udtryk, men du er jo klogere end mig… ☺️",
+    "response": null,
+    "created": 1790596876,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_freja_hillerod",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 85,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Grete, who lives in Køge and always reaches for a saying to make her point. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej AI, kan du lige finde ud af, hvad klokken er i Perth, Australien? Som man siger, 'tiden flyver' og jeg har lovet at ringe til min veninde derovre, men har glemt at kigge på klokken. Åh ja, og hvis du samtidig kunne sige, hvor lang tid det er til, den danske sommer kommer, ville det være super!",
+    "response": null,
+    "created": 1790596882,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_grete_koge",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 86,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Grete, who lives in Køge and always reaches for a saying to make her point. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige tjekke om toget kører til tiden i morgen fra Køge til København? Ellers må man jo stå i blomsterbedet, ikke sandt? 😅",
+    "response": null,
+    "created": 1790596882,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_grete_koge",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 87,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Grete, who lives in Køge and always reaches for a saying to make her point. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du ikke lige finde ud af hvor mange grader der er i Köge lige nu? Det er jo 'som at forudsige fremtiden at kende vejret', men altså, jeg skal ud og vide om jeg skal have en jakke med. Tak!",
+    "response": null,
+    "created": 1790596882,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_grete_koge",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 88,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Grete, who lives in Køge and always reaches for a saying to make her point. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Okay, så, jeg skal lige ha’ hjælp til at finde et godt citat - som man siger, “man skal ikke sælge skindet før bjørnen er skudt”, til et brev jeg skal skrive. Det skal handle om en investering, der stadig er usikker, og så vil jeg gerne henvises til det citat i brevet. Kan du hjælpe?",
+    "response": null,
+    "created": 1790596882,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_grete_koge",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 89,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Grete, who lives in Køge and always reaches for a saying to make her point. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hej! Kan du lige hurtigt finde ud af, hvad er \"indboforsikring dækker\" – altså, hvad dækker man egentlig? Jeg er søren ikke i tvivl, og som man siger, 'bedre at være på den sikre side', ikke? Tak.\"",
+    "response": null,
+    "created": 1790596882,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_grete_koge",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 90,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Solveig, who lives in Horsens and loves working old Danish proverbs into casual conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kunne du lige slå op hvad 'man tager sig en fræk en' egentlig betyder? Min mormor sagde det lige, og jeg må indrømme jeg står af… 'Den der trækker i tunge, får ikke lov at spise grød' - men jeg er altså blank lige nu. Tak!",
+    "response": null,
+    "created": 1790596891,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_solveig_horsens",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 91,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Solveig, who lives in Horsens and loves working old Danish proverbs into casual conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige finde ud af hvad \"man skal ikke sælge skindet før bjørnen er skudt\" betyder på moderne dansk? Det minder mig lidt om situationen med min ven, Jens - men jeg forklarede ham allerede at \"hastighed har ingen hast\". Håber du kan hjælpe! 😊",
+    "response": null,
+    "created": 1790596891,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_solveig_horsens",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 92,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Solveig, who lives in Horsens and loves working old Danish proverbs into casual conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige tjekke om der er et loppemarked i Horsens i morgen? Man skal jo slå to fluer med et hug, ikke sandt? Og hvis du finder et, kan du så også se om de har nogen gamle møbler? Tjekker bare lige om der er noget der hjemme hører til.",
+    "response": null,
+    "created": 1790596891,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_solveig_horsens",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 93,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Solveig, who lives in Horsens and loves working old Danish proverbs into casual conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hej! Du, kan du lige tjekke om 'man skal ikke sælge skindet før bjørnen er skudt' også er på engelsk? Jeg prøver at forklare det til en amerikansk ven, men synes ikke det klatrer helt. Hun siger det lyder vildt 😂. Og mens du er i gang, har du så også en god oversættelse af 'sko på dem der trykker'? Det er også svært at forklare uden at lyde som en galning, hihi.\"",
+    "response": null,
+    "created": 1790596891,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_solveig_horsens",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 94,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Solveig, who lives in Horsens and loves working old Danish proverbs into casual conversation. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige tjekke om \"Man skal ikke sælge skindet, før bjørnen er skudt,\" også bruges på engelsk? Altså, er der en tilsvarende ordsprog? Og hvis ja, ville du så kunne oversætte \"Hurtige øjne, men tunge fødder\" til engelsk for mig også? Bare lige for at være sikker på at jeg ikke ender med at bruge det forkert, ikke?",
+    "response": null,
+    "created": 1790596891,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_solveig_horsens",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 95,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Tove, who lives in Thisted and can't help slipping in a Danish idiom now and then. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige hjælpe mig med at finde en opskrift på rabarbermuffins? Jeg har en bunke rabarber, der skal bruges, ellers går de jo til spilde – dét skal man jo undgå, ikke sandt? Og helst en der ikke er *alt for* svær, for jeg er altså ikke den store bager, hehe. Sådan lidt ligetil, ved du.",
+    "response": null,
+    "created": 1790596899,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_tove_thisted",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 96,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Tove, who lives in Thisted and can't help slipping in a Danish idiom now and then. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige hjælpe mig med at finde opskriften på en god æblekage? Altså, sådan en, der virkelig kan få tænderne til at synge – for jeg er altså lidt på herrens marke med bagningen, du ved. Men jeg har en pose æbler der skal bruges, så det skal være nu! Håber du kan, ellers går jeg bare helt amok.",
+    "response": null,
+    "created": 1790596899,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_tove_thisted",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 97,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Tove, who lives in Thisted and can't help slipping in a Danish idiom now and then. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hun er jo begyndt at køre på løbehjul, min datter. Kan du finde nogle gode sikkerhedsråd? Jeg er lidt bekymret, du ved, man skal ikke kaste perler for svinene, men bedre føre var… altså, den med at være forsigtig.",
+    "response": null,
+    "created": 1790596899,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_tove_thisted",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 98,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Tove, who lives in Thisted and can't help slipping in a Danish idiom now and then. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hej! Kan du lige slå opskriften på æblekage op, den der med crumble? Altså, jeg har jo som sagt lidt for meget på komfuret, det er jo ikke just det kønneste i verden lige nu, haha. Men en æblekage dur altid, ikke sandt? Og måske du kan finde en, der ikke er *alt* for svær? Jeg er jo ikke ligefrem en mesterkok, du ved.",
+    "response": null,
+    "created": 1790596899,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_tove_thisted",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 99,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Tove, who lives in Thisted and can't help slipping in a Danish idiom now and then. Write, in Danish, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hey, kan du lige tjekke om der er melder storm i morgen? Jeg skal jo over til Lild, og det er ikke just en tur 'med underbukserne', ligesom. Og hvad med vejret i Averballe? Min søster er der, og man ved jo aldrig.",
+    "response": null,
+    "created": 1790596899,
+    "gen_input_configs": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "dk_tove_thisted",
+      "language": "Danish"
+    },
+    "gen_response_configs": null
+  }
+]
