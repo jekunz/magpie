@@ -1,4 +1,28 @@
 import re
+import json
+
+def load_persona(persona, personas_file="../configs/personas.json"):
+    '''
+    Resolve a persona argument to a persona description string.
+    If `persona` matches a key in the personas file, return the corresponding description.
+    Otherwise, treat `persona` as a literal persona description.
+    '''
+    with open(personas_file, "r", encoding="utf-8") as f:
+        personas = json.load(f)
+    return personas.get(persona, persona)
+
+def build_persona_language_system_prompt(persona=None, language=None):
+    '''
+    Build a system prompt that conditions instruction generation on a persona and/or a target language,
+    following the same style as Magpie's built-in math/code/translation control tasks.
+    '''
+    system_prompt = "You are a helpful AI assistant."
+    if persona:
+        system_prompt += f" The user is {persona}, and will ask you a wide range of questions related to their perspective, interests, and needs."
+    if language:
+        system_prompt += f" The user writes in {language}, and expects your responses to be in {language} as well."
+    system_prompt += " Provide helpful, detailed, and contextually appropriate answers."
+    return system_prompt
 
 def input_difficulty_rating(input):
     user_message = f'''

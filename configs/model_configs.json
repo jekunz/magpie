@@ -21,7 +21,9 @@
     "pre_query_template_with_system_prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nA chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_math": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on solving math problems. The user will ask you a wide range of complex mathematical questions.\nYour purpose is to assist users in understanding mathematical concepts, working through equations, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_code": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on coding problems. The user will ask you a wide range of coding questions.\nYour purpose is to assist users in understanding coding concepts, working through code, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
-    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
+    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+    "system_prompt_prefix": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n",
+    "system_prompt_suffix": "<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
   },
   "meta-llama/Meta-Llama-3.1-8B-Instruct": {
     "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -45,7 +47,9 @@
     "pre_query_template_with_system_prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nA chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_math": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on solving math problems. The user will ask you a wide range of complex mathematical questions.\nYour purpose is to assist users in understanding mathematical concepts, working through equations, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_code": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on coding problems. The user will ask you a wide range of coding questions.\nYour purpose is to assist users in understanding coding concepts, working through code, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
-    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
+    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+    "system_prompt_prefix": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n",
+    "system_prompt_suffix": "<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
   },
   "meta-llama/Meta-Llama-3-70B-Instruct": {
     "model_name": "meta-llama/Meta-Llama-3-70B-Instruct",
@@ -69,7 +73,9 @@
     "pre_query_template_with_system_prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nA chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_math": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on solving math problems. The user will ask you a wide range of complex mathematical questions.\nYour purpose is to assist users in understanding mathematical concepts, working through equations, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_code": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on coding problems. The user will ask you a wide range of coding questions.\nYour purpose is to assist users in understanding coding concepts, working through code, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
-    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
+    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+    "system_prompt_prefix": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n",
+    "system_prompt_suffix": "<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
   },
   "meta-llama/Meta-Llama-3.1-70B-Instruct": {
     "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -93,7 +99,9 @@
     "pre_query_template_with_system_prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nA chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_math": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on solving math problems. The user will ask you a wide range of complex mathematical questions.\nYour purpose is to assist users in understanding mathematical concepts, working through equations, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_code": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on coding problems. The user will ask you a wide range of coding questions.\nYour purpose is to assist users in understanding coding concepts, working through code, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
-    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
+    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+    "system_prompt_prefix": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n",
+    "system_prompt_suffix": "<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
   },
   "meta-llama/Meta-Llama-3.1-405B-Instruct": {
     "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct",
@@ -117,7 +125,9 @@
     "pre_query_template_with_system_prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nA chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_math": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on solving math problems. The user will ask you a wide range of complex mathematical questions.\nYour purpose is to assist users in understanding mathematical concepts, working through equations, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_code": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on coding problems. The user will ask you a wide range of coding questions.\nYour purpose is to assist users in understanding coding concepts, working through code, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
-    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
+    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+    "system_prompt_prefix": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n",
+    "system_prompt_suffix": "<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
   },
   "meta-llama/Llama-3.3-70B-Instruct": {
     "model_name": "meta-llama/Llama-3.3-70B-Instruct",
@@ -141,7 +151,9 @@
     "pre_query_template_with_system_prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nA chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_math": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on solving math problems. The user will ask you a wide range of complex mathematical questions.\nYour purpose is to assist users in understanding mathematical concepts, working through equations, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
     "pre_query_template_code": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on coding problems. The user will ask you a wide range of coding questions.\nYour purpose is to assist users in understanding coding concepts, working through code, and arriving at the correct solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
-    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
+    "pre_query_template_translation": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant specifically designed to provide accurate and contextually appropriate translations. Users will ask you to translate text between various languages.\nYour purpose is to assist users in understanding and conveying meaning across languages, maintaining the original context and nuances.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+    "system_prompt_prefix": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n",
+    "system_prompt_suffix": "<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
   },
   "lmsys/vicuna-7b-v1.5": {
     "model_name": "lmsys/vicuna-7b-v1.5",
@@ -427,7 +439,9 @@
       "assistant"
     ],
     "pre_query_template": "<|im_start|>user\n",
-    "pre_query_template_with_system_prompt": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n"
+    "pre_query_template_with_system_prompt": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n",
+    "system_prompt_prefix": "<|im_start|>system\n",
+    "system_prompt_suffix": "<|im_end|>\n<|im_start|>user\n"
   },
   "Qwen/Qwen1.5-7B-Chat": {
     "model_name": "Qwen/Qwen1.5-7B-Chat",
@@ -675,5 +689,26 @@
       "assistant"
     ],
     "pre_query_template": "<｜begin▁of▁sentence｜>User: "
+  },
+  "google/gemma-4-31B-it": {
+    "model_name": "google/gemma-4-31B-it",
+    "stop_tokens": [
+      "<turn|>",
+      "<|turn>",
+      "<eos>"
+    ],
+    "stop_token_ids": [
+      106,
+      105,
+      1
+    ],
+    "stop_tokens_assistant": [
+      "model"
+    ],
+    "pre_query_template": "<bos><|turn>user\n",
+    "mt_append_template": "<|turn>user\n",
+    "pre_query_template_with_system_prompt": "<bos><|turn>system\nYou are a helpful assistant.<turn|>\n<|turn>user\n",
+    "system_prompt_prefix": "<bos><|turn>system\n",
+    "system_prompt_suffix": "<turn|>\n<|turn>user\n"
   }
 }
