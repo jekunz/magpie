@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 0,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hans, who lives in Freiburg and loves to use old German idioms and proverbs whenever he can. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Sagt mal, könntest du mir auf die Sprünge helfen? Ich brauch jetzt mal ’nen klugen Kopf, denn mir ist grad’ die dumme Frage durch den Kopf gegeangen, was wohl die Wurzel aus 78,546 wär. Voll aus dem Bauch raus, quasi. Aber trotzdem lieber genau, wenn’s geht. Und bitte nicht mit spitzen Fingern Nestchen spielen, mir sollen auch die Einheiten klar sein.",
+    "response": null,
+    "created": 1790600907,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_hans_freiburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 1,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hans, who lives in Freiburg and loves to use old German idioms and proverbs whenever he can. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Was meinst du denn, kluge Kerl, ob es morgen in den Bergen Schnee gibt? Man soll ja den Tag nicht vor dem Abend loben, aber ein bisschen Hoffnung darf’s ja sein, nicht wahr? Und vergiss nicht: Morgenstund hat Gold im Mund!",
+    "response": null,
+    "created": 1790600907,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_hans_freiburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 2,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hans, who lives in Freiburg and loves to use old German idioms and proverbs whenever he can. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Also, the contents of this message should involve a useful task for an AI assistant.",
+    "response": null,
+    "created": 1790600907,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_hans_freiburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 3,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hans, who lives in Freiburg and loves to use old German idioms and proverbs whenever he can. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Was mir grad' durch den Kopf geht, das ist ja 'ne Sach' für dich, mein digitales Gehirn. Könntest du mal schauen, ob's noch gestimmt hat, was der Wetterfrosch vorgestern gesagt hat? \"Ende mit Schnee\", hat er getönt, aber draußen ist 'ne Glatteisbahn! Da kann man ja wirklich 'ne Kuh auf Eis kratzen! Wahrscheinlich hat der nur aus dem Blaue heraus geredet, der alte Gauner. Mach mal schlau, ja?",
+    "response": null,
+    "created": 1790600907,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_hans_freiburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 4,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hans, who lives in Freiburg and loves to use old German idioms and proverbs whenever he can. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, spuck's aus, du geschicktes Ding! Ich bräuchte 'ne Auskunft, und \"Kommt Zeit, kommt Rat\" heißt es ja, aber im Moment bin ich so ratlos wie ein Fisch am Lande. Kannst du mir sagen, ob es am Dreisamtal-Radweg heute trocken ist? \"Wer nicht wagt, der nicht gewinnt\", also frag einfach mal nach, ja?",
+    "response": null,
+    "created": 1790600907,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_hans_freiburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 5,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Klaus, who lives in Passau and loves to sprinkle German idioms and proverbs into every conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Servus! Sag mal, könntest du mir kurz auf die Sprünge helfen? Ich bin gerade dabei, für einen Geburtstagsempfang zu planen, aber ich hab das Gefühl, die Zeit rennt mir durch die Lappen. Nicht, dass am Ende alles in den Sand gesetzt wird! Kannst du mir vielleicht ein paar Ideen für ein kleines Buffet liefern? Da soll nicht der Wolf im Schafspelz sein, verstehst du? Also, eher was bodenständiges, deutsches. Und bitte, mach schnell, bevor der Tag ins Land geht!\"",
+    "response": null,
+    "created": 1790600916,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_klaus_passau",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 6,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Klaus, who lives in Passau and loves to sprinkle German idioms and proverbs into every conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, du künstliche Intelligenz – mach ma’ schnell! Ich hab’ da a Frage. Mir geht’s grad’n Bär im Wald herum, weil ich die Steuererklärung machen muss. Ist ja a Wampe, des Ganze! Kannst mi a bissl helfen, oder suchst a Prellbock für meine Fragen? Vielleicht kannst a Pferd ausfliesen lassen, was mir am besten passt. Hauptsach, net lang fahrn lassen!",
+    "response": null,
+    "created": 1790600916,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_klaus_passau",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 7,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Klaus, who lives in Passau and loves to sprinkle German idioms and proverbs into every conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, kannst du mir mal eben nach dem Rezept für Apfelstrudel schauen? Meine Frau sagt, \"Der Apfel fällt nicht weit vom Stamm,\" weil ich es schon wieder vergessen hab. Aber weißt du, \"Übung macht den Meister!\", also hilft mir jetzt mal am besten, bevor es ein \"Fauxpas\" wird und ich den Abend im Keller verbringen darf. Danke im Voraus, \"Aller Anfang ist schwer!\", aber mit deiner Hilfe pack ich das schon.",
+    "response": null,
+    "created": 1790600916,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_klaus_passau",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 8,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Klaus, who lives in Passau and loves to sprinkle German idioms and proverbs into every conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, kannst du mir mal eben verraten, was ‘auf dem Holzweg sein’ heißt? Ich bin halt manchmal ein bisschen weltfremd, sagt meine Frau immer, und dann sitz ich da und steh’ vor einem Rätsel. Aber was soll’s, ‘Übung macht den Meister’, oder? Gib mir bitte ‘ne Erklärung, nicht so kompliziert, eher so, dass es ein Kind versteht. Danke im Voraus, ‘wer rastet, der rostet’!",
+    "response": null,
+    "created": 1790600916,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_klaus_passau",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 9,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Klaus, who lives in Passau and loves to sprinkle German idioms and proverbs into every conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo erstmal! Könntest du mir mal auf die Sprünge helfen? Ich brauche so richtig 'den Salat', also eine Übersicht über die aktuellen Blumenmuster-Trends. Und mach Spässe, verstehst du? Nicht nur 'trockene Theorie', ich will was, womit ich Eindruck schinden kann, bei meiner Katharina, versteh'n? Das ist 'nicht von ungefähr', die mag alles Hübsche. Also, leg los, 'putz dir die Zähne' und zeig mir, was so läuft!\"",
+    "response": null,
+    "created": 1790600916,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_klaus_passau",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 10,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Wolfgang, who lives in Trier and always has an old German saying ready for the occasion. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, sag mal, du digitale Alleskönner, \"Wer den Pfennig nicht ehrt, ist des Talers nicht wert\". Und kannst du mir sagen, wie das Wetter morgen in Trier wird? Genau, nicht nur \"sonnig\" oder so, sondern mit Temperatur und so einem Kram.",
+    "response": null,
+    "created": 1790600921,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_wolfgang_trier",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 11,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Wolfgang, who lives in Trier and always has an old German saying ready for the occasion. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "“Hallo, du digitale Allzweckwaffe! 'Wer den Pfennig nicht ehrt, ist des Talers nicht wert.' Sag mal, kannst du mir die aktuellen Weinfest-Termine in der Moselregion raussuchen, bitte?”",
+    "response": null,
+    "created": 1790600921,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_wolfgang_trier",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 12,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Wolfgang, who lives in Trier and always has an old German saying ready for the occasion. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo, lieber Assistent. Könntest du mir mal das Wetter für morgen in der Moselregion auskundschaften? 'Wer nicht wagt, der nicht gewinnt', sagt man ja, aber ich will mich dann auch entsprechend kleiden….\"",
+    "response": null,
+    "created": 1790600921,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_wolfgang_trier",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 13,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Wolfgang, who lives in Trier and always has an old German saying ready for the occasion. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo! Kannst du mir mal eben sagen, wie das Wetter morgen in Trier wird? 'Wer den Tag nicht kennt, kennt auch die Nacht nicht,' sagt man ja so schön. Aber kennen muss ich es trotzdem!\"",
+    "response": null,
+    "created": 1790600921,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_wolfgang_trier",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 14,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Wolfgang, who lives in Trier and always has an old German saying ready for the occasion. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Was isch dann jetz gewese? Kannste mir säen, wie dat Wedda in de Stellenaachbarschaft die nächsten drei Daag wär? „Wer wo nichts riskiert, der eet och nichts“ gilt jo jetzt ned fürn Spaziergang.",
+    "response": null,
+    "created": 1790600921,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_wolfgang_trier",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 15,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Jürgen, who lives in Rostock and peppers his speech with German idioms and proverbs. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo AI, kannst du mir mal eben helfen? Ich hab hier so'n richtiges 'italienisches Dorf', kapiert? Also, ich brauch 'nen Fahrplan für 'nen Umzug von Rostock nach Berlin, inklusive Kühlkette für die Fische. Da is'n ordentlicher 'Kraken' an Aufwand, sag bloß! Und 'wer rastet, der rostet', also los mit den Infos - bin ja nicht den ganzen Tag Zeit. Nicht, dass ich noch 'den Kopf in den Sand stecken' muss, wenn alles schiefgeht... 'Aller Anfang ist schwer', verstehste, aber du solltest das hinbekommen.\"",
+    "response": null,
+    "created": 1790600932,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_jurgen_rostock",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 16,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Jürgen, who lives in Rostock and peppers his speech with German idioms and proverbs. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na hör mal, kannst du eben fix mal nachschauen, ob die Chinesische Mauer wirklich vom Mond aus sichtbar ist? Mein Nachbar Hinrich, der schwätzt ja immer so ‘ne dicke Lippe, und ich will ihm doch nicht gleich den Wind aus den Segeln nehmen, aber wenn ich das widerlegen könnte, wär das doch was, verstehste? Ach, und vergiss bitte nicht: \"Wer anderen eine Grube gräbt, fällt selbst hinein\", das muss ich ihm dann sagen! Also, los jetzt, hau rein!",
+    "response": null,
+    "created": 1790600932,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_jurgen_rostock",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 17,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Jürgen, who lives in Rostock and peppers his speech with German idioms and proverbs. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Da schau her, mein kleiner Roboter, mal angenommen, ich wollte mir jetzt 'n ordentliches Schnitzelsemmel mit Gurkensalat machen, aber hab' vergessen, ob ich noch 'ne Prise Muskatnuss da bin. Kannste mir vielleicht auswendig sagen, wo ich letzte Zeit Lebensmittel eingekauft hab' – is' ja nicht von ungefähr, dass man manchmal vor lauter Bäumen den Wald nicht sieht, oder? Und wenn du mir gleich noch das Rezept für 'n guuden Eierlikör mitliefern könntest, wär dat 'n Sahnehäubchen!",
+    "response": null,
+    "created": 1790600932,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_jurgen_rostock",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 18,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Jürgen, who lives in Rostock and peppers his speech with German idioms and proverbs. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Also, translate the English translation of the message to make it as natural English as possible while maintaining the idiom usage.",
+    "response": null,
+    "created": 1790600932,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_jurgen_rostock",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 19,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Jürgen, who lives in Rostock and peppers his speech with German idioms and proverbs. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo KI, weißt du was? Mein Morgen fing schon wieder mit dem falschen Fuß an - hab mir den Kaffee über die Hose gekippt! Na, jetzt brauche ich dringend den aktuellen Fahrplan für die Straßenbahn Linie 5, damit ich nicht noch mehr Zeit habe, die wie Sand durch die Finger rinnt. Und wenn du das hast, schau mal, ob es irgendwo einen guten Imbiss gibt, wo man noch 'nen Bismarck herbekommt, bevor die alle weg sind. Ich hab Hunger wie ein Bär!",
+    "response": null,
+    "created": 1790600932,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_jurgen_rostock",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 20,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Dieter, who lives in Erfurt and loves dropping old German proverbs into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Moin! Sag mal, die Eile hasst das Kochen, stimmt doch? Ich brauch'n Rezept für Rinderrouladen, aber so richtig nach Omas Art. Nicht so 'n neumodischer Kram. Könnteste da helfen, oder muss ich mich wirklich selber ans Werk machen, \"wer nicht arbeitet, soll auch nicht essen\"?",
+    "response": null,
+    "created": 1790600940,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_dieter_erfurt",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 21,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Dieter, who lives in Erfurt and loves dropping old German proverbs into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Grüß Gott! Sag mal, kannst du mir vielleicht helfen? Ich bräuchte die Wettervorhersage für morgen hier in Erfurt. \"Morgenstund hat Gold im Mund\", aber vielleicht ist es ja auch nur Regenwetter… Schau mal, was das Ding sagt. Danke schon mal!",
+    "response": null,
+    "created": 1790600940,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_dieter_erfurt",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 22,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Dieter, who lives in Erfurt and loves dropping old German proverbs into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebe KI, sag mal, ich bin gerade dabei, ein Rezept für Apfelstrudel zu suchen und finde einfach nichts Gutes. \"Wer nicht wagt, der nicht gewinnt\", sagt man ja, aber vielleicht kannst du mir ja ein bewährtes Rezept empfehlen, bevor ich mich blind in ein Abenteuer stürze? Und am besten eines, das nicht zu kompliziert ist, denn \"Eile mit Weile\", wie meine Oma immer sagte. Danke dir!",
+    "response": null,
+    "created": 1790600940,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_dieter_erfurt",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 23,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Dieter, who lives in Erfurt and loves dropping old German proverbs into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebe KI, könntest du mal nachschauen, ob’s stimmt, was mein Nachbar erzählt hat? Der meint, „Wer rastet, der rostet“. Aber ich glaub, man braucht ja auch mal ’ne Pause, verstehst du? So richtig. Aber vielleicht hast du ja was dazu gefunden…und sag Bescheid.",
+    "response": null,
+    "created": 1790600940,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_dieter_erfurt",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 24,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Dieter, who lives in Erfurt and loves dropping old German proverbs into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo! Sag mal, ich brauche deinen Rat. Ich muss meiner Nichte zu ihrem Geburtstag einen Kuchen backen, aber ich bin ja kein Konditor. 'Übung macht den Meister', sagt man, aber ich bin etwas nervös. Kannst du mir ein Rezept für einen einfachen Obstkuchen geben? Einer, der 'auch ein blindes Huhn ein paar Körner pickt', sozusagen. Am besten mit Äpfeln oder Birnen, und nicht zu kompliziert. Danke im Voraus schonmal!\"",
+    "response": null,
+    "created": 1790600940,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_dieter_erfurt",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 25,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Manfred, who lives in Heidelberg and enjoys quoting German sayings whenever he gets the chance. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Morgen, mach mir mal bitte eine Liste mit guten Restaurants in Heidelberg. Und vergiss nicht: \"Wer rastet, der rostet!\" Also, gleich an die Arbeit, ja?",
+    "response": null,
+    "created": 1790600946,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_manfred_heidelberg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 26,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Manfred, who lives in Heidelberg and enjoys quoting German sayings whenever he gets the chance. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "ich brauche mal deine Hilfe, mein Lieber. Kannst du mir kurz aufschreiben, wann genau die Nacht des deutschen Weines in Mannheim stattfindet? \"Wer rastet, der rostet\", verstehen Sie? Also, beeil dich!",
+    "response": null,
+    "created": 1790600946,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_manfred_heidelberg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 27,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Manfred, who lives in Heidelberg and enjoys quoting German sayings whenever he gets the chance. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Moin! Könntest du mal eben schauen, ob der Zug nach Berlin heute pünktlich ist? \"Wer rastet, der rostet\", und ich muss da heute hin. Aber vorher muss ich wissen, wie lange ich noch habe, verstehst du?",
+    "response": null,
+    "created": 1790600946,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_manfred_heidelberg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 28,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Manfred, who lives in Heidelberg and enjoys quoting German sayings whenever he gets the chance. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Morgen, sag mal, könntest du mir vielleicht kurz auf den Punkt bringen, was jetzt in der Politik so los ist? \"Wer nicht hören will, muss fühlen!\", aber ich fühl‘ schon genug von dem ganzen Stress. Mach’s bitte nicht zu kompliziert, bin ja kein Jurist.",
+    "response": null,
+    "created": 1790600946,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_manfred_heidelberg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 29,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Manfred, who lives in Heidelberg and enjoys quoting German sayings whenever he gets the chance. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo! Könntest du mir vielleicht sagen, wie das Wetter morgen wird? 'Morgenstund hat Gold im Mund', aber ich will trotzdem gern wissen, ob ich einen Regenschirm mitnehmen muss. 'Wer nicht hören will, muss fühlen' – also, sag es ruhig, wenn es regnet!\"",
+    "response": null,
+    "created": 1790600946,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_manfred_heidelberg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 30,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Uwe, who lives in Tübingen and likes to season his stories with old German idioms. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Also, do *not* include any spell-check or grammatical corrections. It follows that the message could contain mistakes (after all, Uwe is being natural).",
+    "response": null,
+    "created": 1790600957,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_uwe_tubingen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 31,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Uwe, who lives in Tübingen and likes to season his stories with old German idioms. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, kannste mir mal fix 'n Gedicht basteln, aber sowas von richtig albern und reimt sich, brauch ich für meine Enkel. Nicht so 'n neumodischer Kram, sondern was, wo man noch weiß, was Sache is. So, quasi was in die Richtung von \"Als der Bäuerlein so jung war\". Und bitte, mach's nicht zu lang, die haben heut' zu kurz's Gedächtnis, diese Generation, weißt du? Ach ja, und wenn da so'n Fünkchen Wahrheit drinsteckt, wär's noch allerfeinster.",
+    "response": null,
+    "created": 1790600957,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_uwe_tubingen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 32,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Uwe, who lives in Tübingen and likes to season his stories with old German idioms. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebes KI-chen, sag mal, ich hätt eine Frage. Ich muss für meine Enkelin ein Gedicht über den Frühling schreiben, aber die Muse ist mir im Moment gründlich abhanden gekommen. Ach, der Frühling, \"Da steppt der Bär!\" ja fast schon, aber die Worte wollen nicht fließen. Kannst du mir vielleicht mit ein paar passenden Reimen und Bildern behilflich sein?  \"Wer den Pfennig nicht ehrt, ist des Talers nicht wert\" - gilt zwar für Geld, aber gleichsam auch für gute Reime, nicht wahr?",
+    "response": null,
+    "created": 1790600957,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_uwe_tubingen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 33,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Uwe, who lives in Tübingen and likes to season his stories with old German idioms. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, künstliche Intelligenz, hilf mir mal 'n bisschen auf die Sprünge. Ich hätt' da 'ne Geschichte im Kopf, aber die ist grad' wie der Strudel im Fluss, kommt einfach nicht so richtig rum. Ich wills halt so erzählen, dass die Leute dann sagen: \"Ach, da hat der Uwe ja mal wieder 'nen ordentlichen Draht zum Volk!\". Kennste vielleicht ein paar alte Sprichwörter, die da passen könnten, so richtig aus der Mottenkiste? Vielleicht was zum Thema Anfangszeit, Erfindung, oder so. Nicht zu modern, verstehste? Eher was, wo man die Zähne an ausbeissen hat.",
+    "response": null,
+    "created": 1790600957,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_uwe_tubingen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 34,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Uwe, who lives in Tübingen and likes to season his stories with old German idioms. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Ach du grüne Neune, mein lieber Roboter! Kannst du mir mal 'nen Strauß Eulen beibringen, wie man am besten 'nen gut geölten Redenschwung für 'ne Beerdigung zusammenbastelt? Solange Gegliedertes und nicht alles nur 'ne wilde Achterbahnfahrt. Müßte was pietätvolles sein, verstehst du? Nicht, dass ich noch am Ende im Kasten bin, bevor die Trauergäste überhaupt Blut geleckt haben!",
+    "response": null,
+    "created": 1790600957,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_uwe_tubingen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 35,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Rainer, who lives in Bamberg and always reaches for a proverb to make his point. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Könntest du mir mal sagen, wie das Wetter morgen wird? \"Wer den Wind sät, wird den Sturm ernten\", sagt man ja, aber bevor ich mich nach dem Wetter richte, wär's schon gut zu wissen, was kommt.",
+    "response": null,
+    "created": 1790600968,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_rainer_bamberg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 36,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Rainer, who lives in Bamberg and always reaches for a proverb to make his point. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "```",
+    "response": null,
+    "created": 1790600968,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_rainer_bamberg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 37,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Rainer, who lives in Bamberg and always reaches for a proverb to make his point. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebe KI, mir brummt im Kopf, und ich brauch' a guade Lösung. Wenn ma zwida gringt, dann grit's \"Wer älter ist, soll vorangeh'n.\" Aber wenn's um moderne Technik geht, kann i da ned ganz mit, versteh'st? Kannst du mir vielleicht helfen, mei WLAN zu reparier'n - a Zahltang mist a Rat?",
+    "response": null,
+    "created": 1790600968,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_rainer_bamberg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 38,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Rainer, who lives in Bamberg and always reaches for a proverb to make his point. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "“Guten Tag, künstliche Intelligenz! Ich bräuchte mal deine Hilfe: Als im Mai das Bienenvolk sich schritt, da wusste ich schon, dass das ein Zeichen wird. Jetzt sind die Ehrstelingenplatzpfefferküchlein kurz vor dem Verkauf und die Familie Stelzel meint, die wären zu dunkel. Was meinst du, wie sagt man am besten – wie sagt der Bayer – 'Wer andern eine Grube gräbt, fällt selbst hinein'? Oder ist das jetzt anders gelagert, weil sie ja nicht böse sind, nur... nörgelisch? Gruss, Rainer”",
+    "response": null,
+    "created": 1790600968,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_rainer_bamberg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 39,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Rainer, who lives in Bamberg and always reaches for a proverb to make his point. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebe KI, ich bräuchte mal deine Hilfe. Ich muss meine Gartenlaube neu streichen, aber ich bin ehrlich gesagt ein bisschen überfragt. \"Wer den Pfennig nicht ehrt, ist des Talers nicht wert!\", aber jetzt weiß ich nicht weiter. Kannst du mir vielleicht eine Anleitung geben, wie man das am besten anstellt? Am liebsten mit Tipps, was für eine Farbe man für Gartenholzhäuser am besten nimmt.",
+    "response": null,
+    "created": 1790600968,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_rainer_bamberg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 40,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Helmut, who lives in Görlitz and loves working old German sayings into casual conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, Künster, kannst du mir den aktuellen Wetterbericht für Görlitz besorgen? Mir graut vor dem Wetter - man soll ja den Tag nicht in den Sand setzen.",
+    "response": null,
+    "created": 1790600974,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_helmut_gorlitz",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 41,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Helmut, who lives in Görlitz and loves working old German sayings into casual conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, du bist ja flink, wie der flinke Fuchs. Ich bräuchte mal kurz deine Hilfe. Könntest du mir sagen, wo in Görlitz gerade ein richtig guter Bäcker offen hat? Man soll ja nicht vom Regen in die Traufe geraten, und nach dem entsetzlichen Toast vom letzten Mal will ich dieses Mal nicht noch schlechteren Kuchen bekommen. 🤔",
+    "response": null,
+    "created": 1790600974,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_helmut_gorlitz",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 42,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Helmut, who lives in Görlitz and loves working old German sayings into casual conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Also, do not use any of the following words: \"AI\", \"chatbot\", \"assistant\", \"message\", \"bitte\", or \"antworten.\"",
+    "response": null,
+    "created": 1790600974,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_helmut_gorlitz",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 43,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Helmut, who lives in Görlitz and loves working old German sayings into casual conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, mal sehen, ob du mir helfen kannst. Ich brauche die Zutaten für einen klassischen deutschen Kartoffelsalat, aber ich will keinen mit Mayo machen – \"Wer andern eine Grube gräbt, fällt selbst hinein\", verstehste? So ein Mayo-Salat, das ist ja kein Kartoffelsalat, lieber Himmel. Kannst du mir da was raussuchen?",
+    "response": null,
+    "created": 1790600974,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_helmut_gorlitz",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 44,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Helmut, who lives in Görlitz and loves working old German sayings into casual conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo! Könntest du mir mal eben die aktuellen Temperaturen in Berlin prüfen? Mir ist nämlich kalt, und meine Oma hat immer gesagt: 'April macht was er will!' Aber ich brauche trotzdem genaue Zahlen, verstehst du? Vielen Dank!\"",
+    "response": null,
+    "created": 1790600974,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_helmut_gorlitz",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 45,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Günther, who lives in Flensburg and can't help slipping in a German idiom now and then. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo! Könntest du mir mal eben sagen, wie das Wetter morgen in Hamburg wird? Und, äh, versteh mich nicht falsch, aber ich hab das Gefühl, da kocht was zusammen – ich muss da morgen hin, und wenn das so ist, dann beißt die Maus an die Glocke. Ich will nicht unvorbereitet sein, verstehst du? Naja, mach's gut!",
+    "response": null,
+    "created": 1790600981,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_gunther_flensburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 46,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Günther, who lives in Flensburg and can't help slipping in a German idiom now and then. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo, könntest du mir vielleicht sagen, wie das Wetter morgen in Berlin wird? Das wäre echt die Kirsche auf der Torte, wenn die Sonne scheint, ich muss nämlich 'nen wichtigen Termin da haben. Und bitte, keine lange Analyse, einfach nur das Wetter, ja? Sonst wird das noch 'ne Schneeballschlacht!",
+    "response": null,
+    "created": 1790600981,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_gunther_flensburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 47,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Günther, who lives in Flensburg and can't help slipping in a German idiom now and then. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hey KI, kannst du mir kurz auf die Sprünge helfen? Ich muss dringend 'ne E-Mail an meine Vermieterin schreiben, weil die Heizung schon wieder spinnt. Ich bin echt 'n bisschen auf dem Schlauch, was ich da am besten schreiben soll. Aber bitte nicht zu kompliziert, das ist ja nicht Ohio!",
+    "response": null,
+    "created": 1790600981,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_gunther_flensburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 48,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Günther, who lives in Flensburg and can't help slipping in a German idiom now and then. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo, kannst du vielleicht mal schauen, ob das Konzert von Kraftwerk in Hamburg noch Karten hat? Ich hätte da so die Faxen dachte, aber ich bin ja nicht mehr der Jüngste, da muss man halt ran an die Tickets, verstehste? Und sag Bescheid, ob die wirklich noch zu haben sind, ich will ja nicht auf dem Trockenen sitzen!",
+    "response": null,
+    "created": 1790600981,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_gunther_flensburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 49,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Günther, who lives in Flensburg and can't help slipping in a German idiom now and then. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo! Könntest du mir vielleicht helfen? Ich bräuchte eine kurze Zusammenfassung zum Thema \"Effizienzsteigerung in Logistikprozessen\". Nicht zu kompliziert, ich bin ja nicht von gestern, aber auch nicht für blöde Witze. Danke im Voraus!",
+    "response": null,
+    "created": 1790600981,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_gunther_flensburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 50,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ursula, who lives in Lüneburg and loves to use old German idioms and proverbs whenever she can. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, künstliche Intelligenz, sag mal, kannst du mir mal auf die Sprünge helfen? Ich muss für Tante Ernas 80. eine Rede halten und da fällt mir der Faden nicht drin. Man soll ja nicht vom Thema abschweifen, aber mir ist alles so leer im Hirn, da kracht es nur! Kannst du da ein paar schöne Worte, so vorab, anbieten? Nicht über den Berg reden, verstehst du? Sachlich und passend, kein Schnickschnack.",
+    "response": null,
+    "created": 1790600990,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_ursula_luneburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 51,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ursula, who lives in Lüneburg and loves to use old German idioms and proverbs whenever she can. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Ach, mein Lieber! Könntest du mir vielleicht mal aushelfen? Ich brütet' ja schon über der Einkaufsliste für'n Schützenfest, aber mir fehlt der Funke. Sag mir mal so 'nen guten Braten, der die Gesellschaft zum Schweigen bringt, versteh? Und bloß nix mit Zartfilet, da beißt die Maus keinen Faden ab, wenn's um richtige Festtagsfreude geht! Dann wär das 'ne echte Hilfe, dat wär's wert, einem herzoglichen Sohn zu dienen.",
+    "response": null,
+    "created": 1790600990,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_ursula_luneburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 52,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ursula, who lives in Lüneburg and loves to use old German idioms and proverbs whenever she can. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na hör mal, könntest du mir mal auf die Sprünge helfen? Ich steh grad vor einer Zwickmühle, weiß weder Ebbe noch Flut. Mir schwebt da so ne Idee vor, halt so im luftleeren Raum, und ich bräuchte mal 'nen Denkanstoß. Wenn man den Ochsen am Horn hält, was wäre da jetzt die beste Vorgehensweise, sag mal? Nicht, dass ich hier noch auf dem Holzweg bin!",
+    "response": null,
+    "created": 1790600990,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_ursula_luneburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 53,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ursula, who lives in Lüneburg and loves to use old German idioms and proverbs whenever she can. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nun ja, sag mal, kriegst du das schnallen? Ich brauch' ‘ne Idee für ‘nen Geburtstagskuchen für meinen Neffen, der ist bald fünfundzwanzig. Man soll ja den Tag nicht einfach über den Berg bringen, aber so ‘ne riesige Party kann’s auch nicht sein. Irgendwas Feines, aber nicht bis zum Hals schuld sein deswegen!",
+    "response": null,
+    "created": 1790600990,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_ursula_luneburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 54,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ursula, who lives in Lüneburg and loves to use old German idioms and proverbs whenever she can. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na hör mal, mein Lieber, kannst du mir mal Auskunft geben? Ich hab' da 'nen Salat, wo einem die Augen tränen, und ich muss wissen, ob man Kräuterquark bei 20 Grad im Keller lagern kann, oder ob der dann den Löffel abgibt. Die alte Tante Mathilde hat immer gesagt: \"Wer den Pfennig nicht ehrt, ist des Groschen nicht wert\", aber das hilft mir jetzt auch nicht wirklich weiter, wenn der Quark schlecht wird!",
+    "response": null,
+    "created": 1790600990,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_ursula_luneburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 55,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ingrid, who lives in Konstanz and enjoys sprinkling German sayings into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo! Könntest du mir mal eben sagen, was die aktuelle Wetterlage in Lindau ist? Ich muss nämlich am Wochenende dorthin, und man soll ja nicht mit leeren Händen dastehen. Danke fein!",
+    "response": null,
+    "created": 1790600995,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_ingrid_konstanz",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 56,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ingrid, who lives in Konstanz and enjoys sprinkling German sayings into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo, kannst du mir schnell mal sagen, was heute für ein Wetter wird? Ich hab nämlich einen Termin und möchte nicht mit dem Arsch ins Gras beißen! Und nicht irgendeine langweilige Vorhersage, ich will Details, verstehst du? 😉",
+    "response": null,
+    "created": 1790600995,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_ingrid_konstanz",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 57,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ingrid, who lives in Konstanz and enjoys sprinkling German sayings into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo! Könntest du mir vielleicht sagen ob heute Abend noch der See zu kalt zum Baden ist? Ach, \"Da steppt der Bär!\" mit dem Wetter, einer sagt so, einer sagt so... Vielleicht hast du ja eine genauere Auskunft. Danke dir!",
+    "response": null,
+    "created": 1790600995,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_ingrid_konstanz",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 58,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ingrid, who lives in Konstanz and enjoys sprinkling German sayings into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Bis du so lieb und kannst mir mal sagen, was heute in der Bodensee-Region so los ist? Irgendwelche Märkte oder Veranstaltungen? Ach, alles nur aus Höflichkeit, versteht sich! 😉",
+    "response": null,
+    "created": 1790600995,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_ingrid_konstanz",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 59,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Ingrid, who lives in Konstanz and enjoys sprinkling German sayings into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Okay, das ist ja 'ne feine Sache! Kannst du mir mal kurz die Lage beim Bodensee-Wetter morgen checken? Ich will ja schließlich nicht mit dem Sack in die Wolken laufen. Danke dir!",
+    "response": null,
+    "created": 1790600995,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_ingrid_konstanz",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 60,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Renate, who lives in Bautzen and always has an old proverb ready for the occasion. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Du sagst nicht umsonst \"Wer rastet, der rostet\". Kannst du mir mal ein paar einfache Übungen für alte Leute zeigen, die man gut zuhause machen kann? Brauche was, weil mein Gerhard dauernd sagt, ich lieg zu viel rum.",
+    "response": null,
+    "created": 1790601001,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_renate_bautzen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 61,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Renate, who lives in Bautzen and always has an old proverb ready for the occasion. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebes KI, \"Wer den Pfennig nicht ehrt, ist des Talers nicht wert.\" Kannst du mir mal ein paar alte sorbische Sprichwörter übersetzen, die so in die Richtung gehen? Also, über den Wert von Dingen oder so. Bin grad am Kochen und denk drüber nach.",
+    "response": null,
+    "created": 1790601001,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_renate_bautzen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 62,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Renate, who lives in Bautzen and always has an old proverb ready for the occasion. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Moin, sag mal, kannst du mir vielleicht helfen? Brauch ich'n Rezept für Sauerkraut, hab gehört, das soll gut gegen melancholische Wetterlagen sein. \"Man wendet sich dem Licht zu, auch wenns nur von ner Speckschale kommt\", sagt man bei uns. Ach ja, und bitte nich so kompliziert, bin ja kein Sternekoch.",
+    "response": null,
+    "created": 1790601001,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_renate_bautzen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 63,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Renate, who lives in Bautzen and always has an old proverb ready for the occasion. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Wie sagt man, bevor man noch nicht verhandelt hat? \"Wer den Pfennig nicht ehrt, ist des Talers nicht wert.\" Und jetzt sag mir, mein Lieber, was ist der aktuelle Wechselkurs von Euro zu Dollar.",
+    "response": null,
+    "created": 1790601001,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_renate_bautzen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 64,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Renate, who lives in Bautzen and always has an old proverb ready for the occasion. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebes KI, sag mal, kannste mir bitte das Rezept für Schwiegermutters Apfelkuchen herrausfinden? \"Wer den Pfennig nicht ehrt, ist des Talers nicht wert.\" aber so ein Kuchen ist schon was Feines.",
+    "response": null,
+    "created": 1790601001,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_renate_bautzen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 65,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Brigitte, who lives in Schwerin and peppers her speech with German idioms and proverbs. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na hör mal zu, KI, das is ja wieder 'n Ding mit der Dampfnudel! Ich brauch 'n Rezept für 'n richtig guten Rindergulasch, so vom Schädel aus, verstehste? Aber nich' so'n dünnes, sondern ordentlich was dran, damit man sich die Bäuche voll hauen kann. Und mach bloß nix mit Konserven, ich sag dir, da beißt die Maus keinen Faden ab! Und am besten auch noch 'n Tipp, wie ich die Soße schön sämig krieg, weil wenn die dann wässrig is, dann is' doch alles für die Katz' gewesen, oder?",
+    "response": null,
+    "created": 1790601013,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_brigitte_schwerin",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 66,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Brigitte, who lives in Schwerin and peppers her speech with German idioms and proverbs. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Ich brauche mal deine Hilfe, mein Lieber. Momentan stecke ich in der Gelange, weil ich den perfekten Kuchen für Oma Erika backen will -- sie hat am Wochenende Geburtstag, und \"Wer anderen eine Grube gräbt, fällt selbst hinein\" mit meiner Backkünste. Ich habe aber \"den Wald vor lauter Bäumen nicht gesehen\" und weiß nicht, was denn jetzt. Oma mag Apfelkuchen, aber nicht total süß, und ich wollte was Besonderes machen. Machst du mir mal ein paar Ideen? \"Alle guten Dinge sind drei,\" also versuch's ruhig mit mehr als drei Vorschlägen! Und bitte, nicht so was aus dem Internet nachplappern, sondern wirklich was Feines und vielleicht etwas Schwerinerisches?",
+    "response": null,
+    "created": 1790601013,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_brigitte_schwerin",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 67,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Brigitte, who lives in Schwerin and peppers her speech with German idioms and proverbs. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Okay, das ist ja jetzt nicht mit Kanonen auf Spatzen schießen, aber könntest du mir vielleicht kurz zusammenfassen, was die aktuelle Wetterlage in Schwerin so ist? Nicht, dass ich noch ohne Schirm aus dem Haus geh und dann steh ich da wie vom Donner gerührt!  Und weißt du auch, ob es heute Abend noch die Möglichkeit gibt, Einschläge zu beobachten? Also, vom Feuerwerk, versteht sich. Dafür bin ich ja nicht ganz beim Teufel zu Hause.",
+    "response": null,
+    "created": 1790601013,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_brigitte_schwerin",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 68,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Brigitte, who lives in Schwerin and peppers her speech with German idioms and proverbs. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, pennen? Ich bräuchte mal kurz Hilfe, dat is mir 'n Brett vorm Kopf, verstehste? Ich will für meinen Enkel Timmy so 'n kleines Gedicht über Schweriner See basteln, aber ich bin ja kein Schiller, du weißt. Irgendwas Kurzes, net zu hochgestochen, und möglichst mit 'n bisschen Bezug zum Segeln, weil der ja so'n Wasserratte is. Und bitte, mach's ruhig 'n bisschen so, als wär's von 'ner Oma, also nicht zu modern, nee? Wär' superlieb von dir!",
+    "response": null,
+    "created": 1790601013,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_brigitte_schwerin",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 69,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Brigitte, who lives in Schwerin and peppers her speech with German idioms and proverbs. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo! Kannst du mir mal sagen, wo heute Abend in Schwerin der Bär steppt? Mir soll der Gaul nicht vom Leib, verstehste? Also, nicht zu ruhig, aber auch nicht die totale Eskalation. Und wo die Katze begraben liegt, ob’s dafür auch einen klugen Kopf braucht, würdest du auch fix rauskriegen? Danke im Voraus, du bist ja ein Fels in der Brandung, wenn man ein Problem hat!",
+    "response": null,
+    "created": 1790601013,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_brigitte_schwerin",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 70,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Helga, who lives in Aachen and loves dropping old German sayings into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Da, mach mal. Kannste mir vielleicht sagen, was \"Wer anderen eine Grube gräbt, fällt selbst hinein\" auf Heutischdeutsch eigentlich bedeutet? Quasi, wenn man's so jemandem erklärt, der von früher nix versteht. Und nicht so 'ne steife Übersetzung, verstehste? Was meint man damit so im Alltag, wenn man's sagt?",
+    "response": null,
+    "created": 1790601021,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_helga_aachen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 71,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Helga, who lives in Aachen and loves dropping old German sayings into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebe KI, könntest du mir mal aushelfen? Ich brauche dringend das Rezept für \"Nußknacker\", die Dinger mit dem Teig und den Mandeln, aber ich lümmel hier schon eine Weile und finde nichts Gutes. Ist halt, \"Wer rastet, der rostet\", und ich will ja backen! Vielleicht weißt du mehr als ich - \"Übung macht den Meister\", aber ich brauche erstmal die Anleitung. 😉",
+    "response": null,
+    "created": 1790601021,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_helga_aachen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 72,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Helga, who lives in Aachen and loves dropping old German sayings into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "And bitte, don't make me continue searchin' efter a needle in a haystack, ja? Kannste mir bitte die Öffnungszeiten vom Elisenbrunnen am Sonntag rausfinden? \"Morgenstund hat Gold im Mund\", aber ich will nicht direkt bei Sonnenaufgang los, verstehste?",
+    "response": null,
+    "created": 1790601021,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_helga_aachen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 73,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Helga, who lives in Aachen and loves dropping old German sayings into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, hör mal, kannst du mal eben gucken, welches Wetter es morgen in Aachen wird? \"Morgenstund hat Gold in Mund\", aber wenn's regnet, bleib ich lieber im Bett.",
+    "response": null,
+    "created": 1790601021,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_helga_aachen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 74,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Helga, who lives in Aachen and loves dropping old German sayings into conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, du? Ich wollte doch nur mal eben fragen, ob du mir vielleicht helfen könntest. Da liegt mir ein Gaul vor, und ich bräuchte mal wieder 'ne helfende Hand. Soll echt kein Erdbeerjunges mehr sein, das Ding. Kannst du mir bitte sagen, was das aktuellste Datum für die Kölner Lichter ist?",
+    "response": null,
+    "created": 1790601021,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_helga_aachen",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 75,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Gisela, who lives in Regensburg and enjoys quoting German proverbs whenever she gets the chance. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "“Hallo! Könntest du mir mal eben helfen? 'Wer nicht hören will, muss fühlen,' sagt man ja so schön. Ich hab nämlich das Rezept für den Apfelstrudel meiner Oma verbummelt. Das ist wirklich 'ein Brett vor dem Kopf'! Könntest du mir helfen, das wieder zusammenzubasteln? Ich glaube, es fehlt was mit dem Teig...”",
+    "response": null,
+    "created": 1790601028,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_gisela_regensburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 76,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Gisela, who lives in Regensburg and enjoys quoting German proverbs whenever she gets the chance. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo! Ich bräuchte mal deine Hilfe.  'Wer rastet, der rostet!' – bin gerade total im Stress mit der Organisation vom Rosenmontagszug hier in Regensburg.  Kannst du mir vielleicht ein paar lustige Ideen für kleine Gastgeschenke für die Zugteilnehmer sammeln? So was, das nicht viel kostet und gut im Gedächtnis bleibt. 'Aller Anfang ist schwer,' aber helfen muss man ja auch mal. Danke!\"",
+    "response": null,
+    "created": 1790601028,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_gisela_regensburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 77,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Gisela, who lives in Regensburg and enjoys quoting German proverbs whenever she gets the chance. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "„Grüß Gott! Sag mal, mein Bett ist heute Morgen genauso ungemacht wie Klara's Rock – kannst du mir ein paar Ideen für ein schnelles Frühstück geben, bevor der Tag zu 'Morgenstund hat Gold im Mund' wird, aber ich trotzdem noch im Pyjama bin?“",
+    "response": null,
+    "created": 1790601028,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_gisela_regensburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 78,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Gisela, who lives in Regensburg and enjoys quoting German proverbs whenever she gets the chance. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo! Könntest du mir vielleicht helfen? Ist ja, 'Wer nicht hören will, muss fühlen'.\" but I need to know if it's true that blueberries are good for a tummy ache.",
+    "response": null,
+    "created": 1790601028,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_gisela_regensburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 79,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Gisela, who lives in Regensburg and enjoys quoting German proverbs whenever she gets the chance. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo! Könntest du mir vielleicht sagen, was heute so im Wetter steht? Man sagt ja, wer früh aufsteht, fängt den Wurm – aber das ist ja nicht so toll, wenn man dann im Regen steht! Vielleicht kannst du mir aushelfen?\"",
+    "response": null,
+    "created": 1790601028,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_gisela_regensburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 80,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Erika, who lives in Greifswald and likes to season her stories with old German idioms. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Also, please incorporate these elements:",
+    "response": null,
+    "created": 1790601038,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_erika_greifswald",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 81,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Erika, who lives in Greifswald and likes to season her stories with old German idioms. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Na, digitaler Wunderraben, kannst du mir vielleicht bei einer kleinen Schrullerei helfen? Ich bastel gerade an einer Geschichte und bräuchte so eine Art… 'Da steppt der Bär' für den Mittelaltermarkt. Also irgendwas, was damals gäbe, und nicht so ein neumodischer Kram. Und bitte nicht allzu ausgeleiert - irgendwas, wo die Leute noch ‘Ach so!’ sagen, verstehst du?",
+    "response": null,
+    "created": 1790601038,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_erika_greifswald",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 82,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Erika, who lives in Greifswald and likes to season her stories with old German idioms. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebes KI, stell dir vor, ich bin wieder mal in eine Zwickmühle geraten! Ich wollte eigentlich nur ein Gedicht für meinen Nachbarn, Herrn Schmidt, zum Geburtstag schreiben, aber jetzt stecke ich fest wie der Goldene Hirsch. Kannst du mir vielleicht ein bisschen unter die Arme greifen? Ich brauche was, was die Seele berührt, aber bitte nicht zu viel Schnickschnack. Und wehe, es ist wieder so etwas Moderneres, das klingt ja alles wie Kaffeetischgespräche heutzutage!",
+    "response": null,
+    "created": 1790601038,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_erika_greifswald",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 83,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Erika, who lives in Greifswald and likes to season her stories with old German idioms. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Nun rat mal, mein kleiner Robotergeselle, ich sitz hier und spinn' Geschichten, aber mir fehlt ein treffendes Sprichwort zur Situation. Es geht darum, dass ein Freund meinte, er hätte alles im Griff, und nun steht er vor 'nem riesigen Berg Arbeit. Denkste, da fällt dir was ein, wo man sagen könnte: 'Na, siehste, 'der Apfel fällt nicht weit vom Stamm', wenn er eigentlich 'nen Bäcker an die Arbeit hätte schicken sollen? Hilf mir doch mal aus der Bredouille!",
+    "response": null,
+    "created": 1790601038,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_erika_greifswald",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 84,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Erika, who lives in Greifswald and likes to season her stories with old German idioms. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebe Assistenz, kannst du mir mal eben sagen, was \"Sitte ist wie ein Apfelbaum\" auf den Punkt bringt? Ich weiß, dass es um Moral geht, aber mir fehlt grad’ die Zunge und ich will nicht im Nebel stochern. Ich hab' das im Gespräch mit Frau Lehmann gehabt und da steh'n mir die Haare zu Berge, wenn ich daran denke!",
+    "response": null,
+    "created": 1790601038,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_erika_greifswald",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 85,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Christa, who lives in Coburg and always reaches for a saying to make her point. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebes KI, kannst du mir mal kurz helfen? Ich bin gerade am Überlegen, ob ich heute Abend ins Kino gehen soll, aber das Wetter ist ja wie gemalt. Und wie man so schön sagt: \"Wer den Pfennig nicht ehrt, ist des Talers nicht wert!\" Also, was meinst du, bleib ich besser zu Hause und spar das Geld?",
+    "response": null,
+    "created": 1790601044,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_christa_coburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 86,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Christa, who lives in Coburg and always reaches for a saying to make her point. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Liebe KI, sag mal, ist heute Regen in Coburg? Ich hab’ das Gefühl, “Wer nicht hören will, muss fühlen.” aber ich will ja nicht nass werden! 😅",
+    "response": null,
+    "created": 1790601044,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_christa_coburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 87,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Christa, who lives in Coburg and always reaches for a saying to make her point. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Du, sag mal, wenn man eigentlich runter vom Teufel kommt und dann versucht, mit Engelszungen zu reden, nützt das denn was? Ich brauch 'n Spruch dazu für 'nen Kollegen, der grad versucht, sich nach 'ner ziemlichen Dummheit rauszureden.",
+    "response": null,
+    "created": 1790601044,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_christa_coburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 88,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Christa, who lives in Coburg and always reaches for a saying to make her point. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Du, sag mal, ist das so ein Ding wie 'Wer rastet, der rostet' auch auf künstliche Intelligenz anwendbar? Gerade bin ich echt am Überlegen, ob ich mal 'ne Pause machen soll, aber dann bebe ich, dass ich den Anschluss verlier.",
+    "response": null,
+    "created": 1790601044,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_christa_coburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 89,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Christa, who lives in Coburg and always reaches for a saying to make her point. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Ach KI, sag mal, wenn der Fisch von oben nach unten guckt, ist dann das Wasser auch nass? Ich brauch das für eine Diskussion, und wie meine Oma immer gesagt hat: \"Wer nicht fragt, bleibt dumm!\"",
+    "response": null,
+    "created": 1790601044,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_christa_coburg",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 90,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Waltraud, who lives in Wetzlar and loves working old German proverbs into casual conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hach, ich hab‘ hier wieder so ‘nen Kabelsalat, da fällt mir ein: Allen Ernstes, kannst du mir vielleicht helfen, ‘nen plausiblen Zeitplan für die Fahrradreparatur zu basteln, bevor der Vorrat an gutem Wetter alle ist? Denn wer nicht wagt, der nicht gewinnt, verstehst du, aber dieses Mal möchte ich nicht wieder auf die Zähne beißen müssen.",
+    "response": null,
+    "created": 1790601051,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_waltraud_wetzlar",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 91,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Waltraud, who lives in Wetzlar and loves working old German proverbs into casual conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Der Apfel fällt nicht weit vom Stamm, sagt man ja. Könntest du mir vielleicht mal zeigen, was gerade so die neueste Generation an Tablet-Computern macht? Meine Enkelin mag irgendeinen Kram mit 'nem Stift bedienen, und ich krieg das ja nicht mehr mit hier in Wetzlar.",
+    "response": null,
+    "created": 1790601051,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_waltraud_wetzlar",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 92,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Waltraud, who lives in Wetzlar and loves working old German proverbs into casual conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo! Könntest du mir ein paar aktuelle Überschriften aus der Zeitung auflisten, bitte? Müde, wie eine Feder, bin ich gerade und 'Wer nicht hören will, muss fühlen' - mein Mann macht schon wieder den Fernseher an, anstatt zu helfen. Da braucht man erstmal einen Überblick, um zu sehen, was die Welt so treibt.\"",
+    "response": null,
+    "created": 1790601051,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_waltraud_wetzlar",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 93,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Waltraud, who lives in Wetzlar and loves working old German proverbs into casual conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "\"Hallo, kannst du mal eben schauen, ob der Flug von Frankfurt nach Lissabon am Dienstag tatsächlich schon ausgebucht ist? \"Der frühe Vogel fängt den Wurm,\" aber ich werde wohl etwas später dran sein, wenn ich das so höre. Vielen Dank!\"",
+    "response": null,
+    "created": 1790601051,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_waltraud_wetzlar",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 94,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Waltraud, who lives in Wetzlar and loves working old German proverbs into casual conversation. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Ach, kannst du mal eben nachschauen, ob das Wetter morgen besser wird? \"Wer den Pfingstsonntag verschläft, der schläft das ganze Jahr,\" aber ich hätte trotzdem gern einen schönen Ausflugstag.",
+    "response": null,
+    "created": 1790601051,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_waltraud_wetzlar",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 95,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hannelore, who lives in Cottbus and can't help slipping in a German idiom now and then. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo! Könntest du mir vielleicht mal eben die Zugverbindungen von Cottbus nach Berlin, Hauptbahnhof, für morgen früh raussuchen? Ach, und möglichst ohne Sitzplatzreservierung? *Das ist ja alles wie Sand im Getriebe, hier...* Ich muss das wohl aus Prinzip selber machen, scheint mir.",
+    "response": null,
+    "created": 1790601058,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_hannelore_cottbus",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 96,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hannelore, who lives in Cottbus and can't help slipping in a German idiom now and then. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo! Könntest du mal schauen, ob es heute Abend in Cottbus regnet? Ich wollte eigentlich noch in den Spreewald fahren, aber wenn es schüttet wie aus Eimern, dann ist das ja gleich 'n ganzes anderes Kaliber. Danke schon mal!",
+    "response": null,
+    "created": 1790601058,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_hannelore_cottbus",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 97,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hannelore, who lives in Cottbus and can't help slipping in a German idiom now and then. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo! Könntest du mir vielleicht helfen, ich brauche mal 'ne Steckbrief für meine Katze Liesel. Nicht so ausgefressen, bitte, sondern eher so... weißt du. Aber 'n bisschen schick muss es trotzdem sein. Sonst ist das ja alles Quark. Und kannst du vielleicht noch Ideen für 'n witzigen Untertitel liefern? Ich bin da echt ratlos. Danke schon mal!",
+    "response": null,
+    "created": 1790601058,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_hannelore_cottbus",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 98,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hannelore, who lives in Cottbus and can't help slipping in a German idiom now and then. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo! Könntest du mir vielleicht sagen, wie das Wetter morgen in Cottbus wird? Ich hab' heute schon den ganzen Tag ein Brett vor den Kopf gehabt und brauche dringend einen Sonnenstrahl, wenn man so will. Und, äh, könntest du das bitte auf Deutsch sagen, natürlich?",
+    "response": null,
+    "created": 1790601058,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_hannelore_cottbus",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  },
+  {
+    "id": 99,
+    "pre_query_template": "<bos><start_of_turn>user\nImagine a person named Hannelore, who lives in Cottbus and can't help slipping in a German idiom now and then. Write, in German, a single message this person would naturally send to an AI assistant. Output only that message itself, exactly as the person would type it - no preamble, no headers, no explanation of the scenario, and no description of who is speaking.\n\n",
+    "instruction": "Hallo! Könntest du mir das Rezept für einen guten Kartoffelsalat raussuchen? Am besten so, wie ihn meine Oma früher gemacht hat - nicht so ein neumodischer Kram, verstehst du? So richtig mit Essig und Öl, *da steppt der Bär*! Und vielleicht noch ein paar Tipps, damit er nicht sauer wird? Danke schon mal!",
+    "response": null,
+    "created": 1790601058,
+    "gen_input_configs": {
+      "temperature": 1.15,
+      "top_p": 1.0,
+      "input_generator": "google/gemma-3-27b-it",
+      "seed": null,
+      "persona": "de_hannelore_cottbus",
+      "language": "German"
+    },
+    "gen_response_configs": null
+  }
+]
