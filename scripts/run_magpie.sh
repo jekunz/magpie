@@ -80,6 +80,7 @@ CUDA_VISIBLE_DEVICES=$device python ../exp/gen_ins.py \
     --tensor_parallel_size $tensor_parallel \
     --gpu_memory_utilization $gpu_memory_utilization \
     --enforce_eager \
+    --flaming_tokens \
     --checkpoint_every 1 \
     --language "$language" \
     --persona "$persona" \
@@ -95,7 +96,7 @@ CUDA_VISIBLE_DEVICES=$device python ../exp/gen_res.py \
     --model_path "$model_path" \
     --batch_size $n \
     --top_p 1 \
-    --temperature 0 \
+    --temperature 0.7 \
     --repetition_penalty 1 \
     --tensor_parallel_size $tensor_parallel \
     --gpu_memory_utilization $gpu_memory_utilization \
