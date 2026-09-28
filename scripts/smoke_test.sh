@@ -2,6 +2,7 @@ model_path=${1:-"google/gemma-3-27b-it"}
 total_prompts=${2:-100}
 language=${3:-"Swedish"}
 persona=${4:-"se_ake_dalarna"}
+personas_file=${5:-"../configs/personas.json"}
 device="0"
 tensor_parallel=1
 gpu_memory_utilization=0.9
@@ -21,7 +22,7 @@ mkdir -p "$job_path"
 # persona per generation round, and repeat = ceil(total_prompts / n). So n
 # needs to be small enough that repeat covers all personas at least once.
 if [ "$persona" = "all" ]; then
-    num_personas=$(python3 -c "import json; print(len(json.load(open('../configs/personas.json'))))")
+    num_personas=$(python3 -c "import json; print(len(json.load(open('$personas_file'))))")
     n=$(( total_prompts / num_personas ))
     if [ "$n" -lt 1 ]; then
         n=1
@@ -34,6 +35,7 @@ echo "[smoke_test] Model: $model_path"
 echo "[smoke_test] Total prompts: $total_prompts"
 echo "[smoke_test] Language: $language"
 echo "[smoke_test] Persona: $persona"
+echo "[smoke_test] Personas file: $personas_file"
 echo "[smoke_test] n per round: $n"
 
 echo "[smoke_test] Generating instructions..."
@@ -49,6 +51,7 @@ CUDA_VISIBLE_DEVICES=$device python ../exp/gen_ins.py \
     --enforce_eager \
     --language "$language" \
     --persona "$persona" \
+    --personas_file "$personas_file" \
     --job_name "$job_name" \
     --timestamp $timestamp
 

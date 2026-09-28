@@ -16,6 +16,7 @@ model_path=${1:-"google/gemma-3-27b-it"}
 total_prompts=${2:-2000}
 language=${3:-"Swedish"}
 persona=${4:-"all"}
+personas_file=${5:-"../configs/personas.json"}
 device="0"
 tensor_parallel=1
 gpu_memory_utilization=0.9
@@ -26,7 +27,10 @@ gpu_memory_utilization=0.9
 # of crashing, so we don't need a working C compiler at all.
 export TORCHDYNAMO_SUPPRESS_ERRORS=1
 
-cd "$(dirname "$0")"
+# sbatch copies this script into a spool directory and runs it from there,
+# so $(dirname "$0") points at the spool dir, not the repo's scripts/ dir.
+# Hardcode the real path instead (this script is already account/env-specific).
+cd /proj/dl4nlp/users/x_jenku/magpie/scripts
 
 timestamp=$(date +%s)
 job_name="${model_path##*/}_${language}_${timestamp}"
@@ -37,7 +41,7 @@ mkdir -p "$job_path"
 # persona per generation round, and repeat = ceil(total_prompts / n). So n
 # needs to be small enough that repeat covers all personas at least once.
 if [ "$persona" = "all" ]; then
-    num_personas=$(python3 -c "import json; print(len(json.load(open('../configs/personas.json'))))")
+    num_personas=$(python3 -c "import json; print(len(json.load(open('$personas_file'))))")
     n=$(( total_prompts / num_personas ))
     if [ "$n" -lt 1 ]; then
         n=1
@@ -50,6 +54,7 @@ echo "[run_magpie] Model: $model_path"
 echo "[run_magpie] Total prompts: $total_prompts"
 echo "[run_magpie] Language: $language"
 echo "[run_magpie] Persona: $persona"
+echo "[run_magpie] Personas file: $personas_file"
 echo "[run_magpie] n per round: $n"
 echo "[run_magpie] Job name: $job_name"
 
@@ -67,6 +72,7 @@ CUDA_VISIBLE_DEVICES=$device python ../exp/gen_ins.py \
     --checkpoint_every 1 \
     --language "$language" \
     --persona "$persona" \
+    --personas_file "$personas_file" \
     --job_name "$job_name" \
     --timestamp $timestamp
 
