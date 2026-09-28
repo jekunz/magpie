@@ -235,7 +235,8 @@ def main():
             max_model_len = args.max_model_len, # limited by kv-cache 
             tensor_parallel_size = args.tensor_parallel_size,
             gpu_memory_utilization = args.gpu_memory_utilization,
-            enforce_eager = args.enforce_eager)
+            enforce_eager = args.enforce_eager,
+            limit_mm_per_prompt={"image": 0})
     
         params = SamplingParams(
             max_tokens=args.max_tokens,

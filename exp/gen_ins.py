@@ -106,7 +106,7 @@ def main():
     # Set generation engine
     if args.engine == "vllm":
         # Create vllm instance  
-        llm = LLM(model=args.model_path, 
+        llm = LLM(model=args.model_path,
                 dtype=args.dtype,
                 trust_remote_code=True,
                 gpu_memory_utilization=args.gpu_memory_utilization,
@@ -115,7 +115,8 @@ def main():
                 tensor_parallel_size=args.tensor_parallel_size,
                 seed=args.seed if args.seed is not None else args.timestamp,
                 enable_prefix_caching=True,
-                enforce_eager=args.enforce_eager)
+                enforce_eager=args.enforce_eager,
+                limit_mm_per_prompt={"image": 0})
     elif args.engine == "hf":
         # Load the model and tokenizer
         tokenizer = AutoTokenizer.from_pretrained(args.model_path)
