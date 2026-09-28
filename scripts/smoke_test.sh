@@ -6,6 +6,12 @@ device="0"
 tensor_parallel=1
 gpu_memory_utilization=0.9
 
+# Some vLLM custom ops (e.g. Gemma's RMSNorm) fall back to an internal
+# torch.compile path regardless of enforce_eager. suppress_errors makes
+# torch._dynamo fall back to eager per-graph on a compile failure instead
+# of crashing, so we don't need a working C compiler at all.
+export TORCHDYNAMO_SUPPRESS_ERRORS=1
+
 timestamp=$(date +%s)
 job_name="${model_path##*/}_smoketest_${timestamp}"
 job_path="../data/${job_name}"
