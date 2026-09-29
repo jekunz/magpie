@@ -168,3 +168,7 @@ data_po_bon/
 data_gemma/
 data_llama3.1/
 data_qwen2.5/magpie/
+
+# Generated datasets from gen_ins.py/gen_res.py — these can get large (100MB+ per
+# run) and GitHub blocks LFS uploads on this public fork, so they stay local/cluster-only.
+data/
