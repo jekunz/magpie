@@ -32,6 +32,21 @@ else
     esac
 fi
 
+# Optional: require a specific idiom (from idioms_definitions/) to be used per round.
+# We only have a Danish idiom/definition dataset right now, so it's the only auto-default;
+# pass a 6th arg explicitly to use a different file, or "none" to disable even for Danish.
+if [ -n "$6" ]; then
+    if [ "$6" = "none" ]; then
+        idioms_file=""
+    else
+        idioms_file="$6"
+    fi
+elif [ "$language" = "Danish" ]; then
+    idioms_file="../idioms_definitions/talemaader_csv/talemaader_leverance_1.csv"
+else
+    idioms_file=""
+fi
+
 # Some vLLM custom ops (e.g. Gemma's RMSNorm) fall back to an internal
 # torch.compile path regardless of enforce_eager. suppress_errors makes
 # torch._dynamo fall back to eager per-graph on a compile failure instead
@@ -66,8 +81,14 @@ echo "[run_magpie] Total prompts: $total_prompts"
 echo "[run_magpie] Language: $language"
 echo "[run_magpie] Persona: $persona"
 echo "[run_magpie] Personas file: $personas_file"
+echo "[run_magpie] Idioms file: ${idioms_file:-none}"
 echo "[run_magpie] n per round: $n"
 echo "[run_magpie] Job name: $job_name"
+
+idiom_args=()
+if [ -n "$idioms_file" ]; then
+    idiom_args=(--idioms_file "$idioms_file")
+fi
 
 echo "[run_magpie] Generating instructions..."
 CUDA_VISIBLE_DEVICES=$device python ../exp/gen_ins.py \
@@ -84,6 +105,7 @@ CUDA_VISIBLE_DEVICES=$device python ../exp/gen_ins.py \
     --language "$language" \
     --persona "$persona" \
     --personas_file "$personas_file" \
+    "${idiom_args[@]}" \
     --job_name "$job_name" \
     --timestamp $timestamp
 

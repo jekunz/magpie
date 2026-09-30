@@ -1,5 +1,6 @@
 import re
 import json
+import csv
 
 def load_persona(persona, personas_file="../configs/personas.json"):
     '''
@@ -11,19 +12,40 @@ def load_persona(persona, personas_file="../configs/personas.json"):
         personas = json.load(f)
     return personas.get(persona, persona)
 
-def build_persona_language_system_prompt(persona=None, language=None):
+def load_idioms(idioms_file):
     '''
-    Build a prompt that conditions instruction generation on a persona and/or a target language.
-    Phrased as an explicit generation task rather than an assistant-facing system prompt, and ends
-    with a hard constraint to output only the raw message. This matters most for models that fold
-    the system content directly into the same turn as the (still blank) user message (e.g. Gemma 3):
-    without this, the model tends to continue in assistant voice (describing or setting up the
-    scenario) instead of writing in character as the user.
+    Load (idiom, definition) pairs from a tab-separated idiom/definition file, e.g. the
+    "talemaader" Danish idiom dataset (columns: udtryk_id, talemaade_udtryk, ddo_definition).
+    Returns a list of (idiom, definition) tuples.
+    '''
+    idioms = []
+    with open(idioms_file, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        for row in reader:
+            idiom = row.get("talemaade_udtryk") or row.get("idiom")
+            definition = row.get("ddo_definition") or row.get("definition")
+            if idiom and definition:
+                idioms.append((idiom.strip(), definition.strip()))
+    return idioms
+
+def build_persona_language_system_prompt(persona=None, language=None, idiom=None):
+    '''
+    Build a prompt that conditions instruction generation on a persona and/or a target language,
+    optionally requiring a specific idiom (idiom, definition) pair to be used. Phrased as an
+    explicit generation task rather than an assistant-facing system prompt, and ends with a hard
+    constraint to output only the raw message. This matters most for models that fold the system
+    content directly into the same turn as the (still blank) user message (e.g. Gemma 3): without
+    this, the model tends to continue in assistant voice (describing or setting up the scenario)
+    instead of writing in character as the user.
     '''
     if persona:
         prompt = f"Imagine a person named {persona}."
     else:
         prompt = "Imagine a person talking to an AI assistant."
+    if idiom:
+        idiom_text, idiom_definition = idiom
+        language_label = f"{language} " if language else ""
+        prompt += f" Their message must naturally use the {language_label}idiom \"{idiom_text}\" (meaning: {idiom_definition})."
     if language:
         prompt += f" Write, in {language}, a single message this person would naturally send to an AI assistant."
     else:
