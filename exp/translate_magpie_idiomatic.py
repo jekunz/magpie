@@ -188,6 +188,9 @@ def main():
         device_map="auto",
     )
     model.eval()
+    # transformers auto-compiles the forward pass for static/hybrid caches (Gemma 3);
+    # torch.compile needs a C compiler and isn't supported on Python 3.14+.
+    model.generation_config.disable_compile = True
 
     # ── translate ─────────────────────────────────────────────────────────────
     n_batches = (len(todo) + args.batch_size - 1) // args.batch_size

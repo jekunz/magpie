@@ -16,14 +16,15 @@ lang_code=$3
 input=${4:-../data/magpie_eng_10000.jsonl}
 model=${5:-google/gemma-3-27b-it}
 
-# ── HuggingFace cache ────────────────────────────────────────────────────────
-export HF_HUB_CACHE=/proj/dl4nlp/users/x_jenku/cache/hub_cache
-export HF_HOME=/proj/dl4nlp/users/x_jenku/cache/hf_home
-export HF_ASSETS_CACHE=/proj/dl4nlp/users/x_jenku/cache/hf_assets
-
-# ── environment ──────────────────────────────────────────────────────────────
+# ── environment (same as run_magpie.sh) ─────────────────────────────────────
 module load Mambaforge/23.3.1-1-hpc1-bdist
-conda activate newllama
+conda activate /proj/dl4nlp/users/x_jenku/magpie/magpie
+
+export HF_HOME="/proj/dl4nlp/users/x_jenku/.huggingface_cache"
+
+# No working C compiler on the nodes: if anything still hits torch.compile,
+# fall back to eager instead of crashing.
+export TORCHDYNAMO_SUPPRESS_ERRORS=1
 
 # sbatch copies this script into a spool directory and runs it from there,
 # so hardcode the real path (same as run_magpie.sh).
