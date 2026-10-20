@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -A berzelius-2026-268
 #SBATCH -C "fat"
-#SBATCH -t 1-00:00:00
+#SBATCH -t 3-00:00:00
 #SBATCH --job-name=magpie_basic
 #SBATCH --partition=berzelius
 #SBATCH --nodes=1
