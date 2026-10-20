@@ -11,7 +11,7 @@ response is then translated with the already-localized instruction as context, s
 with whatever adaptation happened there (e.g. if the instruction's setting changed, the response's
 matching details change the same way).
 
-Supports CUDA (bf16), batched inference, and resume (safe to Ctrl+C and restart).
+Runs on vLLM (bf16, greedy), with resume (safe to Ctrl+C and restart).
 
 Usage — English → Swedish:
     python translate_magpie_idiomatic.py \\
@@ -25,7 +25,6 @@ Usage — English → Norwegian Bokmål:
         --output magpie_eng_for_nob_nb_2000_idiomatic.jsonl \\
         --tgt-lang "Norwegian Bokmål" --lang-code nb
 
-Reduce --batch-size if you hit OOM (responses can be several hundred tokens).
 """
 
 import argparse
@@ -33,9 +32,8 @@ import json
 import sys
 from pathlib import Path
 
-import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
 from tqdm import tqdm
+from vllm import LLM, SamplingParams
 
 # Max new tokens per field. Instructions are short; responses can be long.
 MAX_NEW_TOKENS = {
@@ -98,34 +96,16 @@ def make_response_prompt(text: str, tgt_lang: str, localized_instruction: str, t
     )
 
 
-def generate(
-    prompts: list[str],
-    tokenizer,
-    model,
-    device: torch.device,
-    max_src_length: int,
-    max_new_tokens: int,
-) -> list[str]:
-    inputs = tokenizer(
-        prompts,
-        return_tensors="pt",
-        padding=True,
-        truncation=True,
-        max_length=max_src_length,
-    )
-    inputs = {k: v.to(device) for k, v in inputs.items()}
-    prompt_len = inputs["input_ids"].shape[1]
+def truncate(text: str, tokenizer, max_tokens: int) -> str:
+    """Cut overly long source text to max_tokens so prompts fit in max_model_len."""
+    ids = tokenizer.encode(text, add_special_tokens=False)
+    return text if len(ids) <= max_tokens else tokenizer.decode(ids[:max_tokens])
 
-    with torch.no_grad():
-        outputs = model.generate(
-            **inputs,
-            max_new_tokens=max_new_tokens,
-            do_sample=False,
-            pad_token_id=tokenizer.eos_token_id,
-        )
 
-    new_tokens = outputs[:, prompt_len:]
-    return [t.strip() for t in tokenizer.batch_decode(new_tokens, skip_special_tokens=True)]
+def generate(llm, prompts: list[str], max_new_tokens: int, stop_token_ids: list[int]) -> list[str]:
+    params = SamplingParams(temperature=0, max_tokens=max_new_tokens, stop_token_ids=stop_token_ids)
+    outputs = llm.generate(prompts, params, use_tqdm=False)
+    return [o.outputs[0].text.strip() for o in outputs]
 
 
 def main():
@@ -141,27 +121,22 @@ def main():
                         help="Short code appended to output column names, e.g. 'sv'")
     parser.add_argument("--model",     default="google/gemma-3-12b-it")
     parser.add_argument(
-        "--batch-size", type=int, default=4,
-        help="Rows per batch. Each row generates two model calls (instruction + response). "
-             "Reduce if OOM.",
+        "--batch-size", type=int, default=500,
+        help="Rows per vLLM call; output is written (and resume checkpointed) after each batch.",
     )
     parser.add_argument(
         "--max-src-length", type=int, default=2048,
-        help="Max prompt tokens; longer source text is truncated.",
+        help="Max tokens of source text per field; longer source text is truncated.",
     )
+    parser.add_argument("--max-model-len", type=int, default=8192)
+    parser.add_argument("--gpu-memory-utilization", type=float, default=0.9)
     args = parser.parse_args()
 
     output_path = Path(args.output)
     instruction_col = f"instruction_{args.lang_code}"
     response_col = f"response_{args.lang_code}"
 
-    # ── device ──────────────────────────────────────────────────────────────
-    if not torch.cuda.is_available():
-        print("ERROR: no CUDA device found.", flush=True)
-        sys.exit(1)
-    device = torch.device("cuda")
     print(f"Target language: {args.tgt_lang}  ({args.lang_code})  [idiomatic/localized]", flush=True)
-    print(f"Device: {device}  dtype: bfloat16", flush=True)
 
     # ── data ─────────────────────────────────────────────────────────────────
     print(f"Loading {args.input} …", flush=True)
@@ -179,18 +154,20 @@ def main():
 
     # ── model ─────────────────────────────────────────────────────────────────
     print(f"Loading {args.model} …", flush=True)
-    tokenizer = AutoTokenizer.from_pretrained(args.model)
-    tokenizer.padding_side = "left"  # required for batched decoder-only generation
-
-    model = AutoModelForCausalLM.from_pretrained(
-        args.model,
-        torch_dtype=torch.bfloat16,
-        device_map="auto",
+    # enforce_eager: no torch.compile / CUDA graphs, so no C compiler needed (same as gen_ins/gen_res).
+    llm = LLM(
+        model=args.model,
+        dtype="bfloat16",
+        max_model_len=args.max_model_len,
+        gpu_memory_utilization=args.gpu_memory_utilization,
+        enforce_eager=True,
+        limit_mm_per_prompt={"image": 0},
     )
-    model.eval()
-    # transformers auto-compiles the forward pass for static/hybrid caches (Gemma 3);
-    # torch.compile needs a C compiler and isn't supported on Python 3.14+.
-    model.generation_config.disable_compile = True
+    tokenizer = llm.get_tokenizer()
+    stop_token_ids = [
+        t for t in {tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids("<end_of_turn>")}
+        if t is not None and t != tokenizer.unk_token_id
+    ]
 
     # ── translate ─────────────────────────────────────────────────────────────
     n_batches = (len(todo) + args.batch_size - 1) // args.batch_size
@@ -204,23 +181,23 @@ def main():
             # Instruction first: this also localizes any culture-bound setting, which the
             # response pass below then translates *with*, to keep the two consistent.
             instruction_prompts = [
-                make_instruction_prompt(row["instruction"], args.tgt_lang, tokenizer)
+                make_instruction_prompt(truncate(row["instruction"], tokenizer, args.max_src_length),
+                                        args.tgt_lang, tokenizer)
                 for row in batch_rows
             ]
             localized_instructions = generate(
-                instruction_prompts, tokenizer, model, device,
-                args.max_src_length, MAX_NEW_TOKENS["instruction"],
+                llm, instruction_prompts, MAX_NEW_TOKENS["instruction"], stop_token_ids,
             )
             for row, translation in zip(batch_rows, localized_instructions):
                 row[instruction_col] = translation
 
             response_prompts = [
-                make_response_prompt(row["response"], args.tgt_lang, row[instruction_col], tokenizer)
+                make_response_prompt(truncate(row["response"], tokenizer, args.max_src_length),
+                                     args.tgt_lang, row[instruction_col], tokenizer)
                 for row in batch_rows
             ]
             translated_responses = generate(
-                response_prompts, tokenizer, model, device,
-                args.max_src_length, MAX_NEW_TOKENS["response"],
+                llm, response_prompts, MAX_NEW_TOKENS["response"], stop_token_ids,
             )
             for row, translation in zip(batch_rows, translated_responses):
                 row[response_col] = translation

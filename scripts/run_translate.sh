@@ -45,5 +45,4 @@ python "$script" \
     --output    "$output" \
     --tgt-lang  "$tgt_lang" \
     --lang-code "$lang_code" \
-    --model     "$model" \
-    --batch-size 4
+    --model     "$model"
