@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A berzelius-2026-79
+#SBATCH -A berzelius-2026-268
 #SBATCH -C "fat"
 #SBATCH -t 1-00:00:00
 #SBATCH --job-name=magpie_basic
