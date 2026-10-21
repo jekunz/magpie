@@ -40,7 +40,8 @@ export TORCHDYNAMO_SUPPRESS_ERRORS=1
 cd /proj/dl4nlp/users/x_jenku/magpie/scripts
 
 timestamp=$(date +%s)
-job_name="${model_path##*/}_${language}_basic_${timestamp}"
+lang_tag=$(echo "$language" | tr -cs '[:alnum:]' '_' | sed 's/_$//')
+job_name="${model_path##*/}_${lang_tag}_basic_${timestamp}"
 job_path="../data/${job_name}"
 mkdir -p "$job_path"
 

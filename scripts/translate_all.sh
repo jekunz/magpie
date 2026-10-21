@@ -14,9 +14,12 @@ lang_name() {
         de) echo German ;;    da) echo Danish ;;      sv) echo Swedish ;;   is) echo Icelandic ;; fo) echo Faroese ;;
         es) echo Spanish ;;   pt) echo Portuguese ;;  it) echo Italian ;;   fr) echo French ;;    ro) echo Romanian ;;
         ru) echo Russian ;;   uk) echo Ukrainian ;;   bg) echo Bulgarian ;; sl) echo Slovenian ;; pl) echo Polish ;;
+        lb) echo Luxembourgish ;; nb) echo "Norwegian Bokmål" ;; nl) echo Dutch ;; ca) echo Catalan ;; gl) echo Galician ;;
+        be) echo Belarusian ;; hr) echo Croatian ;; cs) echo Czech ;; sk) echo Slovak ;;
+        sr) echo "Serbian (Cyrillic script)" ;; mk) echo Macedonian ;;
     esac
 }
-ORDER=(de da sv is fo es pt it fr ro ru uk bg sl pl)
+ORDER=(de da sv is fo es pt it fr ro ru uk bg sl pl lb nb nl ca gl be hr cs sk sr mk)
 
 codes=("$@")
 [ ${#codes[@]} -eq 0 ] && codes=("${ORDER[@]}")
