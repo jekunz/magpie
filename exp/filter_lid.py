@@ -36,7 +36,9 @@ TARGET_LABELS = {
     "Norwegian Bokmål": "nob_Latn", "Polish": "pol_Latn", "Portuguese": "por_Latn",
     "Romanian": "ron_Latn", "Russian": "rus_Cyrl", "Serbian (Cyrillic script)": "srp_Cyrl",
     "Slovak": "slk_Latn", "Slovenian": "slv_Latn", "Spanish": "spa_Latn", "Swedish": "swe_Latn",
-    "Ukrainian": "ukr_Cyrl",
+    "Ukrainian": "ukr_Cyrl", "Greek": "ell_Grek", "Irish": "gle_Latn", "Latvian": "lvs_Latn",
+    "Lithuanian": "lit_Latn", "Maltese": "mlt_Latn", "Albanian": "als_Latn", "Bosnian": "bos_Latn",
+    "Montenegrin": "cnr_Latn", "Turkish": "tur_Latn",
 }
 
 CODE_BLOCK_RE = re.compile(r"```.*?(```|$)", re.DOTALL)
