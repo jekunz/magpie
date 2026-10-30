@@ -38,7 +38,7 @@ from vllm import LLM, SamplingParams
 # Max new tokens per field. Instructions are short; responses can be long.
 MAX_NEW_TOKENS = {
     "instruction": 512,
-    "response":    2048,
+    "response":    6144,
 }
 
 
@@ -102,10 +102,11 @@ def truncate(text: str, tokenizer, max_tokens: int) -> str:
     return text if len(ids) <= max_tokens else tokenizer.decode(ids[:max_tokens])
 
 
-def generate(llm, prompts: list[str], max_new_tokens: int, stop_token_ids: list[int]) -> list[str]:
+def generate(llm, prompts: list[str], max_new_tokens: int, stop_token_ids: list[int]) -> list[tuple[str, bool]]:
+    """Returns (translation, truncated) pairs; truncated means generation hit max_new_tokens."""
     params = SamplingParams(temperature=0, max_tokens=max_new_tokens, stop_token_ids=stop_token_ids)
     outputs = llm.generate(prompts, params, use_tqdm=False)
-    return [o.outputs[0].text.strip() for o in outputs]
+    return [(o.outputs[0].text.strip(), o.outputs[0].finish_reason == "length") for o in outputs]
 
 
 def main():
@@ -125,10 +126,11 @@ def main():
         help="Rows per vLLM call; output is written (and resume checkpointed) after each batch.",
     )
     parser.add_argument(
-        "--max-src-length", type=int, default=2048,
+        "--max-src-length", type=int, default=4096,
         help="Max tokens of source text per field; longer source text is truncated.",
     )
-    parser.add_argument("--max-model-len", type=int, default=8192)
+    # Fits max-src-length + prompt + MAX_NEW_TOKENS["response"].
+    parser.add_argument("--max-model-len", type=int, default=12288)
     parser.add_argument("--gpu-memory-utilization", type=float, default=0.9)
     args = parser.parse_args()
 
@@ -188,8 +190,9 @@ def main():
             localized_instructions = generate(
                 llm, instruction_prompts, MAX_NEW_TOKENS["instruction"], stop_token_ids,
             )
-            for row, translation in zip(batch_rows, localized_instructions):
+            for row, (translation, truncated) in zip(batch_rows, localized_instructions):
                 row[instruction_col] = translation
+                row[f"{instruction_col}_truncated"] = truncated
 
             response_prompts = [
                 make_response_prompt(truncate(row["response"], tokenizer, args.max_src_length),
@@ -199,8 +202,9 @@ def main():
             translated_responses = generate(
                 llm, response_prompts, MAX_NEW_TOKENS["response"], stop_token_ids,
             )
-            for row, translation in zip(batch_rows, translated_responses):
+            for row, (translation, truncated) in zip(batch_rows, translated_responses):
                 row[response_col] = translation
+                row[f"{response_col}_truncated"] = truncated
 
             # Only write rows once both fields are done — keeps resume safe.
             for row in batch_rows:
