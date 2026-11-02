@@ -6,11 +6,13 @@
 
 # Semantic deduplication of all basic runs down to a fixed size per language
 # (expects the *_ins_res_filtered_lid.json files from filter_basic.py + filter_lid.py).
-# Usage: sbatch run_semdedup.sh [target] [sentence_model]
+# Usage: sbatch run_semdedup.sh [target] [sentence_model] [language_tag ...]
+#   language tags as in the run directory names (e.g. Greek Irish Norwegian_Bokm_l); default: all basic runs
 # Safe to resubmit: instruction embeddings are cached per run.
 
 target=${1:-20000}
 sentence_model=${2:-BAAI/bge-m3}
+languages=("${@:3}")
 
 module load Mambaforge/23.3.1-1-hpc1-bdist
 conda activate /proj/dl4nlp/users/x_jenku/magpie/magpie
@@ -21,6 +23,12 @@ export HF_HOME="/proj/dl4nlp/users/x_jenku/.huggingface_cache"
 # so hardcode the real path (same as run_magpie.sh).
 cd /proj/dl4nlp/users/x_jenku/magpie/exp
 
-python semdedup.py \
-    --target         "$target" \
-    --sentence_model "$sentence_model"
+patterns=("*_basic_*")
+[ ${#languages[@]} -gt 0 ] && patterns=("${languages[@]/#/*_}") && patterns=("${patterns[@]/%/_basic_*}")
+
+for pattern in "${patterns[@]}"; do
+    python semdedup.py \
+        --target         "$target" \
+        --sentence_model "$sentence_model" \
+        --pattern        "$pattern"
+done
