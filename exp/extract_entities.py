@@ -33,7 +33,8 @@ CONDITIONS = {
     "localized": "jekunz/magpie-filtered-20k-translated-from-en-with-localization",
 }
 LANGS = ["de", "fr", "es", "it", "pt", "ru", "pl", "nl", "sv", "da", "nb", "cs", "ro", "uk", "hu", "fi", "bg", "ca",
-         "hr", "sk", "sr", "sl", "et", "be", "mk", "gl", "is", "fo", "lb"]
+         "hr", "sk", "sr", "sl", "et", "be", "mk", "gl", "is", "fo", "lb",
+         "tr", "el", "lt", "bs", "lv", "sq", "ga", "mt", "cnr"]
 SEED = 42          # same seed and sample size as the topic section of the notebook
 TOPIC_N = 2000
 
