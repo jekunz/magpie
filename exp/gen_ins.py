@@ -196,7 +196,9 @@ def main():
     else:
         logits_processor = None
         
-    # Define sampling parameters
+    # Define sampling parameters. Newer vLLM versions no longer accept per-request logits_processors, so the
+    # argument is only passed when one is used.
+    processor_kwargs = {"logits_processors": [logits_processor]} if logits_processor else {}
     sampling_params = SamplingParams(
         n=args.n,
         temperature=args.temperature,
@@ -205,7 +207,7 @@ def main():
         skip_special_tokens=args.skip_special_tokens,
         stop=stop_tokens,
         stop_token_ids=stop_token_ids,
-        logits_processors=[logits_processor] if logits_processor else None
+        **processor_kwargs
     )
     
     ################
