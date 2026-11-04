@@ -798,5 +798,30 @@
       "config_format": "mistral",
       "load_format": "mistral"
     }
+  },
+  "mistralai/Ministral-3-14B-Instruct-2512-BF16": {
+    "model_name": "mistralai/Ministral-3-14B-Instruct-2512-BF16",
+    "stop_tokens": [
+      "</s>",
+      "[INST]",
+      "[/INST]"
+    ],
+    "stop_token_ids": [
+      2,
+      3,
+      4
+    ],
+    "stop_tokens_assistant": [],
+    "pre_query_template": "<s>[INST]",
+    "pre_query_template_with_system_prompt": "<s>[SYSTEM_PROMPT]You are a helpful assistant.[/SYSTEM_PROMPT][INST]",
+    "system_prompt_prefix": "<s>[SYSTEM_PROMPT]",
+    "system_prompt_suffix": "[/SYSTEM_PROMPT][INST]",
+    "response_template": "<s>[INST]{instruction}[/INST]",
+    "tokenize_prompts": true,
+    "vllm_kwargs": {
+      "tokenizer_mode": "mistral",
+      "config_format": "mistral",
+      "load_format": "mistral"
+    }
   }
 }
