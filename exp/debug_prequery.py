@@ -5,6 +5,8 @@ exactly what comes out (raw text and first token ids), for up to three prompt va
   user:   language task at the start of the open user turn, followed by a blank line (Gemma 3 style)
   closed: language task as a complete user message, rendered with the model's chat template; the model's answer is
           the instruction (prompted generation rather than Magpie's open user turn)
+  systurn: language task in a real system turn (chat template), followed by an open user turn (original Magpie
+          recipe; for models with a system role, e.g. Gemma 4)
 
 Usage (from exp/):
   python3 debug_prequery.py Qwen/Qwen3.8-27B --language Swedish
@@ -27,7 +29,7 @@ def main():
     parser.add_argument("model_path")
     parser.add_argument("--language", default="Swedish")
     parser.add_argument("--variants", nargs="+", default=["system", "user", "closed"],
-                        choices=["system", "user", "closed"])
+                        choices=["system", "user", "closed", "systurn"])
     parser.add_argument("--n", type=int, default=6)
     parser.add_argument("--temperature", type=float, default=1.15)
     parser.add_argument("--top_p", type=float, default=1.0)
@@ -41,10 +43,15 @@ def main():
         "system": config["system_prompt_prefix"] + task + config["system_prompt_suffix"],
         "user": config["pre_query_template"] + task + "\n\n",
     }
-    if "closed" in args.variants:
+    if "closed" in args.variants or "systurn" in args.variants:
         tokenizer = AutoTokenizer.from_pretrained(args.model_path)
         templates["closed"] = tokenizer.apply_chat_template([{"role": "user", "content": task}], tokenize=False,
                                                             add_generation_prompt=True)
+        # Render system turn + placeholder user message, then cut at the placeholder to leave the user turn open
+        placeholder = "PLACEHOLDER_USER_MESSAGE"
+        rendered = tokenizer.apply_chat_template([{"role": "system", "content": task},
+                                                  {"role": "user", "content": placeholder}], tokenize=False)
+        templates["systurn"] = rendered[:rendered.index(placeholder)]
 
     llm = LLM(model=args.model_path, dtype="bfloat16", max_model_len=4096, gpu_memory_utilization=0.9,
               enforce_eager=True, limit_mm_per_prompt={"image": 0}, **config.get("vllm_kwargs", {}))
