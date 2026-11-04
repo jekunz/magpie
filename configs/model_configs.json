@@ -702,14 +702,14 @@
       105,
       1
     ],
-    "stop_tokens_assistant": [
-      "model"
-    ],
+    "stop_tokens_assistant": [],
     "pre_query_template": "<bos><|turn>user\n",
-    "mt_append_template": "<|turn>user\n",
     "pre_query_template_with_system_prompt": "<bos><|turn>system\nYou are a helpful assistant.<turn|>\n<|turn>user\n",
-    "system_prompt_prefix": "<bos><|turn>system\n",
-    "system_prompt_suffix": "<turn|>\n<|turn>user\n"
+    "system_prompt_prefix": "<bos><|turn>user\n",
+    "system_prompt_suffix": "\n\n",
+    "vllm_kwargs": {
+      "language_model_only": true
+    }
   },
   "google/gemma-3-27b-it": {
     "model_name": "google/gemma-3-27b-it",
@@ -846,5 +846,23 @@
     "vllm_kwargs": {
       "language_model_only": true
     }
+  },
+  "utter-project/EuroLLM-22B-Instruct-2512": {
+    "model_name": "utter-project/EuroLLM-22B-Instruct-2512",
+    "stop_tokens": [
+      "<|im_start|>",
+      "<|im_end|>",
+      "</s>"
+    ],
+    "stop_token_ids": [
+      3,
+      4,
+      2
+    ],
+    "stop_tokens_assistant": [],
+    "pre_query_template": "<|im_start|>user\n",
+    "pre_query_template_with_system_prompt": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n",
+    "system_prompt_prefix": "<|im_start|>system\n",
+    "system_prompt_suffix": "<|im_end|>\n<|im_start|>user\n"
   }
 }
