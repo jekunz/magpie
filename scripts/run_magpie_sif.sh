@@ -97,7 +97,7 @@ if [ -n "$idioms_file" ]; then
 fi
 
 echo "[run_magpie_sif] Generating instructions..."
-run python ../exp/gen_ins.py \
+run python3 ../exp/gen_ins.py \
     --device $device \
     --model_path "$model_path" \
     --total_prompts $total_prompts \
@@ -118,7 +118,7 @@ run python ../exp/gen_ins.py \
 ins_file="${job_path}/Magpie_${model_path##*/}_${total_prompts}_${timestamp}_ins.json"
 
 echo "[run_magpie_sif] Generating responses..."
-run python ../exp/gen_res.py \
+run python3 ../exp/gen_res.py \
     --device $device \
     --model_path "$model_path" \
     --batch_size $n \
