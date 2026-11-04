@@ -12,6 +12,7 @@ from vllm import LLM, SamplingParams
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from str_utils import de_md_logits_processor_for_llama3_1, flaming_tokens
 import str_utils
+from prompt_utils import make_prompt_encoder
 
 ################
 # Configurations
@@ -119,6 +120,12 @@ def main():
     
     # Set the device
     os.environ["CUDA_VISIBLE_DEVICES"] = args.device
+
+    # Obtain config from configs/model_configs.json
+    with open("../configs/model_configs.json", "r", encoding="utf-8") as f:
+        model_configs = json.load(f)
+    model_config = model_configs[args.model_path]
+
     # Set generation engine
     if args.engine == "vllm":
         # Create vllm instance  
@@ -132,7 +139,9 @@ def main():
                 seed=args.seed if args.seed is not None else args.timestamp,
                 enable_prefix_caching=True,
                 enforce_eager=args.enforce_eager,
-                limit_mm_per_prompt={"image": 0})
+                limit_mm_per_prompt={"image": 0},
+                **model_config.get("vllm_kwargs", {}))
+        encode_prompt = make_prompt_encoder(args.model_path, model_config)
     elif args.engine == "hf":
         # Load the model and tokenizer
         tokenizer = AutoTokenizer.from_pretrained(args.model_path)
@@ -141,12 +150,7 @@ def main():
             device_map={'':torch.cuda.current_device()},
             torch_dtype=torch.bfloat16 if args.dtype == "bfloat16" else torch.float16
         )
-    
-    
-    # Obtain config from configs/model_configs.json
-    with open("../configs/model_configs.json", "r", encoding="utf-8") as f:
-        model_configs = json.load(f)
-    model_config = model_configs[args.model_path]
+
 
     def build_pre_query_template(persona_text, idiom):
         if args.control_tasks:
@@ -212,7 +216,7 @@ def main():
 
         # Generate outputs
         if args.engine == "vllm":
-            output = llm.generate(pre_query_template, sampling_params)
+            output = llm.generate(encode_prompt(pre_query_template), sampling_params)
             output_list = output[0].outputs
             if args.shuffle:
                 random.shuffle(output_list)

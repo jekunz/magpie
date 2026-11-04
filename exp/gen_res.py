@@ -9,6 +9,7 @@ from time import sleep
 from tqdm import tqdm
 from utils import load_dataset_from_file, save_dataset, make_api_request_with_retry, get_conversation_template
 from vllm import LLM, SamplingParams
+from prompt_utils import make_prompt_encoder
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 ################
@@ -63,6 +64,9 @@ with open("../configs/model_configs.json", "r") as f:
     model_config = model_configs[args.model_path]
     stop_tokens = model_config["stop_tokens"]
     stop_token_ids = model_config["stop_token_ids"]
+    # Optional fixed prompt format, e.g. for models whose chat template inserts a default system prompt
+    response_template = model_config.get("response_template")
+encode_prompt = make_prompt_encoder(args.model_path, model_config)
 
 # API Setups
 if args.engine == "together":
@@ -128,7 +132,9 @@ def process_batch(batch, llm, params, tokenizer=None):
     user_instructions = [item['instruction'] for item in batch]
     prompts = []
     for instruction in user_instructions:
-        if not args.tokenizer_template:
+        if response_template:
+            template = response_template.replace("{instruction}", instruction)
+        elif not args.tokenizer_template:
             conv = get_conversation_template(MODEL_NAME)
             conv.append_message(conv.roles[0], instruction)
             conv.append_message(conv.roles[1], None)
@@ -138,7 +144,7 @@ def process_batch(batch, llm, params, tokenizer=None):
             template = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
         prompts.append(template)
     if args.engine == "vllm":
-        outputs = llm.generate(prompts, params)
+        outputs = llm.generate([encode_prompt(p) for p in prompts], params)
     elif args.engine == "hf":
         inputs = tokenizer(prompts, return_tensors="pt", padding=True, truncation=True).to(torch.cuda.current_device())
         gen_do_sample = False if args.temperature == 0 else True
@@ -236,7 +242,8 @@ def main():
             tensor_parallel_size = args.tensor_parallel_size,
             gpu_memory_utilization = args.gpu_memory_utilization,
             enforce_eager = args.enforce_eager,
-            limit_mm_per_prompt={"image": 0})
+            limit_mm_per_prompt={"image": 0},
+            **model_config.get("vllm_kwargs", {}))
     
         params = SamplingParams(
             max_tokens=args.max_tokens,
@@ -245,7 +252,8 @@ def main():
             repetition_penalty=args.repetition_penalty,
             stop_token_ids=stop_token_ids,
             )
-        tokenizer = AutoTokenizer.from_pretrained(args.model_path)
+        # Only needed for the chat template; some tokenizers need a newer transformers than the one installed
+        tokenizer = None if response_template else AutoTokenizer.from_pretrained(args.model_path)
     elif args.engine == "hf":
         print("Start Hugging Face engine...")
         params = None

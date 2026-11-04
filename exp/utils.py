@@ -2,7 +2,12 @@ import json
 import requests
 import uuid
 from time import sleep
-from fastchat.model import get_conversation_template
+
+
+def get_conversation_template(name):
+    # Imported lazily: fastchat is only needed without --tokenizer_template (not installed in every environment).
+    from fastchat.model import get_conversation_template as _get
+    return _get(name)
 
 # File I/O utilities
 def load_jsonl_to_list(jsonl_file_path):
