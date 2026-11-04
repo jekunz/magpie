@@ -128,13 +128,16 @@ def main():
 
     # Set generation engine
     if args.engine == "vllm":
-        # Create vllm instance  
+        # swap_space was removed from newer vLLM versions; only pass it where it still exists
+        from vllm.engine.arg_utils import EngineArgs
+        swap_kwargs = {"swap_space": args.swap_space} if "swap_space" in EngineArgs.__dataclass_fields__ else {}
+        # Create vllm instance
         llm = LLM(model=args.model_path,
                 dtype=args.dtype,
                 trust_remote_code=True,
                 gpu_memory_utilization=args.gpu_memory_utilization,
                 max_model_len=args.max_model_len,
-                swap_space=args.swap_space,
+                **swap_kwargs,
                 tensor_parallel_size=args.tensor_parallel_size,
                 seed=args.seed if args.seed is not None else args.timestamp,
                 enable_prefix_caching=True,

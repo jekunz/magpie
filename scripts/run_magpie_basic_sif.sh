@@ -15,6 +15,8 @@
 #   apptainer pull /proj/dl4nlp/users/x_jenku/vllm-0.26.0-cu129.sif docker://vllm/vllm-openai:v0.26.0-cu129
 # Another image: SIF=/proj/dl4nlp/users/x_jenku/vllm-0.12.0.sif sbatch run_magpie_basic_sif.sh ...
 SIF=${SIF:-/proj/dl4nlp/users/x_jenku/vllm-0.26.0-cu129.sif}
+# Stop at the first failing step (e.g. no response generation without instructions)
+set -e
 # --cleanenv / PYTHONNOUSERSITE: keep host conda and ~/.local packages out of the container.
 run() {
     apptainer exec --nv --cleanenv -B /proj \
