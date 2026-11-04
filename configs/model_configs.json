@@ -823,5 +823,28 @@
       "config_format": "mistral",
       "load_format": "mistral"
     }
+  },
+  "Qwen/Qwen3.8-27B": {
+    "model_name": "Qwen/Qwen3.8-27B",
+    "stop_tokens": [
+      "<|im_start|>",
+      "<|im_end|>",
+      "<|endoftext|>"
+    ],
+    "stop_token_ids": [
+      248045,
+      248046,
+      248044
+    ],
+    "stop_tokens_assistant": [],
+    "pre_query_template": "<|im_start|>user\n",
+    "pre_query_template_with_system_prompt": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n",
+    "system_prompt_prefix": "<|im_start|>system\n",
+    "system_prompt_suffix": "<|im_end|>\n<|im_start|>user\n",
+    "response_template": "<|im_start|>user\n{instruction}<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+    "tokenize_prompts": true,
+    "vllm_kwargs": {
+      "language_model_only": true
+    }
   }
 }

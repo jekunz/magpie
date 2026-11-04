@@ -11,10 +11,10 @@
 # image with a newer vLLM, for models the magpie conda env cannot load. The model needs an entry in
 # configs/model_configs.json.
 # Usage: sbatch run_magpie_basic_sif.sh [model_path] [total_prompts] [language] [n]
-# Default image: official vLLM 0.12.0 (needed for Ministral 3), created once with
-#   apptainer pull /proj/dl4nlp/users/x_jenku/vllm-0.12.0.sif docker://vllm/vllm-openai:v0.12.0
-# Another image: SIF=/proj/dl4nlp/users/x_jenku/euroeval/euroeval.sif sbatch run_magpie_basic_sif.sh ...
-SIF=${SIF:-/proj/dl4nlp/users/x_jenku/vllm-0.12.0.sif}
+# Default image: official vLLM 0.26.0 built for CUDA 12.9 (Qwen3.8 needs vLLM >= 0.17), created once with
+#   apptainer pull /proj/dl4nlp/users/x_jenku/vllm-0.26.0-cu129.sif docker://vllm/vllm-openai:v0.26.0-cu129
+# Another image: SIF=/proj/dl4nlp/users/x_jenku/vllm-0.12.0.sif sbatch run_magpie_basic_sif.sh ...
+SIF=${SIF:-/proj/dl4nlp/users/x_jenku/vllm-0.26.0-cu129.sif}
 # --cleanenv / PYTHONNOUSERSITE: keep host conda and ~/.local packages out of the container.
 run() {
     apptainer exec --nv --cleanenv -B /proj \
